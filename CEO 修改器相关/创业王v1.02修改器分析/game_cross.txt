@@ -1,0 +1,142 @@
+=== script_00 (F? 生产类) @ 004020E3 ===
+  containing func: 00401E70 size=0x3AF
+  004020E3  jl      loc_401F4B
+  004020E8  mov     eax, [esp+54h+var_38]
+  004020EC  mov     ecx, [esp+54h+var_44]
+  004020F0  mov     esi, [esp+54h+arg_4]
+  004020F4  mov     ebp, [esp+54h+arg_0]
+  004020F8  push    eax
+  004020F9  push    ecx
+  004020FA  push    ebx
+  bytes: 8C 63 FE FF FF 8B 44 24 1C 8B 4C 24 10 8B 74 24
+=== script_01 (矿物改类型) @ 00409E1B ===
+  containing func: 00409C00 size=0x394
+  00409E1B  mov     al, [esi+3]
+  00409E1E  pop     edi
+  00409E1F  cmp     al, 2
+  00409E21  jnz     short loc_409E58
+  00409E23  movsx   edx, word ptr [esi]
+  00409E26  add     edx, 22h ; '"'
+  00409E29  push    0
+  00409E2B  push    edx
+  bytes: 8A 46 03 5F 3C 02 75 35 0F BF 16 83 C2 22 6A 00
+=== fullaccess A7848 @ 004A7848 ===
+  004A7848  dd 0FFEh dup(?)
+  004A8A10  dd ?
+  004A8A14  dd ?
+  004A8A18  dw ?
+  004A8A1A  dw ?
+  004A8A1C  dd 34h dup(?)
+  004A8AEC  dd 35h dup(?)
+  004A8BC0  dw ?
+  bytes: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+=== fullaccess A7840 @ 004A7840 ===
+  004A7840  dd 0FFEh dup(?)
+  004A8A10  dd ?
+  004A8A14  dd ?
+  004A8A18  dw ?
+  004A8A1A  dw ?
+  004A8A1C  dd 34h dup(?)
+  004A8AEC  dd 35h dup(?)
+  004A8BC0  dw ?
+  bytes: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+=== script_02 A784c @ 004A784C ===
+  004A784C  dd 0FFEh dup(?)
+  004A8A10  dd ?
+  004A8A14  dd ?
+  004A8A18  dw ?
+  004A8A1A  dw ?
+  004A8A1C  dd 34h dup(?)
+  004A8AEC  dd 35h dup(?)
+  004A8BC0  dw ?
+  bytes: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+=== script_04 @ 0040225F ===
+  containing func: 00402220 size=0x88
+  0040225F  add     eax, esi
+  00402261  cmp     ecx, ebx
+  00402263  jnz     short loc_40226E
+  00402265  inc     edx
+  00402266  cmp     word ptr [eax+1Ch], 0FFFFh
+  0040226B  jz      short loc_40226E
+  0040226D  inc     ebp
+  0040226E  movsx   ecx, word ptr [eax+4]
+  bytes: 03 C6 3B CB 75 09 42 66 83 78 1C FF 74 01 45 0F
+=== script_05 @ 00402268 ===
+  containing func: 00402220 size=0x88
+  00402268  cmp     word ptr [eax+1Ch], 0FFFFh
+  0040226B  jz      short loc_40226E
+  0040226D  inc     ebp
+  0040226E  movsx   ecx, word ptr [eax+4]
+  00402272  cmp     ecx, 0FFFFFFFFh
+  00402275  jnz     short loc_402255
+  00402277  pop     edi
+  00402278  pop     esi
+  bytes: 78 1C FF 74 01 45 0F BF 48 04 83 F9 FF 75 DE 5F
+=== script_06 @ 0040226E ===
+  containing func: 00402220 size=0x88
+  0040226E  movsx   ecx, word ptr [eax+4]
+  00402272  cmp     ecx, 0FFFFFFFFh
+  00402275  jnz     short loc_402255
+  00402277  pop     edi
+  00402278  pop     esi
+  00402279  test    edx, edx
+  0040227B  jz      short loc_402297
+  0040227D  lea     eax, [ebp+ebp+0]
+  bytes: 0F BF 48 04 83 F9 FF 75 DE 5F 5E 85 D2 74 1A 8D
+=== script_07 @ 004024FC ===
+  containing func: 00402420 size=0x11F
+  004024FC  lea     edx, ds:0[ebp*8]
+  004024FE  sub     edx, ebp
+  00402500  lea     edx, [ebp+edx*4+0]
+  00402504  movsx   edx, byte ptr [ebx+edx*4+2]
+  00402509  cmp     word ptr [eax+edx*2+50h], 0FFFFh
+  0040250F  jz      short loc_402523
+  00402511  mov     eax, dword_49F9B0
+  00402516  mov     dword_49F9B4[eax*4], esi
+  bytes: 00 00 2B D5 8D 54 95 00 0F BE 54 93 02 66 83 7C
+=== script_08 @ 0042790F ===
+  containing func: 00426AB0 size=0x1580
+  0042790F  inc     word ptr [eax]
+  00427912  mov     eax, 1
+  00427917  mov     [esp+168h+var_120], eax
+  0042791B  mov     [esp+168h+var_140], eax
+  0042791F  jmp     loc_42787C
+  00427924  mov     edx, [esp+168h+var_158]
+  00427928  mov     eax, [esp+168h+var_154]
+  0042792C  mov     ecx, [esp+168h+arg_0]
+  bytes: 66 FF 00 B8 01 00 00 00 89 44 24 48 89 44 24 28
+=== script_09 @ 00427765 ===
+  containing func: 00426AB0 size=0x1580
+  00427765  inc     word ptr [ebp+0]
+  00427769  mov     eax, 1
+  0042776E  mov     [esp+168h+var_120], eax
+  00427772  mov     [esp+168h+var_140], eax
+  00427776  jmp     loc_42768F
+  0042777B  mov     edx, [esp+168h+var_158]
+  0042777F  mov     eax, [esp+168h+var_154]
+  00427783  mov     ecx, [esp+168h+arg_0]
+  bytes: 66 FF 45 00 B8 01 00 00 00 89 44 24 48 89 44 24
+=== script_03 3B2D3 @ 0043B2D3 ===
+  containing func: 0043B200 size=0x1A7
+  0043B2D3  mov     ecx, [ebx+8]
+  0043B2D6  lea     eax, [esp+10Ch+Buffer]
+  0043B2DA  push    6; int
+  0043B2DC  push    eax; Buffer
+  0043B2DD  push    ecx; int
+  0043B2DE  call    sub_437100
+  0043B2E3  mov     eax, dword_887460
+  0043B2E8  add     esp, 0Ch
+  bytes: 8B 4B 08 8D 44 24 0C 6A 06 50 51 E8 1D BE FF FF
+=== script_04b 5CF3B @ 0045CF3B ===
+  containing func: 0045CE50 size=0x1B1
+  0045CF3B  movsx   edx, byte ptr [eax+ecx+0E0h]
+  0045CF43  cmp     edx, dword_856610
+  0045CF49  jnz     short loc_45CF61
+  0045CF4B  mov     eax, dword_8BC588
+  0045CF50  lea     ecx, [eax+32A0h]
+  0045CF56  call    sub_47B2F0
+  0045CF5B  pop     edi
+  0045CF5C  pop     esi
+  bytes: 0F BE 94 08 E0 00 00 00 3B 15 10 66 85 00 75 16
+GAMEDECOMP 00401E70 ok len=4781
+GAMEDECOMP 00409C00 ok len=3001

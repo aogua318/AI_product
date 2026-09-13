@@ -1,0 +1,82 @@
+=== around 00498143 ===
+00498143  push    ebp
+00498144  mov     ebp, esp
+00498146  sub     esp, 10h
+0049814C  mov     dword ptr [ebp-4], 0
+00498153  dec     dword_5E1B08
+00498159  push    80000301h
+0049815E  push    0
+00498160  push    dword_5E1B0C
+00498166  push    1
+0049816B  mov     ebx, offset sub_4D0AD0
+00498170  call    sub_4CED61
+00498175  add     esp, 10h
+00498178  mov     [ebp-8], eax
+0049817B  push    80000301h
+00498180  push    0
+00498182  push    dword_5E1B08
+00498188  push    1
+0049818D  mov     ebx, offset sub_4D0AD0
+00498192  call    sub_4CED61
+00498197  add     esp, 10h
+0049819A  mov     [ebp-0Ch], eax
+0049819D  push    offset unk_59E609
+004981A2  push    dword ptr [ebp-0Ch]
+004981A5  push    offset unk_59E60C
+004981AA  push    dword ptr [ebp-8]
+004981AD  push    offset aV102; "v1.02---"
+004981B2  mov     ecx, 5
+004981B7  call    sub_401C2B
+004981BC  add     esp, 14h
+004981BF  mov     [ebp-10h], eax
+004981C2  mov     ebx, [ebp-8]
+004981C5  test    ebx, ebx
+004981C7  jz      short loc_4981D2
+004981C9  push    ebx
+004981CA  call    sub_4CED4F
+004981CF  add     esp, 4
+004981D2  mov     ebx, [ebp-0Ch]
+004981D5  test    ebx, ebx
+004981D7  jz      short loc_4981E2
+004981D9  push    ebx
+=== around 00401AB8 ===
+00401AB8  push    ebp
+00401AB9  mov     ebp, esp
+00401ABB  sub     esp, 8
+00401AC1  push    0FFFFFFFFh
+00401AC3  push    0Bh
+00401AC5  push    16012F31h
+00401ACA  push    52010001h
+00401ACF  call    sub_4CED79
+00401AD4  add     esp, 10h
+00401AD7  mov     [ebp-4], eax
+00401ADA  push    offset unk_57D02E
+00401ADF  push    dword ptr [ebp-4]
+00401AE2  call    sub_401004
+00401AE7  add     esp, 8
+00401AEA  cmp     eax, 0
+00401AED  mov     eax, 0
+00401AF2  setz    al
+00401AF5  mov     [ebp-8], eax
+00401AF8  mov     ebx, [ebp-4]
+00401AFB  test    ebx, ebx
+00401AFD  jz      short loc_401B08
+00401AFF  push    ebx
+00401B00  call    sub_4CED4F
+00401B05  add     esp, 4
+00401B08  cmp     dword ptr [ebp-8], 0
+00401B0C  jz      loc_401B9F
+00401B12  push    1
+00401B14  push    1
+00401B19  mov     eax, offset aEnableCodeFrom; "[ENABLE]\r\n//code from here to '[DISAB"...
+00401B1E  mov     [ebp-4], eax
+00401B21  lea     eax, [ebp-4]
+00401B24  push    eax
+00401B25  mov     eax, offset aCeoExe202e3; "CEO.exe+202E3"
+00401B2A  mov     [ebp-8], eax
+00401B2D  lea     eax, [ebp-8]
+00401B30  push    eax
+00401B31  push    dword_5E1B00
+00401B37  call    sub_401C87
+00401B3C  mov     ebx, [ebp-8]
+00401B3F  test    ebx, ebx

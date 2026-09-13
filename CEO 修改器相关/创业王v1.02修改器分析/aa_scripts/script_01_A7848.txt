@@ -1,0 +1,25 @@
+[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,1000)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+//push edi
+lea edi,[esi+03]
+mov [CEO.exe+A7848],edi
+//pop edi
+originalcode:
+mov al,[esi+03]
+pop edi
+cmp al,02
+
+exit:
+jmp returnhere
+
+"CEO.exe"+9E1B:
+jmp newmem
+nop
+returnhere:

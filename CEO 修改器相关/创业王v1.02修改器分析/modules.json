@@ -1,0 +1,44 @@
+[
+ {
+  "name": "\u521b\u4e1a\u738bv1.02.exe",
+  "base": 4194304,
+  "size": 2424832,
+  "path": "D:\\game\\CEO\\\u4fee\u6539\u5668\\\u521b\u4e1a\u738bv1.02.exe"
+ },
+ {
+  "name": "ntdll.dll",
+  "base": 140718321434624,
+  "size": 2514944,
+  "path": "C:\\Windows\\SYSTEM32\\ntdll.dll"
+ },
+ {
+  "name": "wow64.dll",
+  "base": 140718297907200,
+  "size": 352256,
+  "path": "C:\\Windows\\System32\\wow64.dll"
+ },
+ {
+  "name": "wow64base.dll",
+  "base": 140718309441536,
+  "size": 49152,
+  "path": "C:\\Windows\\System32\\wow64base.dll"
+ },
+ {
+  "name": "wow64win.dll",
+  "base": 140718320582656,
+  "size": 561152,
+  "path": "C:\\Windows\\System32\\wow64win.dll"
+ },
+ {
+  "name": "wow64con.dll",
+  "base": 140718297317376,
+  "size": 102400,
+  "path": "C:\\Windows\\System32\\wow64con.dll"
+ },
+ {
+  "name": "wow64cpu.dll",
+  "base": 1999699968,
+  "size": 40960,
+  "path": "C:\\Windows\\System32\\wow64cpu.dll"
+ }
+]

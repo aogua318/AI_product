@@ -1,0 +1,57 @@
+=== xrefs to mouse_event @ 005CCEC8 ===
+=== xrefs to hotkey_labels @ 005D6F54 ===
+  from 005D6E04 (func none)
+=== xrefs to CEO.exe_str @ 00590DA1 ===
+  from 00402CC5 (func none)
+  from 00402CFF (func none)
+  from 00402D2B (func none)
+  from 00495928 (func 00495643)
+  from 00496181 (func 00495F70)
+  from 00496D65 (func 00496BF3)
+  from 0049703F (func 00496E63)
+  from 004972A8 (func 0049715F)
+  from 00497540 (func 004972D9)
+  from 004977CB (func 00497571)
+  from 00497C41 (func 004979DA)
+  from 00497D89 (func 00497C72)
+  from 00497ED1 (func 00497DBA)
+  from 00498019 (func 00497F02)
+  from 0049F4BE (func none)
+  from 004A4215 (func none)
+  from 004A447A (func none)
+  from 004A98D5 (func none)
+  from 004A99EE (func none)
+=== SetWindowsHookExA call sites ===
+-- site 0053A360 --
+  0053A360  sub     esp, 8
+  0053A363  push    ebx
+  0053A364  push    esi
+  0053A365  push    edi
+  0053A366  mov     edi, ecx
+  0053A368  test    edi, edi
+  0053A36A  jz      short loc_53A373
+  0053A36C  mov     eax, [edi+1Ch]
+  0053A36F  test    eax, eax
+  0053A371  jnz     short loc_53A37C
+-- site 00565169 --
+  00565169  push    esi
+  0056516A  push    edi
+  0056516B  push    offset sub_56C6E9
+  00565170  mov     ecx, offset unk_623C74
+  00565175  call    sub_56D368
+  0056517A  mov     esi, eax
+  0056517C  mov     edi, [esp+8+arg_0]
+  00565180  cmp     [esi+14h], edi
+  00565183  jz      short loc_5651B0
+  00565185  cmp     dword ptr [esi+2Ch], 0
+-- site 00568018 --
+  00568018  call    sub_56CDE0
+  0056801D  cmp     byte ptr [eax+14h], 0
+  00568021  jnz     short locret_568076
+  00568023  push    esi
+  00568024  call    sub_56CBAE
+  00568029  mov     esi, eax
+  0056802B  call    ds:IAT_kernel32_GetCurrentThreadId
+  00568031  push    eax
+  00568032  push    0
+  00568034  push    offset sub_56836D

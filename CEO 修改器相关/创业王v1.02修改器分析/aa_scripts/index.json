@@ -1,0 +1,78 @@
+[
+ {
+  "file": "aa_scripts/script_00_noaddr.txt",
+  "va": "0x57d03e",
+  "bytes": 483,
+  "ceo_offsets": [],
+  "first_line": "//code from here to '[DISABLE]' will be used to enable the cheat"
+ },
+ {
+  "file": "aa_scripts/script_01_A7848.txt",
+  "va": "0x59e637",
+  "bytes": 437,
+  "ceo_offsets": [
+   "A7848"
+  ],
+  "first_line": "//code from here to '[DISABLE]' will be used to enable the cheat"
+ },
+ {
+  "file": "aa_scripts/script_02_A784c.txt",
+  "va": "0x59e7fa",
+  "bytes": 455,
+  "ceo_offsets": [
+   "A784c"
+  ],
+  "first_line": "//code from here to '[DISABLE]' will be used to enable the cheat"
+ },
+ {
+  "file": "aa_scripts/script_03_A7840.txt",
+  "va": "0x59e9ed",
+  "bytes": 444,
+  "ceo_offsets": [
+   "A7840"
+  ],
+  "first_line": "//code from here to '[DISABLE]' will be used to enable the cheat"
+ },
+ {
+  "file": "aa_scripts/script_04_noaddr.txt",
+  "va": "0x59f0ca",
+  "bytes": 458,
+  "ceo_offsets": [],
+  "first_line": "//code from here to '[DISABLE]' will be used to enable the cheat"
+ },
+ {
+  "file": "aa_scripts/script_05_noaddr.txt",
+  "va": "0x59f2a3",
+  "bytes": 458,
+  "ceo_offsets": [],
+  "first_line": "//code from here to '[DISABLE]' will be used to enable the cheat"
+ },
+ {
+  "file": "aa_scripts/script_06_noaddr.txt",
+  "va": "0x59f47c",
+  "bytes": 478,
+  "ceo_offsets": [],
+  "first_line": "//code from here to '[DISABLE]' will be used to enable the cheat"
+ },
+ {
+  "file": "aa_scripts/script_07_noaddr.txt",
+  "va": "0x59f669",
+  "bytes": 443,
+  "ceo_offsets": [],
+  "first_line": "//code from here to '[DISABLE]' will be used to enable the cheat"
+ },
+ {
+  "file": "aa_scripts/script_08_noaddr.txt",
+  "va": "0x59f833",
+  "bytes": 476,
+  "ceo_offsets": [],
+  "first_line": "//code from here to '[DISABLE]' will be used to enable the cheat"
+ },
+ {
+  "file": "aa_scripts/script_09_noaddr.txt",
+  "va": "0x59fa1e",
+  "bytes": 493,
+  "ceo_offsets": [],
+  "first_line": "//code from here to '[DISABLE]' will be used to enable the cheat"
+ }
+]

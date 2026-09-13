@@ -1,0 +1,31 @@
+=== xrefs to 0088EFDC ===
+  from 0040A1A8 (func 0040A180 size=0x306)
+  from 0040A297 (func 0040A180 size=0x306)
+  from 004191ED (func 004191D0 size=0xF8)
+  from 00419266 (func 004191D0 size=0xF8)
+  from 0041928D (func 004191D0 size=0xF8)
+  from 004193C1 (func 004192F0 size=0x110)
+  from 004193ED (func 004192F0 size=0x110)
+  from 00419461 (func 00419400 size=0x9BE)
+  from 004194B0 (func 00419400 size=0x9BE)
+  from 0041A027 (func 00419FB0 size=0x13B)
+  from 0041A089 (func 00419FB0 size=0x13B)
+  from 0041A0B8 (func 00419FB0 size=0x13B)
+  from 0041A110 (func 0041A110 size=0x229)
+=== xrefs to 008BC594 ===
+  from 00409C00 (func 00409C00 size=0x394)
+  from 00409C75 (func 00409C00 size=0x394)
+  from 00409C8C (func 00409C00 size=0x394)
+  from 0040A180 (func 0040A180 size=0x306)
+  from 0040A196 (func 0040A180 size=0x306)
+  from 0045CEF9 (func 0045CE50 size=0x1B1)
+  from 0045CF0B (func 0045CE50 size=0x1B1)
+  from 0045CFD5 (func 0045CE50 size=0x1B1)
+  from 0045CFE7 (func 0045CE50 size=0x1B1)
+  from 0045D3B6 (func 0045D2E0 size=0xFF)
+=== xrefs to 008BC595 ===
+  <none>
+=== xrefs to 0088EFDD ===
+  <none>
+DECOMP 0040A180 ok len=2799
+DECOMP 00409C00 ok len=3001

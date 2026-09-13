@@ -1,0 +1,8 @@
+{
+	"_comment_1": "chat_miao.js 的配套语言文件（英文，作为所有语言的回退）。键 'chat.kubejs.miao' 被脚本里的 Text.translate() 引用。",
+	"_comment_2": "值写成 JSON unicode 转义 \\u55B5（码点 0x55B5，即'喵'）。JSON 解析后才变成'喵'字，所以文件原文里搜不到'喵'的字面量。",
+	"_comment_3": "这个文件必须保留：当前语言缺键时原版回退到 en_us，有它任何客户端语言都能正常显示'喵'。",
+	"_comment_4": "原版会忽略 _ 开头的未知键，这些说明条目不影响功能。",
+
+	"chat.kubejs.miao": "\u55B5"
+}

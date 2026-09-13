@@ -1,0 +1,81 @@
+{
+ "s00_money": {
+  "v102": "0x4202e3",
+  "v110": [],
+  "method": "orig_only",
+  "note": "hits=0"
+ },
+ "s01_mineral": {
+  "v102": "0x409e1b",
+  "v110": [
+   "0040976E"
+  ],
+  "method": "orig_only",
+  "note": "hits=1"
+ },
+ "s02_era": {
+  "v102": "0x45cf3b",
+  "v110": [
+   "00402DFD",
+   "00405FC7",
+   "00408C3A",
+   "00417604",
+   "004391B8",
+   "0043A339",
+   "0043A589",
+   "0043B7B3",
+   "0043BE19",
+   "0043CAC1",
+   "0043F496",
+   "00441794",
+   "00441FB4",
+   "004426D4"
+  ],
+  "method": "orig_only",
+  "note": "hits=14"
+ },
+ "s03_factory": {
+  "v102": "0x43b2d3",
+  "v110": [],
+  "method": "orig_only",
+  "note": "hits=0"
+ },
+ "s04_own": {
+  "v102": "0x42025f",
+  "v110": [],
+  "method": "orig_only",
+  "note": "hits=0"
+ },
+ "s05_own": {
+  "v102": "0x420268",
+  "v110": [],
+  "method": "orig_only",
+  "note": "hits=0"
+ },
+ "s06_own": {
+  "v102": "0x42026e",
+  "v110": [
+   "00427439"
+  ],
+  "method": "orig_only",
+  "note": "hits=1"
+ },
+ "s07_build": {
+  "v102": "0x4204fc",
+  "v110": [],
+  "method": "orig_only",
+  "note": "hits=0"
+ },
+ "s08_prod": {
+  "v102": "0x42790f",
+  "v110": [],
+  "method": "orig_only",
+  "note": "hits=0"
+ },
+ "s09_prod": {
+  "v102": "0x427765",
+  "v110": [],
+  "method": "orig_only",
+  "note": "hits=0"
+ }
+}

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="45">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"创业王 v1.10"</Description>
+      <Options moHideChildren="1"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>1</ID>
+          <Description>"金钱 (当前值)"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Double</VariableType>
+          <Address>CEO.exe+D10C0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2</ID>
+          <Description>"F2 无限金钱 (支出不减, 收入照常) - 勾选启用后再按F2开关"</Description>
+          <Options moHideChildren="1"/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+// 钩 CEO.exe+2EE0D: 金钱结算点 fld[ebp+08](金额) / fadd[esi+08](累加) / fstp[esi+08](写回)
+// esi=4D10B8 为金钱记录基址, [esi+8] = CEO.exe+D10C0
+// 语义对应 v1.02 脚本 s00 (跳过扣款): 金额为负(支出)且开启时原额写回, 收入照常
+alloc(newmem,2048,CEO.exe+2EE0D)
+label(returnhere)
+label(originalcode)
+label(exit)
+newmem:
+  cmp esi,CEO.exe+D10B8      // 只拦金钱记录这条路径 (用模块符号, 自动适应基址重定位)
+  jne originalcode
+  fld qword ptr [ebp+08]     // 金额
+  ftst                       // 与 0 比较
+  fstsw ax
+  sahf
+  fstp st(0)                 // 弹掉金额, 恢复 FPU 栈
+  jae originalcode           // 金额>=0 (收入) 照常累加
+  fld qword ptr [esi+08]     // 支出且开启: 原额写回, 不扣钱
+  fstp qword ptr [esi+08]
+  jmp exit
+originalcode:
+  fld qword ptr [ebp+08]
+  fadd qword ptr [esi+08]
+  fstp qword ptr [esi+08]
+exit:
+  movsx eax,byte ptr [esi]
+  jmp returnhere
+
+"CEO.exe"+2EE0D:
+  jmp newmem
+  nop
+  nop
+  nop
+  nop
+  nop
+  nop
+  nop
+returnhere:
+
+[DISABLE]
+"CEO.exe"+2EE0D:
+  fld qword ptr [ebp+08]
+  movsx eax,byte ptr [esi]
+  fadd qword ptr [esi+08]
+  fstp qword ptr [esi+08]
+
+dealloc(newmem)
+</AssemblerScript>
+          <Hotkeys>
+            <Hotkey>
+              <Action>0</Action>
+              <Keys>
+                <Key>113</Key>
+              </Keys>
+              <ID>0</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>

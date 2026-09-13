@@ -1,0 +1,7 @@
+{
+	"_comment_1": "chat_miao.js 的配套语言文件（简体中文）。键 'chat.kubejs.miao' 被脚本里的 Text.translate() 引用。",
+	"_comment_2": "值写成 JSON unicode 转义 \\u55B5（码点 0x55B5，即'喵'）。JSON 解析后才变成'喵'字，所以文件原文里搜不到'喵'的字面量——代码里不能出现'喵'，注释/说明文字不受限。",
+	"_comment_3": "原版加载语言文件时会忽略 _ 开头的未知键，这些说明条目不影响功能。",
+
+	"chat.kubejs.miao": "\u55B5"
+}

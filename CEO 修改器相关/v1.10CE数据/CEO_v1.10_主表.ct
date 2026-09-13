@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="45">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"创业王 v1.10 主表"</Description>
+      <Options moHideChildren="1"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>1</ID>
+          <Description>"金钱 (当前值)"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Double</VariableType>
+          <Address>CEO.exe+D10C0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2</ID>
+          <Description>"F2 无限金钱 (支出不减, 收入照常) - F2切换开关"</Description>
+          <Options moHideChildren="1"/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+// 钩 CEO.exe+2EE0D: 金钱结算点 fld[ebp+08](金额) / fadd[esi+08](累加) / fstp[esi+08](写回)
+// esi=CEO.exe+D10B8 为金钱记录基址, [esi+8] = 金钱
+// 语义对应 v1.02 脚本 s00 (跳过扣款): 金额为负(支出)且开启时原额写回, 收入照常
+// 注意: 一律用 CEO.exe+偏移 符号形式 (进程基址会重定位), 禁止硬编码绝对地址
+alloc(newmem,2048,CEO.exe+2EE0D)
+label(returnhere)
+label(originalcode)
+label(exit)
+newmem:
+  cmp esi,CEO.exe+D10B8      // 只拦金钱记录这条路径
+  jne originalcode
+  fld qword ptr [ebp+08]     // 金额
+  ftst                       // 与 0 比较
+  fstsw ax
+  sahf
+  fstp st(0)                 // 弹掉金额, 恢复 FPU 栈
+  jae originalcode           // 金额为非负(收入)照常累加
+  fld qword ptr [esi+08]     // 支出且开启: 原额写回, 不扣钱
+  fstp qword ptr [esi+08]
+  jmp exit
+originalcode:
+  fld qword ptr [ebp+08]
+  fadd qword ptr [esi+08]
+  fstp qword ptr [esi+08]
+exit:
+  movsx eax,byte ptr [esi]
+  jmp returnhere
+
+"CEO.exe"+2EE0D:
+  jmp newmem
+  nop
+  nop
+  nop
+  nop
+  nop
+  nop
+  nop
+returnhere:
+
+[DISABLE]
+"CEO.exe"+2EE0D:
+  fld qword ptr [ebp+08]
+  movsx eax,byte ptr [esi]
+  fadd qword ptr [esi+08]
+  fstp qword ptr [esi+08]
+
+dealloc(newmem)
+</AssemblerScript>
+          <Hotkeys>
+            <Hotkey>
+              <Action>0</Action>
+              <Keys>
+                <Key>113</Key>
+              </Keys>
+              <ID>0</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3</ID>
+          <Description>"F3 系统 (启用一次, 分配参数存储)"</Description>
+          <Options moHideChildren="1"/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>
+// F3 矿场修改 v5: 纯 Lua 实现, 不再需要代码钩子。
+// 原理: 游戏选中机制 = 三个全局量 (CEO.exe+B1024 选中编号 / CEO.exe+C43C8 对象数组步长 /
+//       CEO.exe+C43DC 对象数组基址), 选中对象地址 = 基址 + 编号*步长 (实测命中验证)。
+// 地图对象元素布局: +0 word=ID, +2 byte=FF无建筑/00有建筑, +3 byte=建筑类型(3=矿场),
+//       +4 byte=矿物(0金1银2铁3铝4矽5煤6油7化8木9砂), +6 byte=品质, +8 dword=储量
+// 本脚本只负责分配三个参数的存储。
+[ENABLE]
+alloc(f3_type,4)
+alloc(f3q_type,4)
+alloc(f3r_type,4)
+registersymbol(f3_type)
+registersymbol(f3q_type)
+registersymbol(f3r_type)
+f3_type:
+  dd 1
+f3q_type:
+  dd -1
+f3r_type:
+  dd -1
+
+[DISABLE]
+unregistersymbol(f3_type)
+unregistersymbol(f3q_type)
+unregistersymbol(f3r_type)
+dealloc(f3_type)
+dealloc(f3q_type)
+dealloc(f3r_type)
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>4</ID>
+          <Description>"F3 矿物类型 (大地图选中矿场按F3: 0金1银2铁3铝4矽5煤6油7化8木9砂; -1=不修改)"</Description>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>f3_type</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>5</ID>
+          <Description>"F3 矿品质 (实测84/98; -1=不修改)"</Description>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>f3q_type</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>6</ID>
+          <Description>"F3 矿储量 (实测63080/67850; -1=不修改)"</Description>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>f3r_type</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+  <LuaScript>if f3HK then f3HK.destroy() end
+f3HK = createHotkey(function()
+  local okI, iSym = pcall(getAddress, 'CEO.exe+B1024')
+  if not okI then return end
+  local idx = readInteger(iSym)
+  if not idx or idx == 0xFFFFFFFF then return end
+  local okS, sSym = pcall(getAddress, 'CEO.exe+C43C8')
+  local okB, bSym = pcall(getAddress, 'CEO.exe+C43DC')
+  if not (okS and okB) then return end
+  local stride = readInteger(sSym)
+  local baseA = readInteger(bSym)
+  if not stride or not baseA then return end
+  local elem = baseA + stride * idx
+  local hdr = readBytes(elem + 2, 2, true)
+  if not hdr then return end
+  local isMine = hdr[1] == 0x00 and hdr[2] == 3
+  local isDeposit = hdr[1] == 0xFF and hdr[3] ~= 0xFF  -- 已有矿种(0-9), 排除空地(255, 盲写会闪退)
+  if not (isMine or isDeposit) then return end
+  local written = false
+  local okT, tSym = pcall(getAddress, 'f3_type')
+  if okT then
+    local t = readInteger(tSym, true)
+    if t and t >= 0 then writeBytes(elem + 4, t); written = true end
+  end
+  local okQ, qSym = pcall(getAddress, 'f3q_type')
+  if okQ then
+    local qv = readInteger(qSym, true)
+    if qv and qv >= 0 then writeBytes(elem + 6, qv); written = true end
+  end
+  local okR, rSym = pcall(getAddress, 'f3r_type')
+  if okR then
+    local rv = readInteger(rSym, true)
+    if rv and rv >= 0 then writeInteger(elem + 8, rv); written = true end
+  end
+  if written then beep() end
+end, VK_F3)
+
+-- ===== Ctrl+Z/X 快速放置 + Ctrl+V 锁宣传车 (阶段3; 原Ctrl+C与游戏内置C键冲突) =====
+-- Z/X 全局 CEO.exe+4A8C24: 1=主管 2=工人; C 全局 CEO.exe+4D6074: 宣传车拾取状态
+-- 100ms 定时器维持写入 (对抗游戏自行重置); 再次按压同组合键取消
+if gzState == nil then gzState = 0 end
+if cLock == nil then cLock = false end
+if cLockVal == nil then cLockVal = 1 end
+if gzHK1 then gzHK1.destroy() end
+if gzHK2 then gzHK2.destroy() end
+if gzHK3 then gzHK3.destroy() end
+if gzTimer then gzTimer.destroy() end
+gzHK1 = createHotkey(function() gzState = (gzState == 1) and 0 or 1; beep() end, VK_CONTROL, VK_Z)
+gzHK2 = createHotkey(function() gzState = (gzState == 2) and 0 or 2; beep() end, VK_CONTROL, VK_X)
+gzHK3 = createHotkey(function()
+  if cLock then cLock = false; beep(); return end
+  local ok, v = pcall(function() return readInteger(getAddress('CEO.exe+4D6074')) end)
+  if ok and v and v > 0 then cLockVal = v; cLock = true; beep() end
+end, VK_CONTROL, VK_V)
+gzTimer = createTimer(nil, false)
+gzTimer.Interval = 100
+gzTimer.OnTimer = function()
+  if gzState and gzState > 0 then
+    pcall(function() writeBytes(getAddress('CEO.exe+4A8C24'), gzState) end)
+  end
+  if cLock then
+    pcall(function() writeInteger(getAddress('CEO.exe+4D6074'), cLockVal) end)
+  end
+end
+gzTimer.setEnabled(true)</LuaScript>
+</CheatTable>
