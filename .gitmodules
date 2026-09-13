@@ -1,0 +1,6 @@
+[submodule "kubejs_and_create/kubejs"]
+	path = kubejs_and_create/kubejs
+	url = https://github.com/kube-mods/kubejs.git
+[submodule "kubejs_and_create/KubeJS-Create"]
+	path = kubejs_and_create/KubeJS-Create
+	url = https://github.com/kube-mods/KubeJS-Create.git
