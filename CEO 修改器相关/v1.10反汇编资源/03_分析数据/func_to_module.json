@@ -1,0 +1,338 @@
+{
+ "0x403ff0": [
+  "AI_style.cpp"
+ ],
+ "0x404270": [
+  "AI_style.cpp"
+ ],
+ "0x40f370": [
+  "building.cpp"
+ ],
+ "0x40fde0": [
+  "building.cpp"
+ ],
+ "0x410d00": [
+  "building_type.cpp"
+ ],
+ "0x411620": [
+  "building_type.cpp"
+ ],
+ "0x411650": [
+  "ceo_tasks.cpp"
+ ],
+ "0x4116d0": [
+  "ceo_tasks.cpp"
+ ],
+ "0x411750": [
+  "ceo_tasks.cpp"
+ ],
+ "0x4117d0": [
+  "ceo_tasks.cpp"
+ ],
+ "0x411850": [
+  "ceo_tasks.cpp"
+ ],
+ "0x4118c0": [
+  "ceo_tasks.cpp"
+ ],
+ "0x411940": [
+  "ceo_tasks.cpp"
+ ],
+ "0x411a60": [
+  "ceo_tasks.cpp"
+ ],
+ "0x411ae0": [
+  "ceo_tasks.cpp"
+ ],
+ "0x411b50": [
+  "ceo_tasks.cpp"
+ ],
+ "0x411bf0": [
+  "ceo_tasks.cpp"
+ ],
+ "0x411c60": [
+  "ceo_tasks.cpp"
+ ],
+ "0x411cf0": [
+  "ceo_tasks.cpp"
+ ],
+ "0x411d90": [
+  "ceo_tasks.cpp"
+ ],
+ "0x41ccf0": [
+  "game_data.cpp"
+ ],
+ "0x41cf90": [
+  "game_data.cpp"
+ ],
+ "0x41d070": [
+  "game_data.cpp"
+ ],
+ "0x41d7b0": [
+  "game_data.cpp"
+ ],
+ "0x425d90": [
+  "loadstage.cpp"
+ ],
+ "0x4262c0": [
+  "loadstage.cpp"
+ ],
+ "0x429610": [
+  "machine_type.cpp"
+ ],
+ "0x4298c0": [
+  "machine_type.cpp"
+ ],
+ "0x429950": [
+  "machine_type.cpp"
+ ],
+ "0x42a0b0": [
+  "machine_type.cpp"
+ ],
+ "0x42b6e0": [
+  "news.cpp"
+ ],
+ "0x42b900": [
+  "news.cpp"
+ ],
+ "0x42e3c0": [
+  "people_type.cpp"
+ ],
+ "0x42e5e0": [
+  "people_type.cpp"
+ ],
+ "0x4325c0": [
+  "product_type.cpp"
+ ],
+ "0x432f00": [
+  "product_type.cpp"
+ ],
+ "0x432b20": [
+  "product_type.cpp"
+ ],
+ "0x432ec0": [
+  "product_type.cpp"
+ ],
+ "0x434650": [
+  "shop.cpp"
+ ],
+ "0x435570": [
+  "sounds.cpp"
+ ],
+ "0x436d70": [
+  "TALK.CPP"
+ ],
+ "0x436ee0": [
+  "TALK.CPP"
+ ],
+ "0x4372c0": [
+  "task.cpp"
+ ],
+ "0x437c60": [
+  "task.cpp"
+ ],
+ "0x44ac30": [
+  "face_Load.cpp"
+ ],
+ "0x44ada0": [
+  "face_Load.cpp"
+ ],
+ "0x454270": [
+  "face_profit_info.cpp"
+ ],
+ "0x455bd0": [
+  "face_profit_info.cpp"
+ ],
+ "0x4561d0": [
+  "face_Save.cpp"
+ ],
+ "0x4562d0": [
+  "face_Save.cpp"
+ ],
+ "0x4576d0": [
+  "face_score_info.cpp"
+ ],
+ "0x457940": [
+  "face_freeplay.cpp"
+ ],
+ "0x4579a0": [
+  "face_freeplay.cpp"
+ ],
+ "0x457bc0": [
+  "face_freeplay.cpp"
+ ],
+ "0x457c20": [
+  "face_freeplay.cpp"
+ ],
+ "0x458d10": [
+  "face_freeplay.cpp"
+ ],
+ "0x459110": [
+  "face_freeplay.cpp"
+ ],
+ "0x45b9d0": [
+  "face_taskmenu.cpp"
+ ],
+ "0x45ba70": [
+  "face_taskmenu.cpp"
+ ],
+ "0x45c920": [
+  "face_taskplay.cpp"
+ ],
+ "0x464420": [
+  "a_lib\\a_util.cpp"
+ ],
+ "0x464650": [
+  "a_lib\\a_util.cpp"
+ ],
+ "0x464870": [
+  "a_lib\\a_util.cpp"
+ ],
+ "0x464dc0": [
+  "a_lib\\a_block.cpp"
+ ],
+ "0x464f60": [
+  "a_lib\\a_block.cpp"
+ ],
+ "0x4650d0": [
+  "a_lib\\a_block.cpp"
+ ],
+ "0x465320": [
+  "a_lib\\a_block.cpp"
+ ],
+ "0x4653e0": [
+  "a_lib\\a_block.cpp"
+ ],
+ "0x465630": [
+  "a_lib\\a_block.cpp"
+ ],
+ "0x4664f0": [
+  "a_lib\\a_loadsave.cpp"
+ ],
+ "0x466c70": [
+  "a_lib\\a_pic2.cpp"
+ ],
+ "0x4674f0": [
+  "a_lib\\a_pic2.cpp"
+ ],
+ "0x4676a0": [
+  "a_lib\\a_pic2.cpp"
+ ],
+ "0x4676e0": [
+  "a_lib\\a_pic2.cpp"
+ ],
+ "0x467ab0": [
+  "a_lib\\a_pic2.cpp"
+ ],
+ "0x467d80": [
+  "a_lib\\a_pic2.cpp"
+ ],
+ "0x468790": [
+  "a_lib\\a_graph.cpp"
+ ],
+ "0x468850": [
+  "a_lib\\a_graph.cpp"
+ ],
+ "0x4688b0": [
+  "a_lib\\a_graph.cpp"
+ ],
+ "0x468900": [
+  "a_lib\\a_graph.cpp"
+ ],
+ "0x469880": [
+  "a_lib\\a_graph.cpp"
+ ],
+ "0x469910": [
+  "a_lib\\a_graph.cpp"
+ ],
+ "0x46a040": [
+  "a_lib\\a_file.cpp"
+ ],
+ "0x46a1f0": [
+  "a_lib\\a_file.cpp"
+ ],
+ "0x46a670": [
+  "a_lib\\a_pic.cpp"
+ ],
+ "0x46a6b0": [
+  "a_lib\\a_pic.cpp"
+ ],
+ "0x46b010": [
+  "a_lib\\a_pic.cpp"
+ ],
+ "0x46b280": [
+  "a_lib\\a_pic.cpp"
+ ],
+ "0x46b4c0": [
+  "a_lib\\a_pic.cpp"
+ ],
+ "0x46c250": [
+  "a_lib\\a_dsound.cpp"
+ ],
+ "0x46d200": [
+  "a_lib\\a_wingdi.cpp"
+ ],
+ "0x46dd70": [
+  "a_lib\\a_pic16_uncompress.cpp"
+ ],
+ "0x46ddb0": [
+  "a_lib\\a_pic16_uncompress.cpp"
+ ],
+ "0x46de50": [
+  "a_lib\\a_pic16_uncompress.cpp"
+ ],
+ "0x46f150": [
+  "a_lib\\a_filepkg.cpp"
+ ],
+ "0x46f520": [
+  "a_lib\\wave.cpp"
+ ],
+ "0x46f810": [
+  "a_lib\\wave.cpp"
+ ],
+ "0x47e260": [
+  "a_prog\\a_interface.cpp"
+ ],
+ "0x481c90": [
+  "a_prog\\a_interface.cpp"
+ ],
+ "0x483400": [
+  "a_map\\a_map.cpp"
+ ],
+ "0x4834c0": [
+  "a_map\\a_map.cpp"
+ ],
+ "0x483a60": [
+  "a_map\\a_map.cpp"
+ ],
+ "0x483b40": [
+  "a_map\\a_map.cpp"
+ ],
+ "0x483e60": [
+  "a_map\\a_map.cpp"
+ ],
+ "0x483f40": [
+  "a_map\\a_map.cpp"
+ ],
+ "0x4842c0": [
+  "a_map\\a_map.cpp"
+ ],
+ "0x484550": [
+  "a_map\\a_map.cpp"
+ ],
+ "0x4853b0": [
+  "a_map\\a_map.cpp"
+ ],
+ "0x485cc0": [
+  "a_map\\a_map.cpp"
+ ],
+ "0x485fe0": [
+  "a_map\\a_map.cpp"
+ ],
+ "0x4875f0": [
+  "a_map\\a_map_gnd.cpp"
+ ],
+ "0x488370": [
+  "a_map\\a_map_gnd.cpp"
+ ]
+}

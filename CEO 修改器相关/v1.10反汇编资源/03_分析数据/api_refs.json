@@ -1,0 +1,930 @@
+{
+"0x408490": [
+"MessageBoxA"
+],
+"0x408620": [
+"MessageBoxA"
+],
+"0x4095e0": [
+"GetAsyncKeyState",
+"GetKeyState"
+],
+"0x40acc0": [
+"GetTickCount"
+],
+"0x40ae10": [
+"GetTickCount"
+],
+"0x40aec0": [
+"GetAsyncKeyState",
+"GetTickCount"
+],
+"0x40b210": [
+"GetTickCount"
+],
+"0x40b240": [
+"GetTickCount"
+],
+"0x40b300": [
+"GetTickCount",
+"MessageBoxA"
+],
+"0x410230": [
+"GetKeyState"
+],
+"0x411650": [
+"MessageBoxA"
+],
+"0x4116d0": [
+"MessageBoxA"
+],
+"0x411750": [
+"MessageBoxA"
+],
+"0x4117d0": [
+"MessageBoxA"
+],
+"0x411850": [
+"MessageBoxA"
+],
+"0x4118c0": [
+"MessageBoxA"
+],
+"0x411940": [
+"MessageBoxA"
+],
+"0x4119c0": [
+"MessageBoxA"
+],
+"0x411a10": [
+"MessageBoxA"
+],
+"0x411a60": [
+"MessageBoxA"
+],
+"0x411ae0": [
+"MessageBoxA"
+],
+"0x411b50": [
+"MessageBoxA"
+],
+"0x411bf0": [
+"MessageBoxA"
+],
+"0x411c60": [
+"MessageBoxA"
+],
+"0x411cf0": [
+"MessageBoxA"
+],
+"0x411d90": [
+"MessageBoxA"
+],
+"0x41d070": [
+"MessageBoxA"
+],
+"0x41d7b0": [
+"GetTickCount"
+],
+"0x41e190": [
+"GetTickCount"
+],
+"0x41ef50": [
+"MessageBoxA"
+],
+"0x425a00": [
+"MessageBoxA"
+],
+"0x42a1b0": [
+"SteamAPI_GetHSteamUser",
+"SteamInternal_FindOrCreateUserInterface"
+],
+"0x42a1d0": [
+"SteamInternal_CreateInterface"
+],
+"0x42a1f0": [
+"SteamAPI_GetHSteamUser",
+"SteamInternal_FindOrCreateUserInterface"
+],
+"0x42a210": [
+"SteamInternal_FindOrCreateUserInterface"
+],
+"0x42a230": [
+"SteamAPI_GetHSteamUser",
+"SteamInternal_FindOrCreateUserInterface"
+],
+"0x42a250": [
+"SteamInternal_ContextInit"
+],
+"0x42a270": [
+"SteamAPI_GetHSteamUser",
+"SteamInternal_FindOrCreateUserInterface"
+],
+"0x42a290": [
+"SteamInternal_ContextInit"
+],
+"0x42a2b0": [
+"SteamInternal_ContextInit"
+],
+"0x42a310": [
+"SteamInternal_ContextInit"
+],
+"0x42a380": [
+"SteamInternal_ContextInit"
+],
+"0x42a520": [
+"MessageBoxA"
+],
+"0x42a540": [
+"OutputDebugStringA"
+],
+"0x42a600": [
+"BeginPaint",
+"DefWindowProcA",
+"DestroyWindow",
+"DrawTextA",
+"EndPaint",
+"GetClientRect",
+"MultiByteToWideChar",
+"PostQuitMessage",
+"WideCharToMultiByte"
+],
+"0x42a840": [
+"SteamAPI_UnregisterCallback"
+],
+"0x42a8f0": [
+"SteamAPI_UnregisterCallback"
+],
+"0x42a930": [
+"SteamAPI_UnregisterCallback"
+],
+"0x42a970": [
+"SteamAPI_RegisterCallback",
+"SteamAPI_UnregisterCallback",
+"SteamInternal_ContextInit"
+],
+"0x42aa90": [
+"CreateMutexA",
+"CreateWindowExA",
+"CreateWindowExW",
+"DispatchMessageA",
+"GetLastError",
+"GetMessageA",
+"GetSystemMetrics",
+"GetUserDefaultLCID",
+"OutputDebugStringA",
+"PeekMessageA",
+"RegisterClassExA",
+"ReleaseMutex",
+"ShowWindow",
+"SteamAPI_Init",
+"SteamAPI_RestartAppIfNecessary",
+"SteamInternal_ContextInit",
+"TranslateMessage",
+"UpdateWindow"
+],
+"0x42d230": [
+"MessageBoxA"
+],
+"0x434650": [
+"MessageBoxA"
+],
+"0x4354a0": [
+"GetTickCount"
+],
+"0x435570": [
+"GetTickCount"
+],
+"0x437000": [
+"GetTickCount"
+],
+"0x437c60": [
+"MessageBoxA"
+],
+"0x43d020": [
+"GetTickCount"
+],
+"0x441dc0": [
+"GetTickCount"
+],
+"0x444d70": [
+"GetTickCount"
+],
+"0x449420": [
+"GetTickCount"
+],
+"0x44a000": [
+"GetTickCount"
+],
+"0x44ab10": [
+"GetTickCount"
+],
+"0x44b460": [
+"GetTickCount"
+],
+"0x455ff0": [
+"GetTickCount"
+],
+"0x4579a0": [
+"MessageBoxA"
+],
+"0x457c20": [
+"MessageBoxA"
+],
+"0x459200": [
+"GetTickCount"
+],
+"0x459ab0": [
+"GetTickCount"
+],
+"0x45cd00": [
+"__imp_SteamAPI_RunCallbacks"
+],
+"0x45cd10": [
+"__imp_SteamAPI_RunCallbacks"
+],
+"0x45d7c0": [
+"ShowCursor"
+],
+"0x45d840": [
+"GetTickCount"
+],
+"0x45d8b0": [
+"ShowCursor"
+],
+"0x45d8f0": [
+"ShowCursor"
+],
+"0x45d9b0": [
+"ShowCursor"
+],
+"0x45efb0": [
+"GetTickCount"
+],
+"0x45f090": [
+"GetTickCount"
+],
+"0x45f540": [
+"GetTickCount"
+],
+"0x45f7f0": [
+"GetTickCount"
+],
+"0x461470": [
+"GetTickCount"
+],
+"0x461590": [
+"GetTickCount"
+],
+"0x461900": [
+"GetTickCount"
+],
+"0x4636b0": [
+"GetTickCount"
+],
+"0x464010": [
+"GetTickCount"
+],
+"0x464a20": [
+"InterlockedIncrement"
+],
+"0x464a30": [
+"InterlockedDecrement"
+],
+"0x464a60": [
+"GetTickCount",
+"Sleep"
+],
+"0x464b40": [
+"InterlockedDecrement"
+],
+"0x4656d0": [
+"MessageBoxA"
+],
+"0x4657b0": [
+"MessageBoxA",
+"Sleep"
+],
+"0x4658c0": [
+"MessageBoxA"
+],
+"0x465cf0": [
+"MessageBoxA"
+],
+"0x465ea0": [
+"MessageBoxA"
+],
+"0x467760": [
+"GetTickCount",
+"MessageBoxA"
+],
+"0x467d80": [
+"GetTickCount",
+"MessageBoxA"
+],
+"0x469d70": [
+"MessageBoxA"
+],
+"0x469d90": [
+"DeleteFileA"
+],
+"0x469db0": [
+"GetFileAttributesA"
+],
+"0x469dd0": [
+"FindClose",
+"FindFirstFileA",
+"FindNextFileA",
+"GetCurrentDirectoryA",
+"RemoveDirectoryA",
+"SetCurrentDirectoryA"
+],
+"0x46a600": [
+"MessageBoxA"
+],
+"0x46b4c0": [
+"GetTickCount",
+"MessageBoxA"
+],
+"0x46b9b0": [
+"GetTickCount",
+"MessageBoxA"
+],
+"0x46bd20": [
+"CoCreateInstance",
+"MultiByteToWideChar"
+],
+"0x46bea0": [
+"BeginPaint",
+"DefWindowProcA",
+"EndPaint",
+"InvalidateRect"
+],
+"0x46bf10": [
+"CoInitialize",
+"CoUninitialize",
+"DispatchMessageA",
+"GetTickCount",
+"InvalidateRect",
+"MessageBoxA",
+"PeekMessageA",
+"SetWindowLongA",
+"ShowCursor",
+"TranslateMessage"
+],
+"0x46c610": [
+"MessageBoxA"
+],
+"0x46c860": [
+"GetTickCount",
+"Sleep"
+],
+"0x46cbb0": [
+"MessageBoxA"
+],
+"0x46cdb0": [
+"Sleep"
+],
+"0x46cf20": [
+"CreateWindowExA",
+"GetStockObject",
+"GetWindowLongA",
+"LoadCursorA",
+"LoadIconA",
+"RegisterClassExA",
+"ShowWindow",
+"UpdateWindow"
+],
+"0x46d000": [
+"ClientToScreen",
+"GetClientRect",
+"GetWindowRect",
+"MoveWindow"
+],
+"0x46d080": [
+"ChangeDisplaySettingsA",
+"MessageBoxA"
+],
+"0x46d200": [
+"CreateCompatibleDC",
+"CreateDIBSection",
+"GetDC",
+"ReleaseDC",
+"SelectObject"
+],
+"0x46d2c0": [
+"DeleteDC",
+"DeleteObject",
+"GetCurrentObject"
+],
+"0x46d2f0": [
+"BitBlt"
+],
+"0x46d320": [
+"BitBlt"
+],
+"0x46d3d0": [
+"CreateFontA",
+"CreatePen",
+"CreateSolidBrush",
+"DeleteObject",
+"DrawTextA",
+"Rectangle",
+"SelectObject",
+"SetBkMode",
+"SetTextColor"
+],
+"0x46ddb0": [
+"MessageBoxA"
+],
+"0x46de50": [
+"MessageBoxA"
+],
+"0x46f520": [
+"mmioAscend",
+"mmioClose",
+"mmioDescend",
+"mmioOpenA",
+"mmioRead"
+],
+"0x46f700": [
+"mmioDescend",
+"mmioSeek"
+],
+"0x46f740": [
+"mmioAdvance",
+"mmioGetInfo",
+"mmioSetInfo"
+],
+"0x46f810": [
+"mmioClose"
+],
+"0x474bd4": [
+"__imp_DirectSoundCreate"
+],
+"0x4753f0": [
+"OutputDebugStringA"
+],
+"0x47c550": [
+"ShowCursor"
+],
+"0x47c5e0": [
+"InvalidateRect"
+],
+"0x47c640": [
+"ShowCursor"
+],
+"0x47c6e0": [
+"GetTickCount"
+],
+"0x47c7a0": [
+"DestroyWindow"
+],
+"0x47c800": [
+"GetDC",
+"ReleaseDC"
+],
+"0x47c950": [
+"GetFocus"
+],
+"0x47cb10": [
+"InvalidateRect"
+],
+"0x47cfc0": [
+"InvalidateRect"
+],
+"0x47d450": [
+"GetAsyncKeyState"
+],
+"0x47d620": [
+"BeginPaint",
+"DefWindowProcA",
+"EndPaint",
+"GetTickCount"
+],
+"0x47dbe0": [
+"InvalidateRect"
+],
+"0x47dd20": [
+"DispatchMessageA",
+"GetCursorPos",
+"GetTickCount",
+"PeekMessageA",
+"ScreenToClient",
+"TranslateMessage"
+],
+"0x47dfd0": [
+"GetCurrentDirectoryA",
+"GetDesktopWindow",
+"GetWindowRect",
+"MoveWindow",
+"Sleep"
+],
+"0x484550": [
+"MessageBoxA"
+],
+"0x4853b0": [
+"MessageBoxA"
+],
+"0x485fe0": [
+"MessageBoxA"
+],
+"0x488370": [
+"MessageBoxA"
+],
+"0x4895bf": [
+"DecodePointer",
+"EncodePointer"
+],
+"0x489675": [
+"EncodePointer"
+],
+"0x4896f9": [
+"GetModuleHandleW",
+"GetProcAddress"
+],
+"0x489724": [
+"ExitProcess"
+],
+"0x48983c": [
+"DecodePointer"
+],
+"0x489ee7": [
+"DecodePointer"
+],
+"0x48a120": [
+"GetDriveTypeW"
+],
+"0x48a17a": [
+"GetFullPathNameA",
+"GetLastError"
+],
+"0x48a892": [
+"GetCommandLineA",
+"GetStartupInfoW",
+"HeapSetInformation"
+],
+"0x48af40": [
+"GetLastError",
+"HeapFree"
+],
+"0x48af7c": [
+"GetLastError",
+"HeapReAlloc"
+],
+"0x48b029": [
+"HeapAlloc"
+],
+"0x48b0bd": [
+"CreateDirectoryA",
+"GetLastError"
+],
+"0x48b5d4": [
+"GetLastError",
+"GetProcessHeap",
+"HeapAlloc",
+"HeapFree",
+"SetEndOfFile"
+],
+"0x48bf8d": [
+"GetSystemTimeAsFileTime"
+],
+"0x48bfde": [
+"CloseHandle",
+"ExitThread"
+],
+"0x48c04c": [
+"ExitThread",
+"GetLastError"
+],
+"0x48c0a5": [
+"CreateThread",
+"GetLastError",
+"ResumeThread"
+],
+"0x48c521": [
+"EnterCriticalSection"
+],
+"0x48c562": [
+"EnterCriticalSection"
+],
+"0x48c594": [
+"LeaveCriticalSection"
+],
+"0x48c5d0": [
+"LeaveCriticalSection"
+],
+"0x48c5ff": [
+"GetCurrentProcess",
+"IsDebuggerPresent",
+"SetUnhandledExceptionFilter",
+"TerminateProcess",
+"UnhandledExceptionFilter"
+],
+"0x48c808": [
+"IsProcessorFeaturePresent"
+],
+"0x48d2e5": [
+"EncodePointer"
+],
+"0x48e31d": [
+"EncodePointer"
+],
+"0x48e326": [
+"TlsAlloc"
+],
+"0x48e32f": [
+"TlsGetValue"
+],
+"0x48e34f": [
+"DecodePointer",
+"TlsGetValue",
+"TlsSetValue"
+],
+"0x48e383": [
+"DecodePointer"
+],
+"0x48e3a0": [
+"DecodePointer",
+"TlsFree"
+],
+"0x48e3dd": [
+"GetModuleHandleW",
+"InterlockedIncrement"
+],
+"0x48e491": [
+"DecodePointer",
+"GetCurrentThreadId",
+"GetLastError",
+"SetLastError"
+],
+"0x48e524": [
+"InterlockedDecrement"
+],
+"0x48e653": [
+"DecodePointer",
+"TlsGetValue",
+"TlsSetValue"
+],
+"0x48e6c1": [
+"DecodePointer",
+"EncodePointer",
+"GetCurrentThreadId",
+"GetModuleHandleW",
+"GetProcAddress",
+"TlsAlloc",
+"TlsFree",
+"TlsGetValue",
+"TlsSetValue"
+],
+"0x48e888": [
+"DecodePointer"
+],
+"0x48e8c0": [
+"EncodePointer"
+],
+"0x48e92c": [
+"IsProcessorFeaturePresent"
+],
+"0x48fc10": [
+"IsDebuggerPresent",
+"SetUnhandledExceptionFilter",
+"UnhandledExceptionFilter"
+],
+"0x48fd39": [
+"GetCurrentProcess",
+"TerminateProcess"
+],
+"0x48fd5e": [
+"DecodePointer"
+],
+"0x490031": [
+"DecodePointer"
+],
+"0x490bdd": [
+"Sleep"
+],
+"0x490c22": [
+"Sleep"
+],
+"0x490c6e": [
+"Sleep"
+],
+"0x490cbc": [
+"Sleep"
+],
+"0x490d0e": [
+"HeapSize"
+],
+"0x490f3f": [
+"InitializeCriticalSectionAndSpinCount"
+],
+"0x490f89": [
+"DeleteCriticalSection"
+],
+"0x490fe0": [
+"LeaveCriticalSection"
+],
+"0x490ff7": [
+"InitializeCriticalSectionAndSpinCount"
+],
+"0x4910b9": [
+"EnterCriticalSection"
+],
+"0x491141": [
+"DecodePointer"
+],
+"0x49114e": [
+"DecodePointer"
+],
+"0x49131e": [
+"DecodePointer"
+],
+"0x491512": [
+"GetModuleFileNameW",
+"GetStdHandle",
+"WriteFile"
+],
+"0x49178d": [
+"GetCPInfo"
+],
+"0x49191d": [
+"InterlockedDecrement",
+"InterlockedIncrement"
+],
+"0x4919c1": [
+"GetACP",
+"GetOEMCP"
+],
+"0x491a3d": [
+"GetCPInfo",
+"IsValidCodePage"
+],
+"0x491c26": [
+"InterlockedDecrement",
+"InterlockedIncrement"
+],
+"0x491dde": [
+"InterlockedIncrement"
+],
+"0x491e6d": [
+"InterlockedDecrement"
+],
+"0x492cb9": [
+"RaiseException"
+],
+"0x492d05": [
+"GetCurrentDirectoryW"
+],
+"0x49323e": [
+"SetUnhandledExceptionFilter"
+],
+"0x49366b": [
+"GetModuleFileNameA"
+],
+"0x493726": [
+"FreeEnvironmentStringsW",
+"GetEnvironmentStringsW",
+"WideCharToMultiByte"
+],
+"0x4937bd": [
+"GetFileType",
+"GetStartupInfoW",
+"GetStdHandle",
+"InitializeCriticalSectionAndSpinCount",
+"SetHandleCount"
+],
+"0x493a02": [
+"HeapCreate"
+],
+"0x493a20": [
+"GetCurrentProcessId",
+"GetCurrentThreadId",
+"GetSystemTimeAsFileTime",
+"GetTickCount",
+"QueryPerformanceCounter"
+],
+"0x493abb": [
+"CloseHandle",
+"GetLastError"
+],
+"0x493fdb": [
+"EnterCriticalSection",
+"InitializeCriticalSectionAndSpinCount"
+],
+"0x4943b2": [
+"DecodePointer"
+],
+"0x4953b6": [
+"GetConsoleCP",
+"GetConsoleMode",
+"GetLastError",
+"WideCharToMultiByte",
+"WriteFile"
+],
+"0x495b87": [
+"FlushFileBuffers",
+"GetLastError"
+],
+"0x495c60": [
+"GetLastError",
+"SetFilePointer"
+],
+"0x495da9": [
+"SetStdHandle"
+],
+"0x495e2a": [
+"SetStdHandle"
+],
+"0x495f19": [
+"EnterCriticalSection",
+"InitializeCriticalSectionAndSpinCount"
+],
+"0x495fb8": [
+"LeaveCriticalSection"
+],
+"0x495fdf": [
+"EnterCriticalSection",
+"InitializeCriticalSectionAndSpinCount",
+"LeaveCriticalSection"
+],
+"0x496260": [
+"GetLastError",
+"SetFilePointer"
+],
+"0x4964f1": [
+"GetLastError",
+"MultiByteToWideChar",
+"ReadFile"
+],
+"0x496c13": [
+"GetTimeZoneInformation",
+"WideCharToMultiByte"
+],
+"0x4977b8": [
+"CloseHandle",
+"CreateFileA",
+"GetFileType",
+"GetLastError"
+],
+"0x497fd0": [
+"HeapAlloc"
+],
+"0x4982c0": [
+"DeleteCriticalSection"
+],
+"0x498cf7": [
+"DecodePointer"
+],
+"0x4993a8": [
+"GetLastError",
+"WideCharToMultiByte"
+],
+"0x4996a8": [
+"DecodePointer",
+"EncodePointer",
+"GetProcAddress",
+"LoadLibraryW"
+],
+"0x499a13": [
+"LCMapStringW",
+"MultiByteToWideChar",
+"WideCharToMultiByte"
+],
+"0x499c40": [
+"GetStringTypeW",
+"MultiByteToWideChar"
+],
+"0x49b3f9": [
+"MultiByteToWideChar"
+],
+"0x49b529": [
+"WriteConsoleW"
+],
+"0x49c4a9": [
+"RaiseException"
+],
+"0x49cc31": [
+"CreateFileW"
+],
+"0x49cc50": [
+"CloseHandle"
+],
+"0x49cd5f": [
+"WideCharToMultiByte"
+],
+"0x49ce61": [
+"CompareStringW",
+"GetCPInfo",
+"MultiByteToWideChar"
+],
+"0x49d2ad": [
+"SetEnvironmentVariableA"
+],
+"0x49d608": [
+"__imp_RtlUnwind"
+],
+"0x49d68a": [
+"__imp_DirectDrawCreate"
+]
+}

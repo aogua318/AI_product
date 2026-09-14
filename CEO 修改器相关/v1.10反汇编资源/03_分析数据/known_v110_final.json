@@ -1,0 +1,539 @@
+{
+ "0x47DD20": {
+  "v102": "0x479990",
+  "desc": "引擎主循环: PeekMessage/GetMessage 消息泵 + 定时器数组 + 鼠标差量 + 帧回调 + 界面退出清理",
+  "method": "助记符(0.84)",
+  "conf": "中",
+  "note": "无资源串可验证 [助记符相似度匹配]",
+  "strings": []
+ },
+ "0x40BC60": {
+  "v102": "0x40A8C0",
+  "desc": "主玩法界面程序: 注册 GameState 相关 vtable 并进入主循环(返回码 1=重开 4=继续 0=回菜单 -1=退出)",
+  "method": "助记符(0.92)",
+  "conf": "高",
+  "note": "无资源串可验证",
+  "strings": []
+ },
+ "0x46A040": {
+  "v102": "0x466E50",
+  "desc": "只读打开文件: 先 fopen 裸文件, 失败则回退打开 <目录>.apkg 包内同名条目(虚拟文件系统入口)",
+  "method": "头字节(0.80)",
+  "conf": "高",
+  "note": "代码前32字节完全一致",
+  "strings": []
+ },
+ "0x46A1F0": {
+  "v102": "0x467000",
+  "desc": "关闭文件句柄(区分裸文件与包条目递归关闭)",
+  "method": "助记符(0.83)",
+  "conf": "中",
+  "note": "无资源串可验证 [助记符相似度匹配]",
+  "strings": []
+ },
+ "0x46A360": {
+  "v102": "0x467150",
+  "desc": "统一读函数: 裸文件走 fread, 包条目走解码读",
+  "method": "助记符(0.77)",
+  "conf": "低",
+  "note": "无资源串可验证 [助记符匹配, 建议结合伪源码核对]",
+  "strings": []
+ },
+ "0x46F340": {
+  "v102": "0x46C5E0",
+  "desc": "包内读取并逐字节取反(NOT)解密, 维护条目内位置",
+  "method": "助记符(0.89)",
+  "conf": "中",
+  "note": "无资源串可验证 [助记符相似度匹配]",
+  "strings": []
+ },
+ "0x46CF20": {
+  "v102": "0x469AD0",
+  "desc": "RegisterClassExA + CreateWindowExA 创建 800×600 游戏主窗口",
+  "method": "助记符(0.96)",
+  "conf": "高",
+  "note": "无资源串可验证",
+  "strings": []
+ },
+ "0x41E7E0": {
+  "v102": "0x41DEF0",
+  "desc": "全局数据装载: mapcity/txts CSV → 图块缓存 → gnd/road 图块 → 机器/产品/员工/建筑/AI/对话各表",
+  "method": "助记符(0.90)",
+  "conf": "高",
+  "note": "资源串验证通过(gnd/road 图块)",
+  "strings": [
+   "pics\\road32x16",
+   "pics\\gnd32x16",
+   "pics\\32x16",
+   "pics\\64x32",
+   "data\\txts.csv",
+   "data\\mapcity.csv"
+  ]
+ },
+ "0x410D00": {
+  "v102": "0x410B60",
+  "desc": "解析 building.csv, 每行构建 72 字节建筑结构(4 种建筑子类型分支)",
+  "method": "头字节(0.80)",
+  "conf": "高",
+  "note": "代码前32字节完全一致",
+  "strings": [
+   "data\\building.csv"
+  ]
+ },
+ "0x403FF0": {
+  "v102": "0x403E50",
+  "desc": "解析 AI_style.csv → AI 对手行为风格参数",
+  "method": "助记符(0.78)",
+  "conf": "中",
+  "note": "资源串验证通过(1/1) [助记符相似度匹配]",
+  "strings": [
+   "data\\AI_style.csv"
+  ]
+ },
+ "0x4250C0": {
+  "v102": "0x424720",
+  "desc": "解析 maps.csv/mapcity.csv → 城市地图索引",
+  "method": "助记符(0.78)",
+  "conf": "中",
+  "note": "资源串验证通过(1/2) [助记符相似度匹配]",
+  "strings": [
+   "data\\maps.csv"
+  ]
+ },
+ "0x425D90": {
+  "v102": "0x425430",
+  "desc": "解析 stages.csv → 剧本关卡表(关卡目标/条件)",
+  "method": "助记符(0.81)",
+  "conf": "中",
+  "note": "资源串验证通过(1/1) [助记符相似度匹配]",
+  "strings": [
+   "data\\stages.csv"
+  ]
+ },
+ "0x41F7E0": {
+  "v102": "0x41FFF0",
+  "desc": "读取 option.dat 游戏设置",
+  "method": "助记符(0.84)",
+  "conf": "高",
+  "note": "资源串验证通过(1/1)",
+  "strings": [
+   "option.dat"
+  ]
+ },
+ "0x4354A0": {
+  "v102": "0x434350",
+  "desc": "输入(鼠标)初始化, 复位 5 个全局计时器",
+  "method": "助记符(1.00)",
+  "conf": "高",
+  "note": "无资源串可验证",
+  "strings": []
+ },
+ "0x436D70": {
+  "v102": "0x435B90",
+  "desc": "解析 talk.csv/talk_idx.csv NPC 对话文本",
+  "method": "助记符(0.79)",
+  "conf": "中",
+  "note": "资源串验证通过(2/2) [助记符相似度匹配]",
+  "strings": [
+   "data\\talk.csv",
+   "data\\talk_idx.csv"
+  ]
+ },
+ "0x42E3C0": {
+  "v102": "0x42D2E0",
+  "desc": "解析 people_type.csv 员工类型(能力/工资)",
+  "method": "头字节(0.80)",
+  "conf": "高",
+  "note": "代码前32字节完全一致",
+  "strings": [
+   "data\\people_type.csv"
+  ]
+ },
+ "0x429950": {
+  "v102": "0x428ED0",
+  "desc": "解析 Machine_type.csv + Machine_group.csv 机器类型与组",
+  "method": "头字节(0.80)",
+  "conf": "高",
+  "note": "代码前32字节完全一致",
+  "strings": [
+   "data\\Machine_type.csv"
+  ]
+ },
+ "0x459B40": {
+  "v102": "0x4560F0",
+  "desc": "自由经营模式参数设置界面",
+  "method": "助记符(1.00)",
+  "conf": "高",
+  "note": "无资源串可验证",
+  "strings": []
+ },
+ "0x40FDE0": {
+  "v102": "0x4107E0",
+  "desc": "解析 build_relation.csv 建筑依赖关系",
+  "method": "头字节(0.80)",
+  "conf": "高",
+  "note": "代码前32字节完全一致",
+  "strings": [
+   "data\\build_relation.csv"
+  ]
+ },
+ "0x41CA70": {
+  "v102": "0x41C000",
+  "desc": "解析 formula.csv 生产公式",
+  "method": "头字节(0.80)",
+  "conf": "高",
+  "note": "代码前32字节完全一致",
+  "strings": [
+   "data\\formula.csv"
+  ]
+ },
+ "0x413720": {
+  "v102": "0x4132A0",
+  "desc": "解析 mur.csv 矿/资源点数据",
+  "method": "头字节(0.80)",
+  "conf": "高",
+  "note": "代码前32字节完全一致",
+  "strings": [
+   "data\\mur.csv"
+  ]
+ },
+ "0x42B6E0": {
+  "v102": "0x42A450",
+  "desc": "解析 news.csv 随机新闻事件",
+  "method": "头字节(0.80)",
+  "conf": "高",
+  "note": "代码前32字节完全一致",
+  "strings": [
+   "data\\news.csv"
+  ]
+ },
+ "0x4325C0": {
+  "v102": "0x4312F0",
+  "desc": "解析 product1.csv/product2.csv 产品定义",
+  "method": "头字节(0.80)",
+  "conf": "高",
+  "note": "代码前32字节完全一致",
+  "strings": [
+   "data\\product1.csv"
+  ]
+ },
+ "0x458D10": {
+  "v102": "0x454000",
+  "desc": "自由模式界面与 AI 配置(AIinfo.csv, 引用 list/ceo_info 等界面)",
+  "method": "助记符(0.87)",
+  "conf": "高",
+  "note": "资源串验证通过(1/1)",
+  "strings": [
+   "face\\face_list.fce",
+   "face\\list2.fce",
+   "face\\ceo_info.fce",
+   "face\\colorlist.fce",
+   "face\\freeplay.fce",
+   "data\\AIinfo.csv"
+  ]
+ },
+ "0x457C20": {
+  "v102": "0x454710",
+  "desc": "解析 citys.csv 城市表",
+  "method": "头字节(0.80)",
+  "conf": "高",
+  "note": "代码前32字节完全一致",
+  "strings": [
+   "data\\citys.csv"
+  ]
+ },
+ "0x43A2C0": {
+  "v102": "0x438E30",
+  "desc": "载入 famehall1.dat 名人堂数据",
+  "method": "头字节(0.80)",
+  "conf": "高",
+  "note": "代码前32字节完全一致",
+  "strings": [
+   "famehall2.dat",
+   "Video\\win.wmv",
+   "famehall1.dat"
+  ]
+ },
+ "0x423440": {
+  "v102": "0x422C30",
+  "desc": "存档槽 save\\\\slot%d.lif 写入/读取",
+  "method": "头字节(0.80)",
+  "conf": "高",
+  "note": "资源串验证通过(slot%d.lif)",
+  "strings": [
+   "save\\slot%d.lif"
+  ]
+ },
+ "0x423550": {
+  "v102": "0x422D60",
+  "desc": "读取存档槽 save\\\\slot%d.lif",
+  "method": "头字节(0.80)",
+  "conf": "高",
+  "note": "资源串验证通过(slot%d.lif)",
+  "strings": [
+   "save\\slot%d.lif"
+  ]
+ },
+ "0x435570": {
+  "v102": "0x434420",
+  "desc": "按事件名播放 sound\\\\e*.wav 音效",
+  "method": "头字节(0.80)",
+  "conf": "高",
+  "note": "资源串验证通过(sound\\e%s.wav)",
+  "strings": [
+   "sound\\e%s.wav"
+  ]
+ },
+ "0x46D750": {
+  "v102": "0x468DA0",
+  "desc": "CreateThread 创建后台线程(声音/音乐)",
+  "method": "助记符(0.87)",
+  "conf": "中",
+  "note": "无资源串可验证 [助记符相似度匹配]",
+  "strings": []
+ },
+ "0x47CF60": {
+  "v102": "0x47A690",
+  "desc": "装载辅助点阵字体",
+  "method": "助记符(0.88)",
+  "conf": "中",
+  "note": "无资源串可验证 [助记符相似度匹配]",
+  "strings": []
+ },
+ "0x4674F0": {
+  "v102": "0x463D80",
+  "desc": "从图库装载图片资源",
+  "method": "头字节(0.80)",
+  "conf": "高",
+  "note": "代码前32字节完全一致",
+  "strings": []
+ },
+ "0x467AB0": {
+  "v102": "0x4640F0",
+  "desc": "装载地面/道路图块",
+  "method": "头字节(0.80)",
+  "conf": "高",
+  "note": "代码前32字节完全一致",
+  "strings": []
+ },
+ "0x485030": {
+  "v102": "0x481750",
+  "desc": "初始化等距图块缓存(容量参数 2048/10240)",
+  "method": "头字节(0.80)",
+  "conf": "高",
+  "note": "代码前32字节完全一致",
+  "strings": []
+ },
+ "0x465E40": {
+  "v102": "0x462440",
+  "desc": "带调试记账的内存分配(a_alloc: 记录分配点, 未释放检测)",
+  "method": "助记符(0.90)",
+  "conf": "中",
+  "note": "无资源串可验证 [助记符相似度匹配]",
+  "strings": []
+ },
+ "0x465FE0": {
+  "v102": "0x462740",
+  "desc": "带调试记账的内存释放(a_free: 非法/重复释放检测)",
+  "method": "助记符(0.93)",
+  "conf": "高",
+  "note": "无资源串可验证",
+  "strings": []
+ },
+ "0x464420": {
+  "v102": "0x460D80",
+  "desc": "CSV 解析器: 经 afile 层读取(自动解密)并切分行列",
+  "method": "助记符(0.81)",
+  "conf": "低",
+  "note": "无资源串可验证 [助记符匹配, 建议结合伪源码核对]",
+  "strings": []
+ },
+ "0x4646A0": {
+  "v102": "0x461000",
+  "desc": "取 CSV 第 col 列第 row 行单元格文本",
+  "method": "助记符(0.76)",
+  "conf": "低",
+  "note": "无资源串可验证 [助记符匹配, 建议结合伪源码核对]",
+  "strings": []
+ },
+ "0x40B300": {
+  "v102": "0x40AC00",
+  "desc": "剧情任务系统初始化(引用 face_task 系列界面)",
+  "method": "头字节(0.80)",
+  "conf": "高",
+  "note": "资源串验证通过(face_task*.fce)",
+  "strings": [
+   "face\\task_arrow.fce",
+   "face\\face_task.fce",
+   "face\\main1.fce",
+   "pics\\num1",
+   "pics\\loading_door"
+  ]
+ },
+ "0x40BBD0": {
+  "v102": "0x40B8B0",
+  "desc": "玩法界面的退出/清理回调",
+  "method": "助记符(1.00)",
+  "conf": "高",
+  "note": "无资源串可验证",
+  "strings": []
+ },
+ "0x437000": {
+  "v102": "0x435FB0",
+  "desc": "对话界面程序(引用 face\\\\face_talk.fce)",
+  "method": "助记符(0.91)",
+  "conf": "高",
+  "note": "资源串验证通过(face_talk.fce)",
+  "strings": [
+   "face\\face_talk.fce"
+  ]
+ },
+ "0x461D10": {
+  "v102": "0x45DB50",
+  "desc": "小地图/地图旋转界面(引用 face_SmallMap.fce/MapRotate.fce)",
+  "method": "助记符(0.77)",
+  "conf": "高",
+  "note": "资源串验证通过(face_SmallMap.fce/smapmenu.csv)",
+  "strings": [
+   "face\\face_list.fce",
+   "data\\smapmenu.csv",
+   "face\\face_SmallMap.fce"
+  ]
+ },
+ "0x448F20": {
+  "v102": "0x447A90",
+  "desc": "银行/资产负债界面(引用 face\\\\Bank.fce, balance_info.fce)",
+  "method": "助记符(0.78)",
+  "conf": "高",
+  "note": "资源串验证通过(balance_info.fce)",
+  "strings": [
+   "face\\list2.fce",
+   "face\\balance_info.fce"
+  ]
+ },
+ "0x43AEE0": {
+  "v102": "0x439980",
+  "desc": "工厂信息-看板界面(引用 face\\\\factinf_board.fce)",
+  "method": "头字节(0.80)",
+  "conf": "高",
+  "note": "资源串验证通过(factinf_board.fce)",
+  "strings": [
+   "face\\factinf_board.fce"
+  ]
+ },
+ "0x43C4D0": {
+  "v102": "0x43B200",
+  "desc": "工厂信息-矿区界面(引用 face\\\\factinf_mine.fce)",
+  "method": "助记符(0.78)",
+  "conf": "高",
+  "note": "资源串验证通过(factinf_mine.fce)",
+  "strings": [
+   "face\\factinf_mine.fce"
+  ]
+ },
+ "0x43C9C0": {
+  "v102": "0x43B3F0",
+  "desc": "工厂信息-港口界面(引用 face\\\\factinf_port.fce)",
+  "method": "头字节(0.80)",
+  "conf": "高",
+  "note": "资源串验证通过(factinf_port.fce)",
+  "strings": [
+   "face\\factinf_port.fce"
+  ]
+ },
+ "0x43E1D0": {
+  "v102": "0x43CA40",
+  "desc": "购买机器界面(引用 face\\\\face_buymachine.fce)",
+  "method": "助记符(0.85)",
+  "conf": "高",
+  "note": "资源串验证通过(face_buymachine.fce)",
+  "strings": [
+   "face\\face_buymachine.fce"
+  ]
+ },
+ "0x4458B0": {
+  "v102": "0x444160",
+  "desc": "建厂界面(引用 face\\\\ToBuildFirm*.fce)",
+  "method": "助记符(0.78)",
+  "conf": "高",
+  "note": "资源串验证通过(ToBuildFirm*.fce)",
+  "strings": [
+   "face\\ToBuildFirm-Mine.fce",
+   "face\\ToBuildFirm.fce"
+  ]
+ },
+ "0x445C40": {
+  "v102": "0x4448E0",
+  "desc": "土地/工厂出售界面(引用 face\\\\forsale*.fce)",
+  "method": "头字节(0.80)",
+  "conf": "高",
+  "note": "资源串验证通过(forsale*.fce)",
+  "strings": [
+   "face\\forsale-mine.fce",
+   "face\\forsale.fce"
+  ]
+ },
+ "0x44A7E0": {
+  "v102": "0x449040",
+  "desc": "产品手册界面(引用 face\\\\ProductBook*.fce)",
+  "method": "助记符(0.77)",
+  "conf": "高",
+  "note": "资源串验证通过(ProductBook*.fce)",
+  "strings": [
+   "face\\ProductBook_list.fce",
+   "face\\ProductBook_Board.fce",
+   "face\\ProductBook.fce"
+  ]
+ },
+ "0x4095E0": {
+  "v102": "0x409000",
+  "desc": "玩法主更新: 按消息号分派建筑放置/公司切换/资产浏览等(13KB 主逻辑)",
+  "method": "助记符(0.76)",
+  "conf": "低",
+  "note": "无资源串可验证 [助记符匹配, 建议结合伪源码核对]",
+  "strings": []
+ },
+ "0x447B80": {
+  "v102": "0x458190",
+  "desc": "剧情模式关卡选择界面",
+  "method": "助记符(1.00)",
+  "conf": "高",
+  "note": "无资源串可验证",
+  "strings": []
+ },
+ "0x4599F0": {
+  "v102": "0x453FA0",
+  "desc": "自由模式初始化",
+  "method": "助记符(1.00)",
+  "conf": "高",
+  "note": "无资源串可验证",
+  "strings": []
+ },
+ "0x44ADA0": {
+  "v102": "0x44A230",
+  "desc": "自由模式城市/难度选择",
+  "method": "助记符(1.00)",
+  "conf": "高",
+  "note": "无资源串可验证",
+  "strings": []
+ },
+ "0x42A4E0": {
+  "v102": "0x429A20",
+  "desc": "名人堂入口流程",
+  "method": "助记符(1.00)",
+  "conf": "高",
+  "note": "无资源串可验证",
+  "strings": []
+ },
+ "0x45D420": {
+  "v102": "0x459EF0",
+  "desc": "名人堂数据载入/显示(famehall2.dat)",
+  "method": "头字节(0.80)",
+  "conf": "高",
+  "note": "代码前32字节完全一致",
+  "strings": [
+   "famehall1.dat",
+   "face\\famhall1.fce"
+  ]
+ }
+}

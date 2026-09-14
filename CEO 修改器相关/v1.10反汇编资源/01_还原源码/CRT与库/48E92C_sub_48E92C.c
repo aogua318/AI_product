@@ -1,0 +1,8 @@
+// 函数 0x48e92c  sub_48E92C  size=0x10  模块=CRT与库
+// 还原方式: Hex-Rays 反编译(伪 C 源码)
+
+int sub_48E92C()
+{
+  dword_8F62C0 = IsProcessorFeaturePresent(0xAu);
+  return 0;
+}

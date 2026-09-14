@@ -1,0 +1,7 @@
+// 函数 0x4a0500  sub_4A0500  size=0xA  模块=CRT与库
+// 还原方式: Hex-Rays 反编译(伪 C 源码)
+
+void __cdecl sub_4A0500()
+{
+  sub_467D70(dword_4D0F38);
+}

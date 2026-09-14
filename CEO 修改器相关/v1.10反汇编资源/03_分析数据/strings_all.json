@@ -1,0 +1,3530 @@
+[
+{
+"addr": "0x4a2760",
+"string": "AI_style.cpp"
+},
+{
+"addr": "0x4a2770",
+"string": "data\\AI_style.csv"
+},
+{
+"addr": "0x4a27d8",
+"string": "buffer full"
+},
+{
+"addr": "0x4a27e4",
+"string": "error"
+},
+{
+"addr": "0x4a27ec",
+"string": "x=%d y=%d  Cycle=%d Turbo=%d"
+},
+{
+"addr": "0x4a280c",
+"string": "x=%d y=%d  mx=%d my=%d vx=%d vy=%d Cycle=%d Turbo=%d fisht0=%d"
+},
+{
+"addr": "0x4a286c",
+"string": "%d.sav"
+},
+{
+"addr": "0x4a2874",
+"string": "face\\task_arrow.fce"
+},
+{
+"addr": "0x4a2888",
+"string": "face\\face_task.fce"
+},
+{
+"addr": "0x4a289c",
+"string": "face\\main1.fce"
+},
+{
+"addr": "0x4a28ac",
+"string": "pics\\num1"
+},
+{
+"addr": "0x4a28b8",
+"string": "pics\\loading_door"
+},
+{
+"addr": "0x4a28d8",
+"string": "building.cpp"
+},
+{
+"addr": "0x4a28e8",
+"string": "data\\build_relation.csv"
+},
+{
+"addr": "0x4a2930",
+"string": "building_type.cpp"
+},
+{
+"addr": "0x4a2944",
+"string": "data\\building.csv"
+},
+{
+"addr": "0x4a2958",
+"string": "script error , "
+},
+{
+"addr": "0x4a296b",
+"string": " bigger "
+},
+{
+"addr": "0x4a2984",
+"string": "%s\nline%d"
+},
+{
+"addr": "0x4a2990",
+"string": "ceo_tasks.cpp"
+},
+{
+"addr": "0x4a29a0",
+"string": "script error , "
+},
+{
+"addr": "0x4a29b3",
+"string": " nobigger "
+},
+{
+"addr": "0x4a29cc",
+"string": "script error , "
+},
+{
+"addr": "0x4a29df",
+"string": " equal "
+},
+{
+"addr": "0x4a29f8",
+"string": "script error , "
+},
+{
+"addr": "0x4a2a0b",
+"string": " not "
+},
+{
+"addr": "0x4a2a20",
+"string": "script error , money "
+},
+{
+"addr": "0x4a2a40",
+"string": "script error , "
+},
+{
+"addr": "0x4a2a53",
+"string": " set_money "
+},
+{
+"addr": "0x4a2a70",
+"string": "script error , fact_sum "
+},
+{
+"addr": "0x4a2a98",
+"string": "test task"
+},
+{
+"addr": "0x4a2aac",
+"string": "script error , company_val "
+},
+{
+"addr": "0x4a2ad4",
+"string": "script error , loan "
+},
+{
+"addr": "0x4a2af4",
+"string": "script error , land_sum "
+},
+{
+"addr": "0x4a2b18",
+"string": "script error , selected_factory "
+},
+{
+"addr": "0x4a2b44",
+"string": "script error , "
+},
+{
+"addr": "0x4a2b57",
+"string": " crash "
+},
+{
+"addr": "0x4a2b70",
+"string": "script error , "
+},
+{
+"addr": "0x4a2b83",
+"string": " own_land "
+},
+{
+"addr": "0x4a2be4",
+"string": "data\\mur.csv"
+},
+{
+"addr": "0x4a2bfc",
+"string": "data\\formula.csv"
+},
+{
+"addr": "0x4a2c10",
+"string": "pics\\buildings"
+},
+{
+"addr": "0x4a2c20",
+"string": "pics\\items"
+},
+{
+"addr": "0x4a2c2c",
+"string": "pics\\machines"
+},
+{
+"addr": "0x4a2c3c",
+"string": "game_data.cpp"
+},
+{
+"addr": "0x4a2c4c",
+"string": "pics\\road64x32"
+},
+{
+"addr": "0x4a2c5c",
+"string": "pics\\gnd64x32"
+},
+{
+"addr": "0x4a2c6c",
+"string": "%s\\slot%d\\%s"
+},
+{
+"addr": "0x4a2c7c",
+"string": "%s\\%s"
+},
+{
+"addr": "0x4a2c94",
+"string": "%s\\slot%d\\%d.sav"
+},
+{
+"addr": "0x4a2ca8",
+"string": "%s\\%d.sav"
+},
+{
+"addr": "0x4a2cb4",
+"string": "pics\\road32x16"
+},
+{
+"addr": "0x4a2cc4",
+"string": "pics\\gnd32x16"
+},
+{
+"addr": "0x4a2cd4",
+"string": "pics\\32x16"
+},
+{
+"addr": "0x4a2ce0",
+"string": "pics\\64x32"
+},
+{
+"addr": "0x4a2cec",
+"string": "data\\txts.csv"
+},
+{
+"addr": "0x4a2cfc",
+"string": "data\\mapcity.csv"
+},
+{
+"addr": "0x4a2d30",
+"string": "%10s:\t%.2lf\t%.2lf\t%.0lf\t%.0lf\t%.2lf\t%.0lf\t%.0lf\t%.0lf\r\n"
+},
+{
+"addr": "0x4a2d80",
+"string": "%10s:\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\r\n"
+},
+{
+"addr": "0x4a2e2f",
+"string": "f:\t%d\n"
+},
+{
+"addr": "0x4a2e3f",
+"string": "f:\t%d\n"
+},
+{
+"addr": "0x4a2e4f",
+"string": "f:\t%d\n"
+},
+{
+"addr": "0x4a2e5f",
+"string": "f:\t%d\n"
+},
+{
+"addr": "0x4a2e68",
+"string": "log\\prod_need.csv"
+},
+{
+"addr": "0x4a2e7c",
+"string": "option.dat"
+},
+{
+"addr": "0x4a2ee0",
+"string": "save\\slot%d.lif"
+},
+{
+"addr": "0x4a2ef8",
+"string": "maps\\"
+},
+{
+"addr": "0x4a2f28",
+"string": "data\\maps.csv"
+},
+{
+"addr": "0x4a2f58",
+"string": "file not fond\n%s"
+},
+{
+"addr": "0x4a2f88",
+"string": "loadstage.cpp"
+},
+{
+"addr": "0x4a2f98",
+"string": "data\\stages.csv"
+},
+{
+"addr": "0x4a2fc0",
+"string": "machine_type.cpp"
+},
+{
+"addr": "0x4a2fd4",
+"string": "data\\Machine_group.csv"
+},
+{
+"addr": "0x4a2fec",
+"string": "data\\Machine_type.csv"
+},
+{
+"addr": "0x4a3004",
+"string": "CEO_STAGE_19"
+},
+{
+"addr": "0x4a3014",
+"string": "CEO_STAGE_18"
+},
+{
+"addr": "0x4a3024",
+"string": "CEO_STAGE_17"
+},
+{
+"addr": "0x4a3034",
+"string": "CEO_STAGE_16"
+},
+{
+"addr": "0x4a3044",
+"string": "CEO_STAGE_15"
+},
+{
+"addr": "0x4a3054",
+"string": "CEO_STAGE_14"
+},
+{
+"addr": "0x4a3064",
+"string": "CEO_STAGE_13"
+},
+{
+"addr": "0x4a3074",
+"string": "CEO_STAGE_12"
+},
+{
+"addr": "0x4a3084",
+"string": "CEO_STAGE_11"
+},
+{
+"addr": "0x4a3094",
+"string": "CEO_STAGE_10"
+},
+{
+"addr": "0x4a30a4",
+"string": "CEO_STAGE_9"
+},
+{
+"addr": "0x4a30b0",
+"string": "CEO_STAGE_8"
+},
+{
+"addr": "0x4a30bc",
+"string": "CEO_STAGE_7"
+},
+{
+"addr": "0x4a30c8",
+"string": "CEO_STAGE_6"
+},
+{
+"addr": "0x4a30d4",
+"string": "CEO_STAGE_5"
+},
+{
+"addr": "0x4a30e0",
+"string": "CEO_STAGE_4"
+},
+{
+"addr": "0x4a30ec",
+"string": "CEO_STAGE_3"
+},
+{
+"addr": "0x4a30f8",
+"string": "CEO_STAGE_2"
+},
+{
+"addr": "0x4a3104",
+"string": "CEO_STAGE_1"
+},
+{
+"addr": "0x4a3110",
+"string": "CEO_STAGE_0"
+},
+{
+"addr": "0x4a311c",
+"string": "STEAMUSERSTATS_INTERFACE_VERSION012"
+},
+{
+"addr": "0x4a3140",
+"string": "SteamClient020"
+},
+{
+"addr": "0x4a3150",
+"string": "SteamUser021"
+},
+{
+"addr": "0x4a3160",
+"string": "SteamUtils010"
+},
+{
+"addr": "0x4a3170",
+"string": "STEAMAPPS_INTERFACE_VERSION008"
+},
+{
+"addr": "0x4a3190",
+"string": "SteamInput006"
+},
+{
+"addr": "0x4a31b4",
+"string": "+connect_lobby "
+},
+{
+"addr": "0x4a31c4",
+"string": "+connect "
+},
+{
+"addr": "0x4a3260",
+"string": "fonts\\font16"
+},
+{
+"addr": "0x4a3270",
+"string": "fonts\\12ns"
+},
+{
+"addr": "0x4a327c",
+"string": "pics\\32X16"
+},
+{
+"addr": "0x4a3288",
+"string": "pics\\cur1"
+},
+{
+"addr": "0x4a3294",
+"string": "Video\\open.wmv"
+},
+{
+"addr": "0x4a32a4",
+"string": "800 x 600"
+},
+{
+"addr": "0x4a32b8",
+"string": "1280 x 720"
+},
+{
+"addr": "0x4a32d0",
+"string": "1600 x 900"
+},
+{
+"addr": "0x4a32e8",
+"string": "BUTTON"
+},
+{
+"addr": "0x4a32f8",
+"string": "Windows"
+},
+{
+"addr": "0x4a3316",
+"string": "CEO STEAM"
+},
+{
+"addr": "0x4a3320",
+"string": "CEO STEAM"
+},
+{
+"addr": "0x4a332c",
+"string": "selectWindowClass"
+},
+{
+"addr": "0x4a3340",
+"string": "SteamInput()->Init failed.\n"
+},
+{
+"addr": "0x4a335c",
+"string": "controller.vdf"
+},
+{
+"addr": "0x4a3370",
+"string": "Steam user must be logged in to play this game (SteamUser()->BLoggedOn() returned false).\n"
+},
+{
+"addr": "0x4a33cc",
+"string": "Steam user is not logged in\n"
+},
+{
+"addr": "0x4a33ec",
+"string": "Fatal Error"
+},
+{
+"addr": "0x4a33f8",
+"string": "Steam must be running to play this game (SteamAPI_Init() failed).\n"
+},
+{
+"addr": "0x4a343c",
+"string": "SteamAPI_Init() failed\n"
+},
+{
+"addr": "0x4a3454",
+"string": "TTIME_CEO"
+},
+{
+"addr": "0x4a3460",
+"string": "data\\road32x16"
+},
+{
+"addr": "0x4a3470",
+"string": "data\\gnd32x16"
+},
+{
+"addr": "0x4a3480",
+"string": "news.cpp"
+},
+{
+"addr": "0x4a348c",
+"string": "data\\news.csv"
+},
+{
+"addr": "0x4a34a8",
+"string": "error: machine_type.txt "
+},
+{
+"addr": "0x4a34d4",
+"string": "%d %s"
+},
+{
+"addr": "0x4a34dc",
+"string": "people_type.cpp"
+},
+{
+"addr": "0x4a34ec",
+"string": "data\\people_type.csv"
+},
+{
+"addr": "0x4a3528",
+"string": "product_type.cpp"
+},
+{
+"addr": "0x4a353c",
+"string": "data\\product1.csv"
+},
+{
+"addr": "0x4a3550",
+"string": "data\\product2.csv"
+},
+{
+"addr": "0x4a3580",
+"string": "shop.cpp"
+},
+{
+"addr": "0x4a358c",
+"string": "data\\smapclr.csv"
+},
+{
+"addr": "0x4a35a0",
+"string": "sounds.cpp"
+},
+{
+"addr": "0x4a35ac",
+"string": "sound\\e%s.wav"
+},
+{
+"addr": "0x4a35bc",
+"string": "music\\mu%d.mp3"
+},
+{
+"addr": "0x4a35cc",
+"string": "stage\\"
+},
+{
+"addr": "0x4a35d4",
+"string": "data\\talk.csv"
+},
+{
+"addr": "0x4a35e4",
+"string": "data\\talk_idx.csv"
+},
+{
+"addr": "0x4a35f8",
+"string": "TALK.CPP"
+},
+{
+"addr": "0x4a3604",
+"string": "face\\face_talk.fce"
+},
+{
+"addr": "0x4a3618",
+"string": "task.cpp"
+},
+{
+"addr": "0x4a3628",
+"string": "event:"
+},
+{
+"addr": "0x4a3630",
+"string": "lose_do:"
+},
+{
+"addr": "0x4a363c",
+"string": "lose_req:"
+},
+{
+"addr": "0x4a3648",
+"string": "win_do:"
+},
+{
+"addr": "0x4a3650",
+"string": "win_req:"
+},
+{
+"addr": "0x4a365c",
+"string": "hinttxt:"
+},
+{
+"addr": "0x4a3668",
+"string": "infopos:"
+},
+{
+"addr": "0x4a3674",
+"string": "maphintpos:"
+},
+{
+"addr": "0x4a3680",
+"string": "hintpos:"
+},
+{
+"addr": "0x4a368c",
+"string": "taskname:"
+},
+{
+"addr": "0x4a3698",
+"string": "error function not exist"
+},
+{
+"addr": "0x4a36b4",
+"string": "load task .. fail"
+},
+{
+"addr": "0x4a36e4",
+"string": "famehall2.dat"
+},
+{
+"addr": "0x4a36f4",
+"string": "Video\\win.wmv"
+},
+{
+"addr": "0x4a3704",
+"string": "famehall1.dat"
+},
+{
+"addr": "0x4a3714",
+"string": "-----"
+},
+{
+"addr": "0x4a3728",
+"string": "%d/%d"
+},
+{
+"addr": "0x4a3730",
+"string": "%d..%d"
+},
+{
+"addr": "0x4a3738",
+"string": "face\\factinf_board.fce"
+},
+{
+"addr": "0x4a3750",
+"string": "face\\factinf_dorm.fce"
+},
+{
+"addr": "0x4a3768",
+"string": "face\\FirmMachineSell.fce"
+},
+{
+"addr": "0x4a3784",
+"string": "face\\FirmMachineStop.fce"
+},
+{
+"addr": "0x4a37ac",
+"string": "face\\factinf_clrsel.fce"
+},
+{
+"addr": "0x4a37c4",
+"string": "face\\face_machine.fce"
+},
+{
+"addr": "0x4a37dc",
+"string": "face\\factinf_mine.fce"
+},
+{
+"addr": "0x4a37f4",
+"string": "face\\factinf_port.fce"
+},
+{
+"addr": "0x4a3820",
+"string": "face\\face_RetailMachine.fce"
+},
+{
+"addr": "0x4a383c",
+"string": "face\\face_buymachine.fce"
+},
+{
+"addr": "0x4a3858",
+"string": "face\\Board.fce"
+},
+{
+"addr": "0x4a3868",
+"string": "face\\dorm.fce"
+},
+{
+"addr": "0x4a3878",
+"string": "face\\buystuff_confirm.fce"
+},
+{
+"addr": "0x4a3894",
+"string": "face\\LoadArea.fce"
+},
+{
+"addr": "0x4a38a8",
+"string": "face\\face_license.fce"
+},
+{
+"addr": "0x4a38c0",
+"string": "%d+%d"
+},
+{
+"addr": "0x4a38c8",
+"string": "face\\face_machine_introduce.fce"
+},
+{
+"addr": "0x4a38e8",
+"string": "face\\face_put_machine.fce"
+},
+{
+"addr": "0x4a3904",
+"string": "face\\face_btn1.fce"
+},
+{
+"addr": "0x4a3918",
+"string": "face\\factinf.fce"
+},
+{
+"addr": "0x4a392c",
+"string": "%3d/%3d/%3d"
+},
+{
+"addr": "0x4a3938",
+"string": "face\\face_list.fce"
+},
+{
+"addr": "0x4a394c",
+"string": "face\\factinf_buy.fce"
+},
+{
+"addr": "0x4a3964",
+"string": "face\\factinf_chart.fce"
+},
+{
+"addr": "0x4a397c",
+"string": "%d , %d"
+},
+{
+"addr": "0x4a3984",
+"string": "face\\factinf_pro.fce"
+},
+{
+"addr": "0x4a399c",
+"string": "face\\factinf_profit.fce"
+},
+{
+"addr": "0x4a39b4",
+"string": "%3d/%3d"
+},
+{
+"addr": "0x4a39bc",
+"string": "face\\factinf_retail.fce"
+},
+{
+"addr": "0x4a39d4",
+"string": "face\\factinf_sale.fce"
+},
+{
+"addr": "0x4a3fac",
+"string": "face\\ExitButton.fce"
+},
+{
+"addr": "0x4a3fc0",
+"string": "face\\face_btn2.fce"
+},
+{
+"addr": "0x4a3fd4",
+"string": "face\\face_fix_machine.fce"
+},
+{
+"addr": "0x4a3ff0",
+"string": "face\\infact_name.fce"
+},
+{
+"addr": "0x4a4008",
+"string": "pics\\cur_wkr2"
+},
+{
+"addr": "0x4a4018",
+"string": "pics\\cur_wkr1"
+},
+{
+"addr": "0x4a4028",
+"string": "pics\\cur_wkr0"
+},
+{
+"addr": "0x4a4038",
+"string": "pics\\cur_mgr2"
+},
+{
+"addr": "0x4a4048",
+"string": "pics\\cur_mgr1"
+},
+{
+"addr": "0x4a4058",
+"string": "pics\\cur_mgr0"
+},
+{
+"addr": "0x4a4068",
+"string": "face\\face_salary_0.fce"
+},
+{
+"addr": "0x4a4080",
+"string": "face\\ToBuildFirm-1.fce"
+},
+{
+"addr": "0x4a4098",
+"string": "face\\ToBuildFirm-Mine.fce"
+},
+{
+"addr": "0x4a40b4",
+"string": "face\\ToBuildFirm.fce"
+},
+{
+"addr": "0x4a40cc",
+"string": "face\\forsale-mine.fce"
+},
+{
+"addr": "0x4a40e4",
+"string": "face\\forsale.fce"
+},
+{
+"addr": "0x4a40f8",
+"string": "%d x %d"
+},
+{
+"addr": "0x4a4100",
+"string": "face\\BuyLandConfirm.fce"
+},
+{
+"addr": "0x4a4118",
+"string": "face\\BuildingFirm.fce"
+},
+{
+"addr": "0x4a4130",
+"string": "face\\MyFirmInfo.fce"
+},
+{
+"addr": "0x4a4144",
+"string": "face\\Home.fce"
+},
+{
+"addr": "0x4a4154",
+"string": "face\\face_buildfact_confirm.fce"
+},
+{
+"addr": "0x4a4174",
+"string": "face\\face_cancel_build_confirm.fce"
+},
+{
+"addr": "0x4a4198",
+"string": "face\\face_saleland_confirm.fce"
+},
+{
+"addr": "0x4a41b8",
+"string": "face\\MyFirmManage.fce"
+},
+{
+"addr": "0x4a41d0",
+"string": "face\\MyFirmRemove.fce"
+},
+{
+"addr": "0x4a41e8",
+"string": "face\\MyFirmRename.fce"
+},
+{
+"addr": "0x4a4200",
+"string": "face\\list2.fce"
+},
+{
+"addr": "0x4a4210",
+"string": "face\\balance_info.fce"
+},
+{
+"addr": "0x4a4228",
+"string": "%2.2f"
+},
+{
+"addr": "0x4a4230",
+"string": "face\\Bank.fce"
+},
+{
+"addr": "0x4a4240",
+"string": "face\\ProductBook_list.fce"
+},
+{
+"addr": "0x4a425c",
+"string": "face\\ProductBook_Board.fce"
+},
+{
+"addr": "0x4a4278",
+"string": "face\\ProductBook.fce"
+},
+{
+"addr": "0x4a4290",
+"string": "face\\Load.fce"
+},
+{
+"addr": "0x4a42a0",
+"string": "face_Load.cpp"
+},
+{
+"addr": "0x4a42b0",
+"string": "face\\LoadConfirm.fce"
+},
+{
+"addr": "0x4a42c8",
+"string": "face\\MenuConfirm.fce"
+},
+{
+"addr": "0x4a42e0",
+"string": "face\\new_Option.fce"
+},
+{
+"addr": "0x4a42f4",
+"string": "%7.0f"
+},
+{
+"addr": "0x4a42fc",
+"string": "face\\prod_info.fce"
+},
+{
+"addr": "0x4a4310",
+"string": "face_profit_info.cpp"
+},
+{
+"addr": "0x4a4328",
+"string": "face\\scroll_list1.fce"
+},
+{
+"addr": "0x4a4340",
+"string": "face\\profit_info.fce"
+},
+{
+"addr": "0x4a4358",
+"string": "%d.%d.%d %d:%d"
+},
+{
+"addr": "0x4a4368",
+"string": "face\\Save.fce"
+},
+{
+"addr": "0x4a4378",
+"string": "face_Save.cpp"
+},
+{
+"addr": "0x4a4388",
+"string": "face\\SaveConfirm.fce"
+},
+{
+"addr": "0x4a43a0",
+"string": "face_score_info.cpp"
+},
+{
+"addr": "0x4a43b4",
+"string": "face\\score_info.fce"
+},
+{
+"addr": "0x4a43c8",
+"string": "face_freeplay.cpp"
+},
+{
+"addr": "0x4a43dc",
+"string": "init_prodlist failed"
+},
+{
+"addr": "0x4a43f4",
+"string": "load city set failed"
+},
+{
+"addr": "0x4a440c",
+"string": "data\\citys.csv"
+},
+{
+"addr": "0x4a441c",
+"string": "pics\\smap"
+},
+{
+"addr": "0x4a4428",
+"string": "face\\ceo_info.fce"
+},
+{
+"addr": "0x4a443c",
+"string": "face\\colorlist.fce"
+},
+{
+"addr": "0x4a4450",
+"string": "face\\freeplay.fce"
+},
+{
+"addr": "0x4a4464",
+"string": "data\\AIinfo.csv"
+},
+{
+"addr": "0x4a4474",
+"string": "face\\freeplay_menu.fce"
+},
+{
+"addr": "0x4a448c",
+"string": "face\\lose_face.fce"
+},
+{
+"addr": "0x4a44a0",
+"string": "Video\\lose.wmv"
+},
+{
+"addr": "0x4a44b0",
+"string": "face\\win_face.fce"
+},
+{
+"addr": "0x4a44c4",
+"string": "buildokall"
+},
+{
+"addr": "0x4a44d0",
+"string": "buildok"
+},
+{
+"addr": "0x4a44e0",
+"string": "notalk"
+},
+{
+"addr": "0x4a44e8",
+"string": "wkrfill"
+},
+{
+"addr": "0x4a44f0",
+"string": "money1"
+},
+{
+"addr": "0x4a44f8",
+"string": "money"
+},
+{
+"addr": "0x4a4500",
+"string": "face\\face_cheat.fce"
+},
+{
+"addr": "0x4a4514",
+"string": "face\\face_mapedit.fce"
+},
+{
+"addr": "0x4a452c",
+"string": "face\\extface_putland.fce"
+},
+{
+"addr": "0x4a4548",
+"string": "face\\ceo_regist.fce"
+},
+{
+"addr": "0x4a4564",
+"string": "save\\slot"
+},
+{
+"addr": "0x4a4570",
+"string": "face\\taskmenu.fce"
+},
+{
+"addr": "0x4a4584",
+"string": "face_taskmenu.cpp"
+},
+{
+"addr": "0x4a4598",
+"string": "%s   %12s    %3d/%3d      %7d"
+},
+{
+"addr": "0x4a45c0",
+"string": "CEO_STAGE_"
+},
+{
+"addr": "0x4a45cc",
+"string": "face_taskplay.cpp"
+},
+{
+"addr": "0x4a45e0",
+"string": "%s(%s)"
+},
+{
+"addr": "0x4a45e8",
+"string": "face\\taskplay.fce"
+},
+{
+"addr": "0x4a45fc",
+"string": "face\\famhall2.fce"
+},
+{
+"addr": "0x4a4610",
+"string": "face\\famhall1.fce"
+},
+{
+"addr": "0x4a4624",
+"string": "face\\load_prograss.fce"
+},
+{
+"addr": "0x4a463c",
+"string": "face\\save_prograss.fce"
+},
+{
+"addr": "0x4a4668",
+"string": "%s --- %s"
+},
+{
+"addr": "0x4a4674",
+"string": "face\\buyfact.fce"
+},
+{
+"addr": "0x4a4688",
+"string": "face\\CompanyInfo.fce"
+},
+{
+"addr": "0x4a46a0",
+"string": "face\\face_event.fce"
+},
+{
+"addr": "0x4a46b4",
+"string": "face\\face_hint.fce"
+},
+{
+"addr": "0x4a46c8",
+"string": "face\\face_salesman.fce"
+},
+{
+"addr": "0x4a46e0",
+"string": "%3d/%2d"
+},
+{
+"addr": "0x4a46e8",
+"string": "face\\inoutinfo.fce"
+},
+{
+"addr": "0x4a46fc",
+"string": "face\\MapRotate.fce"
+},
+{
+"addr": "0x4a4710",
+"string": "face\\NoMoney.fce"
+},
+{
+"addr": "0x4a496c",
+"string": "data\\smapmenu.csv"
+},
+{
+"addr": "0x4a4980",
+"string": "face\\face_SmallMap.fce"
+},
+{
+"addr": "0x4a4998",
+"string": "%3d%%"
+},
+{
+"addr": "0x4a49a0",
+"string": "face\\taskhint.fce"
+},
+{
+"addr": "0x4a49bc",
+"string": "face\\MainMenu.fce"
+},
+{
+"addr": "0x4a49d0",
+"string": "face\\sreport.fce"
+},
+{
+"addr": "0x4a49e8",
+"string": "log.txt"
+},
+{
+"addr": "0x4a49f4",
+"string": "a_lib\\a_util.cpp"
+},
+{
+"addr": "0x4a4a08",
+"string": "a_lib\\a_block.cpp"
+},
+{
+"addr": "0x4a4a1c",
+"string": "mem_use > block_sum"
+},
+{
+"addr": "0x4a4a30",
+"string": "unfree memory %X: %s line:%d"
+},
+{
+"addr": "0x4a4a50",
+"string": "alloc_size != free_size"
+},
+{
+"addr": "0x4a4a68",
+"string": "alloc_size=%d\nfree_size=%d"
+},
+{
+"addr": "0x4a4a84",
+"string": "alloc_sum != free_sum"
+},
+{
+"addr": "0x4a4a9c",
+"string": "alloc_count=%d\nfree_count=%d"
+},
+{
+"addr": "0x4a4abc",
+"string": "unknown memory block"
+},
+{
+"addr": "0x4a4ad4",
+"string": "ptr:%x"
+},
+{
+"addr": "0x4a4adc",
+"string": "realloc unknow memory %X: %s %d"
+},
+{
+"addr": "0x4a4afc",
+"string": "free unknow memory %X: %s %d"
+},
+{
+"addr": "0x4a4b1c",
+"string": "no more unfree memory !!"
+},
+{
+"addr": "0x4a4b38",
+"string": "alloc failure"
+},
+{
+"addr": "0x4a4b48",
+"string": "size=%d an=%d as=%d"
+},
+{
+"addr": "0x4a4b64",
+"string": "error!! a_alloc(%d,%s,%d)"
+},
+{
+"addr": "0x4a4b80",
+"string": "alloc fail in %s %d\n"
+},
+{
+"addr": "0x4a4b98",
+"string": "free unknown memory"
+},
+{
+"addr": "0x4a4bb4",
+"string": "error!! a_free1(%x,%s,%d) size:%d"
+},
+{
+"addr": "0x4a4bd8",
+"string": "free fail in %s %d size:%d\n"
+},
+{
+"addr": "0x4a4bfc",
+"string": "error!! a_realloc1(%x,%d,%s,%d)"
+},
+{
+"addr": "0x4a4c1c",
+"string": "realloc fail in %s %d\n"
+},
+{
+"addr": "0x4a4c34",
+"string": "a_lib\\a_loadsave.cpp"
+},
+{
+"addr": "0x4a4c4c",
+"string": "a_lib\\a_pic2.cpp"
+},
+{
+"addr": "0x4a4c70",
+"string": "Already fix , please restart this program."
+},
+{
+"addr": "0x4a4c9c",
+"string": "Cache Index Error !!"
+},
+{
+"addr": "0x4a4cbc",
+"string": "cache too small"
+},
+{
+"addr": "0x4a4ccc",
+"string": "a_lib\\a_graph.cpp"
+},
+{
+"addr": "0x4a4ce0",
+"string": "Some file is not close"
+},
+{
+"addr": "0x4a4d04",
+"string": "New(\"%s\") ok:%d"
+},
+{
+"addr": "0x4a4d14",
+"string": "New(\"%s\") fail"
+},
+{
+"addr": "0x4a4d28",
+"string": "OpenRO(\"%s\") fail"
+},
+{
+"addr": "0x4a4d3c",
+"string": "OpenRO(\"%s\") ok:%d"
+},
+{
+"addr": "0x4a4d50",
+"string": "a_lib\\a_file.cpp"
+},
+{
+"addr": "0x4a4d70",
+"string": "Close(\"%d\")"
+},
+{
+"addr": "0x4a4d7c",
+"string": "Open(\"%s\") ok:%d"
+},
+{
+"addr": "0x4a4d98",
+"string": "a_pic_load_count != free_count !!"
+},
+{
+"addr": "0x4a4dbc",
+"string": "picload_count=%d\npicfree_count=%d"
+},
+{
+"addr": "0x4a4de0",
+"string": "a_lib\\a_pic.cpp"
+},
+{
+"addr": "0x4a4e00",
+"string": "[load second time : %s : %d]\n"
+},
+{
+"addr": "0x4a4e28",
+"string": "Play movie error:%x\r\nThe most common cause is not connected to the headset."
+},
+{
+"addr": "0x4a4e74",
+"string": "a_lib\\a_dsound.cpp"
+},
+{
+"addr": "0x4a4e98",
+"string": "Init Direct Sound failed"
+},
+{
+"addr": "0x4a4eb4",
+"string": "failed to open MP3"
+},
+{
+"addr": "0x4a4ec8",
+"string": "ChangeDisplaySettings OTHERS"
+},
+{
+"addr": "0x4a4ee8",
+"string": "ChangeDisplaySettings DISP_CHANGE_NOTUPDATED"
+},
+{
+"addr": "0x4a4f18",
+"string": "ChangeDisplaySettings DISP_CHANGE_FAILED"
+},
+{
+"addr": "0x4a4f44",
+"string": "ChangeDisplaySettings DISP_CHANGE_BADPARAM"
+},
+{
+"addr": "0x4a4f70",
+"string": "ChangeDisplaySettings DISP_CHANGE_BADMODE"
+},
+{
+"addr": "0x4a4f9c",
+"string": "ChangeDisplaySettings DISP_CHANGE_BADFLAGS"
+},
+{
+"addr": "0x4a4fc8",
+"string": "ChangeDisplaySettings DISP_CHANGE_BADDUALVIEW"
+},
+{
+"addr": "0x4a4ff8",
+"string": "Error"
+},
+{
+"addr": "0x4a5000",
+"string": "a_lib\\a_wingdi.cpp"
+},
+{
+"addr": "0x4a501c",
+"string": ".unz."
+},
+{
+"addr": "0x4a5024",
+"string": "a_lib\\a_pic16_uncompress.cpp"
+},
+{
+"addr": "0x4a5044",
+"string": "realloc fail"
+},
+{
+"addr": "0x4a5054",
+"string": "a_lib\\a_filepkg.cpp"
+},
+{
+"addr": "0x4a5068",
+"string": "a_lib\\wave.cpp"
+},
+{
+"addr": "0x4a5078",
+"string": "1.1.3"
+},
+{
+"addr": "0x4a5080",
+"string": " deflate 1.1.3 Copyright 1995-1998 Jean-loup Gailly "
+},
+{
+"addr": "0x4a5134",
+"string": "need dictionary"
+},
+{
+"addr": "0x4a5144",
+"string": "incorrect data check"
+},
+{
+"addr": "0x4a515c",
+"string": "incorrect header check"
+},
+{
+"addr": "0x4a5174",
+"string": "invalid window size"
+},
+{
+"addr": "0x4a5188",
+"string": "unknown compression method"
+},
+{
+"addr": "0x4a56fa",
+"string": "\u0007@\u0007 \u0007`\u0007"
+},
+{
+"addr": "0x4a570a",
+"string": "\u0007P\u00070\u0007p\u0007\b\u0007H\u0007(\u0007h\u0007"
+},
+{
+"addr": "0x4a572a",
+"string": "\u0007X\u00078\u0007x\u0007"
+},
+{
+"addr": "0x4a573a",
+"string": "\u0007D\u0007$\u0007d\u0007"
+},
+{
+"addr": "0x4a574a",
+"string": "\u0007T\u00074\u0007t\u0007"
+},
+{
+"addr": "0x4a57fc",
+"string": "\u0007\u0007\u0007\u0007\b\b\b\b\b\b\b\b\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\u000b\u000b\u000b\u000b\u000b\u000b\u000b\u000b\u000b\u000b\u000b\u000b\u000b\u000b\u000b\u000b"
+},
+{
+"addr": "0x4a5850",
+"string": "\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r"
+},
+{
+"addr": "0x4a5950",
+"string": "\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b"
+},
+{
+"addr": "0x4a59f7",
+"string": "\u0007\b\b\t\t\n\n\u000b\u000b"
+},
+{
+"addr": "0x4a5ad0",
+"string": "\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b\u001b"
+},
+{
+"addr": "0x4a5be0",
+"string": "incompatible version"
+},
+{
+"addr": "0x4a5bf8",
+"string": "buffer error"
+},
+{
+"addr": "0x4a5c08",
+"string": "insufficient memory"
+},
+{
+"addr": "0x4a5c1c",
+"string": "data error"
+},
+{
+"addr": "0x4a5c28",
+"string": "stream error"
+},
+{
+"addr": "0x4a5c38",
+"string": "file error"
+},
+{
+"addr": "0x4a5c44",
+"string": "stream end"
+},
+{
+"addr": "0x4a5c9c",
+"string": "invalid bit length repeat"
+},
+{
+"addr": "0x4a5cb8",
+"string": "too many length or distance symbols"
+},
+{
+"addr": "0x4a5cdc",
+"string": "invalid stored block lengths"
+},
+{
+"addr": "0x4a5cfc",
+"string": "invalid block type"
+},
+{
+"addr": "0x4a5d10",
+"string": "invalid literal/length code"
+},
+{
+"addr": "0x4a5d2c",
+"string": "invalid distance code"
+},
+{
+"addr": "0x4a5d48",
+"string": " inflate 1.1.3 Copyright 1995-1998 Mark Adler "
+},
+{
+"addr": "0x4a5f68",
+"string": "incomplete dynamic bit lengths tree"
+},
+{
+"addr": "0x4a5f8c",
+"string": "oversubscribed dynamic bit lengths tree"
+},
+{
+"addr": "0x4a5fb4",
+"string": "incomplete literal/length tree"
+},
+{
+"addr": "0x4a5fd4",
+"string": "oversubscribed literal/length tree"
+},
+{
+"addr": "0x4a5ff8",
+"string": "empty distance tree with lengths"
+},
+{
+"addr": "0x4a601c",
+"string": "incomplete distance tree"
+},
+{
+"addr": "0x4a6038",
+"string": "oversubscribed distance tree"
+},
+{
+"addr": "0x4a60a8",
+"string": "Sorry, unknown layer type.\n"
+},
+{
+"addr": "0x4a60c4",
+"string": "Free format not supported.\n"
+},
+{
+"addr": "0x4a60e0",
+"string": "Stream error\n"
+},
+{
+"addr": "0x4a60f0",
+"string": "Out of memory!\n"
+},
+{
+"addr": "0x4a6100",
+"string": "Fatal error in read_buf_byte!\n"
+},
+{
+"addr": "0x4a6120",
+"string": "Not enough output buffer space\n"
+},
+{
+"addr": "0x4a61a8",
+"string": "Blocktype == 0 and window-switching == 1 not allowed.\n"
+},
+{
+"addr": "0x4a61e0",
+"string": "big_values too large!\n"
+},
+{
+"addr": "0x4a61f8",
+"string": "mpg123: Can't rewind stream by %d bits!\n"
+},
+{
+"addr": "0x4a6260",
+"string": "a_prog\\a_interface.cpp"
+},
+{
+"addr": "0x4a627c",
+"string": "a_map\\a_map.cpp"
+},
+{
+"addr": "0x4a628c",
+"string": "wrong objid"
+},
+{
+"addr": "0x4a6298",
+"string": "show_objs realloc %X -> %X"
+},
+{
+"addr": "0x4a62bc",
+"string": "unputobj failure"
+},
+{
+"addr": "0x4a62d0",
+"string": "putobj failure"
+},
+{
+"addr": "0x4a62e8",
+"string": "a_map\\a_map_gnd.cpp"
+},
+{
+"addr": "0x4a6318",
+"string": "CorExitProcess"
+},
+{
+"addr": "0x4a6328",
+"string": "mscoree.dll"
+},
+{
+"addr": "0x4a6354",
+"string": "bad allocation"
+},
+{
+"addr": "0x4a636c",
+"string": "e+000"
+},
+{
+"addr": "0x4a6384",
+"string": "bad exception"
+},
+{
+"addr": "0x4a6394",
+"string": "KERNEL32.DLL"
+},
+{
+"addr": "0x4a63b0",
+"string": "FlsFree"
+},
+{
+"addr": "0x4a63b8",
+"string": "FlsSetValue"
+},
+{
+"addr": "0x4a63c4",
+"string": "FlsGetValue"
+},
+{
+"addr": "0x4a63d0",
+"string": "FlsAlloc"
+},
+{
+"addr": "0x4a6897",
+"string": "?X&eB"
+},
+{
+"addr": "0x4a68f7",
+"string": "?h6_~"
+},
+{
+"addr": "0x4a6977",
+"string": "?7Tf("
+},
+{
+"addr": "0x4a6a1b",
+"string": "=\\uI="
+},
+{
+"addr": "0x4a6f2a",
+"string": "g:I\u001bB"
+},
+{
+"addr": "0x4a6f59",
+"string": "]vQ<)8"
+},
+{
+"addr": "0x4a7423",
+"string": "|)P!?Ua0"
+},
+{
+"addr": "0x4a74b3",
+"string": "\r9&\\?"
+},
+{
+"addr": "0x4a74ca",
+"string": "Eb2]A="
+},
+{
+"addr": "0x4a74e5",
+"string": "hb?O2"
+},
+{
+"addr": "0x4a752b",
+"string": "2ieO="
+},
+{
+"addr": "0x4a756b",
+"string": "|W8A="
+},
+{
+"addr": "0x4a7585",
+"string": "np?z "
+},
+{
+"addr": "0x4a758b",
+"string": "m{\rM="
+},
+{
+"addr": "0x4a75d4",
+"string": "&\rt?,&"
+},
+{
+"addr": "0x4a75f6",
+"string": "u?^p?o4"
+},
+{
+"addr": "0x4a7626",
+"string": "w?q\u0007C"
+},
+{
+"addr": "0x4a7634",
+"string": "Pex?0"
+},
+{
+"addr": "0x4a76b4",
+"string": "y1~?|\""
+},
+{
+"addr": "0x4a770b",
+"string": "V%A+="
+},
+{
+"addr": "0x4a8635",
+"string": " \u0007?5O"
+},
+{
+"addr": "0x4a87b7",
+"string": "?|I7Z#"
+},
+{
+"addr": "0x4a87da",
+"string": ">,'1D="
+},
+{
+"addr": "0x4a8847",
+"string": "?g)([|X>="
+},
+{
+"addr": "0x4a88f3",
+"string": "fAp\u001b?"
+},
+{
+"addr": "0x4a8947",
+"string": "?IT$7"
+},
+{
+"addr": "0x4a8a73",
+"string": "u8\b\"?"
+},
+{
+"addr": "0x4a8a94",
+"string": ":h\"?bC"
+},
+{
+"addr": "0x4a8ae4",
+"string": "@H#?43"
+},
+{
+"addr": "0x4a8af4",
+"string": "Ax#?uN}*"
+},
+{
+"addr": "0x4a8b0a",
+"string": "r7Yr7="
+},
+{
+"addr": "0x4a8b1b",
+"string": ".K=\"="
+},
+{
+"addr": "0x4a8b34",
+"string": "F0$?3=1"
+},
+{
+"addr": "0x4a8b44",
+"string": "H`$?h|"
+},
+{
+"addr": "0x4a8bd6",
+"string": "&?~YK|"
+},
+{
+"addr": "0x4a8be3",
+"string": "sU0&?W"
+},
+{
+"addr": "0x4a8d7a",
+"string": ":]=O>"
+},
+{
+"addr": "0x4a8f28",
+"string": "G\"jm\n>;"
+},
+{
+"addr": "0x4a93ea",
+"string": "CqTR;"
+},
+{
+"addr": "0x4a9487",
+"string": "?]\b[S"
+},
+{
+"addr": "0x4a955f",
+"string": "<{Q}<"
+},
+{
+"addr": "0x4a9589",
+"string": "hI{L["
+},
+{
+"addr": "0x4a95df",
+"string": "<8bunz8"
+},
+{
+"addr": "0x4a9697",
+"string": "?(FN\\"
+},
+{
+"addr": "0x4a97fc",
+"string": "\u001bK<<H!"
+},
+{
+"addr": "0x4a98c9",
+"string": "m1WY$"
+},
+{
+"addr": "0x4a9997",
+"string": "?#%X.y"
+},
+{
+"addr": "0x4a99ec",
+"string": "F||<##"
+},
+{
+"addr": "0x4a9aaa",
+"string": "T~OXu"
+},
+{
+"addr": "0x4a9c1f",
+"string": "<@En[vP"
+},
+{
+"addr": "0x4a9df4",
+"string": "(null)"
+},
+{
+"addr": "0x4a9e04",
+"string": "(null)"
+},
+{
+"addr": "0x4a9e31",
+"string": "( 8PX\u0007\b"
+},
+{
+"addr": "0x4a9e39",
+"string": "700WP\u0007"
+},
+{
+"addr": "0x4a9e48",
+"string": "\b`h````"
+},
+{
+"addr": "0x4a9e51",
+"string": "xpxxxx\b\u0007\b"
+},
+{
+"addr": "0x4a9e6c",
+"string": "runtime error "
+},
+{
+"addr": "0x4a9e94",
+"string": "TLOSS error\r\n"
+},
+{
+"addr": "0x4a9eb0",
+"string": "SING error\r\n"
+},
+{
+"addr": "0x4a9ecc",
+"string": "DOMAIN error\r\n"
+},
+{
+"addr": "0x4a9ef0",
+"string": "R6033\r\n- Attempt to use MSIL code from this assembly during native code initialization\nThis indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.\r\n"
+},
+{
+"addr": "0x4aa0e0",
+"string": "R6032\r\n- not enough space for locale information\r\n"
+},
+{
+"addr": "0x4aa148",
+"string": "R6031\r\n- Attempt to initialize the CRT more than once.\nThis indicates a bug in your application.\r\n"
+},
+{
+"addr": "0x4aa210",
+"string": "R6030\r\n- CRT not initialized\r\n"
+},
+{
+"addr": "0x4aa250",
+"string": "R6028\r\n- unable to initialize heap\r\n"
+},
+{
+"addr": "0x4aa2a0",
+"string": "R6027\r\n- not enough space for lowio initialization\r\n"
+},
+{
+"addr": "0x4aa310",
+"string": "R6026\r\n- not enough space for stdio initialization\r\n"
+},
+{
+"addr": "0x4aa380",
+"string": "R6025\r\n- pure virtual function call\r\n"
+},
+{
+"addr": "0x4aa3d0",
+"string": "R6024\r\n- not enough space for _onexit/atexit table\r\n"
+},
+{
+"addr": "0x4aa440",
+"string": "R6019\r\n- unable to open console device\r\n"
+},
+{
+"addr": "0x4aa498",
+"string": "R6018\r\n- unexpected heap error\r\n"
+},
+{
+"addr": "0x4aa4e0",
+"string": "R6017\r\n- unexpected multithread lock error\r\n"
+},
+{
+"addr": "0x4aa540",
+"string": "R6016\r\n- not enough space for thread data\r\n"
+},
+{
+"addr": "0x4aa598",
+"string": "R6010\r\n- abort() has been called\r\n"
+},
+{
+"addr": "0x4aa5e0",
+"string": "R6009\r\n- not enough space for environment\r\n"
+},
+{
+"addr": "0x4aa638",
+"string": "R6008\r\n- not enough space for arguments\r\n"
+},
+{
+"addr": "0x4aa690",
+"string": "R6002\r\n- floating point support not loaded\r\n"
+},
+{
+"addr": "0x4aa7a0",
+"string": "Microsoft Visual C++ Runtime Library"
+},
+{
+"addr": "0x4aa7fc",
+"string": "<program name unknown>"
+},
+{
+"addr": "0x4aa82c",
+"string": "Runtime Error!\n\nProgram: "
+},
+{
+"addr": "0x4aa860",
+"string": "HH:mm:ss"
+},
+{
+"addr": "0x4aa874",
+"string": "dddd, MMMM dd, yyyy"
+},
+{
+"addr": "0x4aa89c",
+"string": "MM/dd/yy"
+},
+{
+"addr": "0x4aa8c0",
+"string": "December"
+},
+{
+"addr": "0x4aa8d4",
+"string": "November"
+},
+{
+"addr": "0x4aa8e8",
+"string": "October"
+},
+{
+"addr": "0x4aa8f8",
+"string": "September"
+},
+{
+"addr": "0x4aa90c",
+"string": "August"
+},
+{
+"addr": "0x4aa934",
+"string": "April"
+},
+{
+"addr": "0x4aa940",
+"string": "March"
+},
+{
+"addr": "0x4aa94c",
+"string": "February"
+},
+{
+"addr": "0x4aa960",
+"string": "January"
+},
+{
+"addr": "0x4aa9d0",
+"string": "Saturday"
+},
+{
+"addr": "0x4aa9e4",
+"string": "Friday"
+},
+{
+"addr": "0x4aa9f4",
+"string": "Thursday"
+},
+{
+"addr": "0x4aaa08",
+"string": "Wednesday"
+},
+{
+"addr": "0x4aaa1c",
+"string": "Tuesday"
+},
+{
+"addr": "0x4aaa2c",
+"string": "Monday"
+},
+{
+"addr": "0x4aaa3c",
+"string": "Sunday"
+},
+{
+"addr": "0x4aaa84",
+"string": "HH:mm:ss"
+},
+{
+"addr": "0x4aaa90",
+"string": "dddd, MMMM dd, yyyy"
+},
+{
+"addr": "0x4aaaa4",
+"string": "MM/dd/yy"
+},
+{
+"addr": "0x4aaab8",
+"string": "December"
+},
+{
+"addr": "0x4aaac4",
+"string": "November"
+},
+{
+"addr": "0x4aaad0",
+"string": "October"
+},
+{
+"addr": "0x4aaad8",
+"string": "September"
+},
+{
+"addr": "0x4aaae4",
+"string": "August"
+},
+{
+"addr": "0x4aaafc",
+"string": "April"
+},
+{
+"addr": "0x4aab04",
+"string": "March"
+},
+{
+"addr": "0x4aab0c",
+"string": "February"
+},
+{
+"addr": "0x4aab18",
+"string": "January"
+},
+{
+"addr": "0x4aab50",
+"string": "Saturday"
+},
+{
+"addr": "0x4aab5c",
+"string": "Friday"
+},
+{
+"addr": "0x4aab64",
+"string": "Thursday"
+},
+{
+"addr": "0x4aab70",
+"string": "Wednesday"
+},
+{
+"addr": "0x4aab7c",
+"string": "Tuesday"
+},
+{
+"addr": "0x4aab84",
+"string": "Monday"
+},
+{
+"addr": "0x4aab8c",
+"string": "Sunday"
+},
+{
+"addr": "0x4aabbc",
+"string": "Unknown exception"
+},
+{
+"addr": "0x4aace3",
+"string": " j\u0007h<"
+},
+{
+"addr": "0x4aad6f",
+"string": "?uZEeu\b"
+},
+{
+"addr": "0x4aae70",
+"string": "uZEeu\b"
+},
+{
+"addr": "0x4aaf23",
+"string": " j\u0007h<"
+},
+{
+"addr": "0x4ab170",
+"string": "uZEeu\b"
+},
+{
+"addr": "0x4ab26f",
+"string": "?uZEeu\b"
+},
+{
+"addr": "0x4ab583",
+"string": " j\u0007h<"
+},
+{
+"addr": "0x4ab60f",
+"string": "?uZEeu\b"
+},
+{
+"addr": "0x4ab710",
+"string": "uZEeu\b"
+},
+{
+"addr": "0x4ab7c3",
+"string": " j\u0007h<"
+},
+{
+"addr": "0x4aba10",
+"string": "uZEeu\b"
+},
+{
+"addr": "0x4abb0f",
+"string": "?uZEeu\b"
+},
+{
+"addr": "0x4abe05",
+"string": "('8PW"
+},
+{
+"addr": "0x4abe0e",
+"string": "700PP"
+},
+{
+"addr": "0x4abe20",
+"string": "`h`hhh\b\b\u0007xppwpp\b\b"
+},
+{
+"addr": "0x4abe40",
+"string": "UTF-8"
+},
+{
+"addr": "0x4abe48",
+"string": "UTF-16LE"
+},
+{
+"addr": "0x4abe54",
+"string": "UNICODE"
+},
+{
+"addr": "0x4abe60",
+"string": "SunMonTueWedThuFriSat"
+},
+{
+"addr": "0x4abe78",
+"string": "JanFebMarAprMayJunJulAugSepOctNovDec"
+},
+{
+"addr": "0x4abed7",
+"string": "?UUUUUU"
+},
+{
+"addr": "0x4abf95",
+"string": "|u?!u$"
+},
+{
+"addr": "0x4abfa5",
+"string": "Nu?-HF"
+},
+{
+"addr": "0x4abfb6",
+"string": "d? cf>\t"
+},
+{
+"addr": "0x4ac131",
+"string": "c\\5\bj"
+},
+{
+"addr": "0x4ac455",
+"string": "&2@UUUUUU"
+},
+{
+"addr": "0x4ac5b9",
+"string": "b\u001b/[E"
+},
+{
+"addr": "0x4ac60a",
+"string": "#wi#:"
+},
+{
+"addr": "0x4ac700",
+"string": "+*tsJ"
+},
+{
+"addr": "0x4ac7f1",
+"string": "s{c|H"
+},
+{
+"addr": "0x4aca38",
+"string": "UUUUUU"
+},
+{
+"addr": "0x4acb47",
+"string": ">o3fW"
+},
+{
+"addr": "0x4acc11",
+"string": "s{c|H"
+},
+{
+"addr": "0x4acc80",
+"string": "+*tsJ"
+},
+{
+"addr": "0x4acd5b",
+"string": "?c3y?"
+},
+{
+"addr": "0x4acdf9",
+"string": "b\u001b/[E"
+},
+{
+"addr": "0x4ace4a",
+"string": "#wi#:="
+},
+{
+"addr": "0x4ace9f",
+"string": "?.\"S-"
+},
+{
+"addr": "0x4acedd",
+"string": "A]?VJ"
+},
+{
+"addr": "0x4acf55",
+"string": "&2@UUUUUU"
+},
+{
+"addr": "0x4ad311",
+"string": "c\\5\bj"
+},
+{
+"addr": "0x4ad445",
+"string": "Nu?-HF"
+},
+{
+"addr": "0x4ad458",
+"string": " cf>\t"
+},
+{
+"addr": "0x4ad546",
+"string": "\u0007\b\t\n\u000b"
+},
+{
+"addr": "0x4ad55f",
+"string": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~"
+},
+{
+"addr": "0x4ad644",
+"string": "floor"
+},
+{
+"addr": "0x4ad65c",
+"string": "exp10"
+},
+{
+"addr": "0x4ad678",
+"string": "log10"
+},
+{
+"addr": "0x4ad688",
+"string": "GetProcessWindowStation"
+},
+{
+"addr": "0x4ad6a0",
+"string": "GetUserObjectInformationW"
+},
+{
+"addr": "0x4ad6bc",
+"string": "GetLastActivePopup"
+},
+{
+"addr": "0x4ad6d0",
+"string": "GetActiveWindow"
+},
+{
+"addr": "0x4ad6e0",
+"string": "MessageBoxW"
+},
+{
+"addr": "0x4ad6ec",
+"string": "USER32.DLL"
+},
+{
+"addr": "0x4ad808",
+"string": "         (((((                  H"
+},
+{
+"addr": "0x4ada0c",
+"string": "        h((((                  H"
+},
+{
+"addr": "0x4adb08",
+"string": "                                 H"
+},
+{
+"addr": "0x4adc97",
+"string": "\u0007\b\t\n\u000b"
+},
+{
+"addr": "0x4adcb0",
+"string": " !\"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~"
+},
+{
+"addr": "0x4ade17",
+"string": "\u0007\b\t\n\u000b"
+},
+{
+"addr": "0x4ade30",
+"string": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~"
+},
+{
+"addr": "0x4adf10",
+"string": " Complete Object Locator'"
+},
+{
+"addr": "0x4adf2c",
+"string": " Class Hierarchy Descriptor'"
+},
+{
+"addr": "0x4adf4c",
+"string": " Base Class Array'"
+},
+{
+"addr": "0x4adf60",
+"string": " Base Class Descriptor at ("
+},
+{
+"addr": "0x4adf7c",
+"string": " Type Descriptor'"
+},
+{
+"addr": "0x4adf90",
+"string": "`local static thread guard'"
+},
+{
+"addr": "0x4adfac",
+"string": "`managed vector copy constructor iterator'"
+},
+{
+"addr": "0x4adfd8",
+"string": "`vector vbase copy constructor iterator'"
+},
+{
+"addr": "0x4ae004",
+"string": "`vector copy constructor iterator'"
+},
+{
+"addr": "0x4ae028",
+"string": "`dynamic atexit destructor for '"
+},
+{
+"addr": "0x4ae04c",
+"string": "`dynamic initializer for '"
+},
+{
+"addr": "0x4ae068",
+"string": "`eh vector vbase copy constructor iterator'"
+},
+{
+"addr": "0x4ae094",
+"string": "`eh vector copy constructor iterator'"
+},
+{
+"addr": "0x4ae0bc",
+"string": "`managed vector destructor iterator'"
+},
+{
+"addr": "0x4ae0e4",
+"string": "`managed vector constructor iterator'"
+},
+{
+"addr": "0x4ae10c",
+"string": "`placement delete[] closure'"
+},
+{
+"addr": "0x4ae12c",
+"string": "`placement delete closure'"
+},
+{
+"addr": "0x4ae148",
+"string": "`omni callsig'"
+},
+{
+"addr": "0x4ae158",
+"string": " delete[]"
+},
+{
+"addr": "0x4ae164",
+"string": " new[]"
+},
+{
+"addr": "0x4ae16c",
+"string": "`local vftable constructor closure'"
+},
+{
+"addr": "0x4ae190",
+"string": "`local vftable'"
+},
+{
+"addr": "0x4ae1a0",
+"string": "`RTTI"
+},
+{
+"addr": "0x4ae1ac",
+"string": "`udt returning'"
+},
+{
+"addr": "0x4ae1bc",
+"string": "`copy constructor closure'"
+},
+{
+"addr": "0x4ae1d8",
+"string": "`eh vector vbase constructor iterator'"
+},
+{
+"addr": "0x4ae200",
+"string": "`eh vector destructor iterator'"
+},
+{
+"addr": "0x4ae220",
+"string": "`eh vector constructor iterator'"
+},
+{
+"addr": "0x4ae244",
+"string": "`virtual displacement map'"
+},
+{
+"addr": "0x4ae260",
+"string": "`vector vbase constructor iterator'"
+},
+{
+"addr": "0x4ae284",
+"string": "`vector destructor iterator'"
+},
+{
+"addr": "0x4ae2a4",
+"string": "`vector constructor iterator'"
+},
+{
+"addr": "0x4ae2c4",
+"string": "`scalar deleting destructor'"
+},
+{
+"addr": "0x4ae2e4",
+"string": "`default constructor closure'"
+},
+{
+"addr": "0x4ae304",
+"string": "`vector deleting destructor'"
+},
+{
+"addr": "0x4ae324",
+"string": "`vbase destructor'"
+},
+{
+"addr": "0x4ae338",
+"string": "`string'"
+},
+{
+"addr": "0x4ae344",
+"string": "`local static guard'"
+},
+{
+"addr": "0x4ae35c",
+"string": "`typeof'"
+},
+{
+"addr": "0x4ae368",
+"string": "`vcall'"
+},
+{
+"addr": "0x4ae370",
+"string": "`vbtable'"
+},
+{
+"addr": "0x4ae37c",
+"string": "`vftable'"
+},
+{
+"addr": "0x4ae404",
+"string": "operator"
+},
+{
+"addr": "0x4ae428",
+"string": " delete"
+},
+{
+"addr": "0x4ae438",
+"string": "__unaligned"
+},
+{
+"addr": "0x4ae444",
+"string": "__restrict"
+},
+{
+"addr": "0x4ae450",
+"string": "__ptr64"
+},
+{
+"addr": "0x4ae458",
+"string": "__eabi"
+},
+{
+"addr": "0x4ae460",
+"string": "__clrcall"
+},
+{
+"addr": "0x4ae46c",
+"string": "__fastcall"
+},
+{
+"addr": "0x4ae478",
+"string": "__thiscall"
+},
+{
+"addr": "0x4ae484",
+"string": "__stdcall"
+},
+{
+"addr": "0x4ae490",
+"string": "__pascal"
+},
+{
+"addr": "0x4ae49c",
+"string": "__cdecl"
+},
+{
+"addr": "0x4ae4a4",
+"string": "__based("
+},
+{
+"addr": "0x4ae634",
+"string": "1#QNAN"
+},
+{
+"addr": "0x4ae63c",
+"string": "1#INF"
+},
+{
+"addr": "0x4ae644",
+"string": "1#IND"
+},
+{
+"addr": "0x4ae64c",
+"string": "1#SNAN"
+},
+{
+"addr": "0x4ae654",
+"string": "_nextafter"
+},
+{
+"addr": "0x4ae660",
+"string": "_logb"
+},
+{
+"addr": "0x4ae674",
+"string": "frexp"
+},
+{
+"addr": "0x4ae684",
+"string": "_hypot"
+},
+{
+"addr": "0x4ae68c",
+"string": "_cabs"
+},
+{
+"addr": "0x4ae694",
+"string": "ldexp"
+},
+{
+"addr": "0x4ae6ac",
+"string": "atan2"
+},
+{
+"addr": "0x4ae6cc",
+"string": "CONOUT$"
+},
+{
+"addr": "0x4b004e",
+"string": "SteamInternal_FindOrCreateUserInterface"
+},
+{
+"addr": "0x4b0078",
+"string": "SteamAPI_GetHSteamUser"
+},
+{
+"addr": "0x4b0092",
+"string": "SteamInternal_ContextInit"
+},
+{
+"addr": "0x4b00ae",
+"string": "SteamInternal_CreateInterface"
+},
+{
+"addr": "0x4b00ce",
+"string": "SteamAPI_UnregisterCallback"
+},
+{
+"addr": "0x4b00ec",
+"string": "SteamAPI_RegisterCallback"
+},
+{
+"addr": "0x4b0108",
+"string": "SteamAPI_Init"
+},
+{
+"addr": "0x4b0118",
+"string": "SteamAPI_RestartAppIfNecessary"
+},
+{
+"addr": "0x4b013a",
+"string": "SteamAPI_RunCallbacks"
+},
+{
+"addr": "0x4b0150",
+"string": "steam_api.dll"
+},
+{
+"addr": "0x4b0160",
+"string": "CreateDirectoryA"
+},
+{
+"addr": "0x4b0174",
+"string": "GetTickCount"
+},
+{
+"addr": "0x4b0184",
+"string": "CloseHandle"
+},
+{
+"addr": "0x4b0192",
+"string": "CreateFileA"
+},
+{
+"addr": "0x4b01a0",
+"string": "OutputDebugStringA"
+},
+{
+"addr": "0x4b01b6",
+"string": "WideCharToMultiByte"
+},
+{
+"addr": "0x4b01cc",
+"string": "MultiByteToWideChar"
+},
+{
+"addr": "0x4b01e2",
+"string": "ReleaseMutex"
+},
+{
+"addr": "0x4b01f2",
+"string": "GetUserDefaultLCID"
+},
+{
+"addr": "0x4b0208",
+"string": "GetLastError"
+},
+{
+"addr": "0x4b0218",
+"string": "CreateMutexA"
+},
+{
+"addr": "0x4b0228",
+"string": "Sleep"
+},
+{
+"addr": "0x4b022e",
+"string": "KERNEL32.dll"
+},
+{
+"addr": "0x4b023e",
+"string": "MessageBoxA"
+},
+{
+"addr": "0x4b024c",
+"string": "GetKeyState"
+},
+{
+"addr": "0x4b025a",
+"string": "GetAsyncKeyState"
+},
+{
+"addr": "0x4b026e",
+"string": "PostQuitMessage"
+},
+{
+"addr": "0x4b0280",
+"string": "DefWindowProcA"
+},
+{
+"addr": "0x4b0292",
+"string": "DestroyWindow"
+},
+{
+"addr": "0x4b02a2",
+"string": "EndPaint"
+},
+{
+"addr": "0x4b02ae",
+"string": "DrawTextA"
+},
+{
+"addr": "0x4b02ba",
+"string": "GetClientRect"
+},
+{
+"addr": "0x4b02ca",
+"string": "BeginPaint"
+},
+{
+"addr": "0x4b02d8",
+"string": "GetMessageA"
+},
+{
+"addr": "0x4b02e6",
+"string": "UpdateWindow"
+},
+{
+"addr": "0x4b02f6",
+"string": "ShowWindow"
+},
+{
+"addr": "0x4b0304",
+"string": "CreateWindowExW"
+},
+{
+"addr": "0x4b0316",
+"string": "CreateWindowExA"
+},
+{
+"addr": "0x4b0328",
+"string": "GetSystemMetrics"
+},
+{
+"addr": "0x4b033c",
+"string": "RegisterClassExA"
+},
+{
+"addr": "0x4b0350",
+"string": "DispatchMessageA"
+},
+{
+"addr": "0x4b0364",
+"string": "TranslateMessage"
+},
+{
+"addr": "0x4b0378",
+"string": "PeekMessageA"
+},
+{
+"addr": "0x4b0388",
+"string": "ShowCursor"
+},
+{
+"addr": "0x4b0394",
+"string": "USER32.dll"
+},
+{
+"addr": "0x4b03a0",
+"string": "DSOUND.dll"
+},
+{
+"addr": "0x4b03ae",
+"string": "mmioClose"
+},
+{
+"addr": "0x4b03ba",
+"string": "mmioAscend"
+},
+{
+"addr": "0x4b03c8",
+"string": "mmioRead"
+},
+{
+"addr": "0x4b03d4",
+"string": "mmioDescend"
+},
+{
+"addr": "0x4b03e2",
+"string": "mmioOpenA"
+},
+{
+"addr": "0x4b03ee",
+"string": "mmioSeek"
+},
+{
+"addr": "0x4b03fa",
+"string": "mmioSetInfo"
+},
+{
+"addr": "0x4b0408",
+"string": "mmioAdvance"
+},
+{
+"addr": "0x4b0416",
+"string": "mmioGetInfo"
+},
+{
+"addr": "0x4b0422",
+"string": "WINMM.dll"
+},
+{
+"addr": "0x4b042e",
+"string": "InterlockedIncrement"
+},
+{
+"addr": "0x4b0446",
+"string": "InterlockedDecrement"
+},
+{
+"addr": "0x4b045e",
+"string": "DeleteFileA"
+},
+{
+"addr": "0x4b046c",
+"string": "GetFileAttributesA"
+},
+{
+"addr": "0x4b0482",
+"string": "RemoveDirectoryA"
+},
+{
+"addr": "0x4b0496",
+"string": "FindClose"
+},
+{
+"addr": "0x4b04a2",
+"string": "FindNextFileA"
+},
+{
+"addr": "0x4b04b2",
+"string": "FindFirstFileA"
+},
+{
+"addr": "0x4b04c4",
+"string": "SetCurrentDirectoryA"
+},
+{
+"addr": "0x4b04dc",
+"string": "GetCurrentDirectoryA"
+},
+{
+"addr": "0x4b04f4",
+"string": "RtlUnwind"
+},
+{
+"addr": "0x4b0500",
+"string": "EncodePointer"
+},
+{
+"addr": "0x4b0510",
+"string": "DecodePointer"
+},
+{
+"addr": "0x4b0520",
+"string": "GetProcAddress"
+},
+{
+"addr": "0x4b0532",
+"string": "GetModuleHandleW"
+},
+{
+"addr": "0x4b0546",
+"string": "ExitProcess"
+},
+{
+"addr": "0x4b0554",
+"string": "GetDriveTypeW"
+},
+{
+"addr": "0x4b0564",
+"string": "GetFullPathNameA"
+},
+{
+"addr": "0x4b0578",
+"string": "GetCommandLineA"
+},
+{
+"addr": "0x4b058a",
+"string": "HeapSetInformation"
+},
+{
+"addr": "0x4b05a0",
+"string": "GetStartupInfoW"
+},
+{
+"addr": "0x4b05b2",
+"string": "HeapFree"
+},
+{
+"addr": "0x4b05be",
+"string": "HeapReAlloc"
+},
+{
+"addr": "0x4b05cc",
+"string": "HeapAlloc"
+},
+{
+"addr": "0x4b05d8",
+"string": "SetEndOfFile"
+},
+{
+"addr": "0x4b05e8",
+"string": "GetProcessHeap"
+},
+{
+"addr": "0x4b05fa",
+"string": "GetSystemTimeAsFileTime"
+},
+{
+"addr": "0x4b0614",
+"string": "ExitThread"
+},
+{
+"addr": "0x4b0622",
+"string": "ResumeThread"
+},
+{
+"addr": "0x4b0632",
+"string": "CreateThread"
+},
+{
+"addr": "0x4b0642",
+"string": "EnterCriticalSection"
+},
+{
+"addr": "0x4b065a",
+"string": "LeaveCriticalSection"
+},
+{
+"addr": "0x4b0672",
+"string": "TerminateProcess"
+},
+{
+"addr": "0x4b0686",
+"string": "GetCurrentProcess"
+},
+{
+"addr": "0x4b069a",
+"string": "UnhandledExceptionFilter"
+},
+{
+"addr": "0x4b06b6",
+"string": "SetUnhandledExceptionFilter"
+},
+{
+"addr": "0x4b06d4",
+"string": "IsDebuggerPresent"
+},
+{
+"addr": "0x4b06e8",
+"string": "IsProcessorFeaturePresent"
+},
+{
+"addr": "0x4b0704",
+"string": "TlsAlloc"
+},
+{
+"addr": "0x4b0710",
+"string": "TlsGetValue"
+},
+{
+"addr": "0x4b071e",
+"string": "TlsSetValue"
+},
+{
+"addr": "0x4b072c",
+"string": "TlsFree"
+},
+{
+"addr": "0x4b0736",
+"string": "SetLastError"
+},
+{
+"addr": "0x4b0746",
+"string": "GetCurrentThreadId"
+},
+{
+"addr": "0x4b075c",
+"string": "HeapSize"
+},
+{
+"addr": "0x4b0768",
+"string": "InitializeCriticalSectionAndSpinCount"
+},
+{
+"addr": "0x4b0790",
+"string": "DeleteCriticalSection"
+},
+{
+"addr": "0x4b07a8",
+"string": "LoadLibraryW"
+},
+{
+"addr": "0x4b07b8",
+"string": "WriteFile"
+},
+{
+"addr": "0x4b07c4",
+"string": "GetStdHandle"
+},
+{
+"addr": "0x4b07d4",
+"string": "GetModuleFileNameW"
+},
+{
+"addr": "0x4b07ea",
+"string": "GetCPInfo"
+},
+{
+"addr": "0x4b07f6",
+"string": "GetACP"
+},
+{
+"addr": "0x4b0800",
+"string": "GetOEMCP"
+},
+{
+"addr": "0x4b080c",
+"string": "IsValidCodePage"
+},
+{
+"addr": "0x4b081e",
+"string": "RaiseException"
+},
+{
+"addr": "0x4b0830",
+"string": "GetCurrentDirectoryW"
+},
+{
+"addr": "0x4b0848",
+"string": "GetModuleFileNameA"
+},
+{
+"addr": "0x4b085e",
+"string": "FreeEnvironmentStringsW"
+},
+{
+"addr": "0x4b0878",
+"string": "GetEnvironmentStringsW"
+},
+{
+"addr": "0x4b0892",
+"string": "SetHandleCount"
+},
+{
+"addr": "0x4b08a4",
+"string": "GetFileType"
+},
+{
+"addr": "0x4b08b2",
+"string": "HeapCreate"
+},
+{
+"addr": "0x4b08c0",
+"string": "QueryPerformanceCounter"
+},
+{
+"addr": "0x4b08da",
+"string": "GetCurrentProcessId"
+},
+{
+"addr": "0x4b08f0",
+"string": "GetConsoleCP"
+},
+{
+"addr": "0x4b0900",
+"string": "GetConsoleMode"
+},
+{
+"addr": "0x4b0912",
+"string": "FlushFileBuffers"
+},
+{
+"addr": "0x4b0926",
+"string": "SetFilePointer"
+},
+{
+"addr": "0x4b0938",
+"string": "SetStdHandle"
+},
+{
+"addr": "0x4b0948",
+"string": "ReadFile"
+},
+{
+"addr": "0x4b0954",
+"string": "GetTimeZoneInformation"
+},
+{
+"addr": "0x4b096e",
+"string": "LCMapStringW"
+},
+{
+"addr": "0x4b097e",
+"string": "GetStringTypeW"
+},
+{
+"addr": "0x4b0990",
+"string": "WriteConsoleW"
+},
+{
+"addr": "0x4b09a0",
+"string": "CreateFileW"
+},
+{
+"addr": "0x4b09ae",
+"string": "CompareStringW"
+},
+{
+"addr": "0x4b09c0",
+"string": "SetEnvironmentVariableA"
+},
+{
+"addr": "0x4b09da",
+"string": "InvalidateRect"
+},
+{
+"addr": "0x4b09ec",
+"string": "SetWindowLongA"
+},
+{
+"addr": "0x4b09fe",
+"string": "LoadCursorA"
+},
+{
+"addr": "0x4b0a0c",
+"string": "LoadIconA"
+},
+{
+"addr": "0x4b0a18",
+"string": "GetWindowLongA"
+},
+{
+"addr": "0x4b0a2a",
+"string": "MoveWindow"
+},
+{
+"addr": "0x4b0a38",
+"string": "ClientToScreen"
+},
+{
+"addr": "0x4b0a4a",
+"string": "GetWindowRect"
+},
+{
+"addr": "0x4b0a5a",
+"string": "GetDesktopWindow"
+},
+{
+"addr": "0x4b0a6e",
+"string": "ChangeDisplaySettingsA"
+},
+{
+"addr": "0x4b0a88",
+"string": "ReleaseDC"
+},
+{
+"addr": "0x4b0a94",
+"string": "GetDC"
+},
+{
+"addr": "0x4b0a9c",
+"string": "GetFocus"
+},
+{
+"addr": "0x4b0aa8",
+"string": "ScreenToClient"
+},
+{
+"addr": "0x4b0aba",
+"string": "GetCursorPos"
+},
+{
+"addr": "0x4b0aca",
+"string": "GetStockObject"
+},
+{
+"addr": "0x4b0adc",
+"string": "SelectObject"
+},
+{
+"addr": "0x4b0aec",
+"string": "CreateDIBSection"
+},
+{
+"addr": "0x4b0b00",
+"string": "CreateCompatibleDC"
+},
+{
+"addr": "0x4b0b16",
+"string": "DeleteObject"
+},
+{
+"addr": "0x4b0b26",
+"string": "DeleteDC"
+},
+{
+"addr": "0x4b0b32",
+"string": "GetCurrentObject"
+},
+{
+"addr": "0x4b0b46",
+"string": "BitBlt"
+},
+{
+"addr": "0x4b0b50",
+"string": "CreateFontA"
+},
+{
+"addr": "0x4b0b5e",
+"string": "SetTextColor"
+},
+{
+"addr": "0x4b0b6e",
+"string": "SetBkMode"
+},
+{
+"addr": "0x4b0b7a",
+"string": "Rectangle"
+},
+{
+"addr": "0x4b0b86",
+"string": "CreateSolidBrush"
+},
+{
+"addr": "0x4b0b9a",
+"string": "CreatePen"
+},
+{
+"addr": "0x4b0ba4",
+"string": "GDI32.dll"
+},
+{
+"addr": "0x4b0bb0",
+"string": "CoCreateInstance"
+},
+{
+"addr": "0x4b0bc4",
+"string": "CoUninitialize"
+},
+{
+"addr": "0x4b0bd6",
+"string": "CoInitialize"
+},
+{
+"addr": "0x4b0be4",
+"string": "ole32.dll"
+},
+{
+"addr": "0x4b0bf0",
+"string": "DirectDrawCreate"
+},
+{
+"addr": "0x4b0c02",
+"string": "DDRAW.dll"
+},
+{
+"addr": "0x4b30f0",
+"string": ".?AVCCallbackBase@@"
+},
+{
+"addr": "0x4b3154",
+"string": ".?AV?$CCallbackImpl@$0BI@@@"
+},
+{
+"addr": "0x4b3178",
+"string": ".?AV?$CCallbackImpl@$0BA@@@"
+},
+{
+"addr": "0x4b319c",
+"string": ".?AV?$CCallbackImpl@$0JI@@@"
+},
+{
+"addr": "0x4b31c0",
+"string": ".?AV?$CCallback@VCSteamAchievements@@UUserStatsReceived_t@@$0A@@@"
+},
+{
+"addr": "0x4b3210",
+"string": ".?AV?$CCallback@VCSteamAchievements@@UUserStatsStored_t@@$0A@@@"
+},
+{
+"addr": "0x4b3258",
+"string": ".?AV?$CCallback@VCSteamAchievements@@UUserAchievementStored_t@@$0A@@@"
+},
+{
+"addr": "0x4b3918",
+"string": "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ+-*/,.<>?;:'[]{}|=\"\\`~!@#$%^&*()_"
+},
+{
+"addr": "0x4b5d40",
+"string": "UUUUUU"
+},
+{
+"addr": "0x4b5d48",
+"string": "UUUUUU"
+},
+{
+"addr": "0x4b77b8",
+"string": "$,4>JZn"
+},
+{
+"addr": "0x4b77f6",
+"string": "\"*26L"
+},
+{
+"addr": "0x4b7808",
+"string": "$0BZx"
+},
+{
+"addr": "0x4b7848",
+"string": "$*2<HXj"
+},
+{
+"addr": "0x4b7886",
+"string": "\"(.66"
+},
+{
+"addr": "0x4b7898",
+"string": "$0BTr"
+},
+{
+"addr": "0x4b78d8",
+"string": "$,6BRf~"
+},
+{
+"addr": "0x4b7914",
+"string": "&.8DTf"
+},
+{
+"addr": "0x4b7928",
+"string": "$0BZ~"
+},
+{
+"addr": "0x4b7964",
+"string": "$,6BP`t"
+},
+{
+"addr": "0x4b79a2",
+"string": " &.4<D:6"
+},
+{
+"addr": "0x4b79b8",
+"string": "$6H`~"
+},
+{
+"addr": "0x4b79f4",
+"string": "$,6BP`r"
+},
+{
+"addr": "0x4b7a32",
+"string": " &.4@FL$"
+},
+{
+"addr": "0x4b7a84",
+"string": "$,6BP`t"
+},
+{
+"addr": "0x4b7ac2",
+"string": " &.4<D:6"
+},
+{
+"addr": "0x4b7b14",
+"string": "$,6BP`t"
+},
+{
+"addr": "0x4b7b52",
+"string": " &.4<D:6"
+},
+{
+"addr": "0x4b7ba4",
+"string": "$,6BP`t"
+},
+{
+"addr": "0x4b7be2",
+"string": " &.4<D:6"
+},
+{
+"addr": "0x4b7c2e",
+"string": "$0<HXl"
+},
+{
+"addr": "0x4b7c6a",
+"string": " (08@LZ"
+},
+{
+"addr": "0x4b7cb8",
+"string": "333333"
+},
+{
+"addr": "0x4b7d40",
+"string": "\t\t\t\t\t\t"
+},
+{
+"addr": "0x4b8200",
+"string": "0123456789"
+},
+{
+"addr": "0x4b8288",
+"string": ".?AVtype_info@@"
+},
+{
+"addr": "0x4b82a8",
+"string": ".?AVbad_alloc@std@@"
+},
+{
+"addr": "0x4b82c4",
+"string": ".?AVexception@std@@"
+},
+{
+"addr": "0x4b85c8",
+"string": ".?AVbad_exception@std@@"
+},
+{
+"addr": "0x4b890e",
+"string": "                          "
+},
+{
+"addr": "0x4b89ee",
+"string": "abcdefghijklmnopqrstuvwxyz"
+},
+{
+"addr": "0x4b8a0e",
+"string": "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+},
+{
+"addr": "0x4b8b12",
+"string": "                          "
+},
+{
+"addr": "0x4b8bf9",
+"string": "abcdefghijklmnopqrstuvwxyz"
+},
+{
+"addr": "0x4b8c19",
+"string": "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+},
+{
+"addr": "0x4b94de",
+"string": "z?aUY"
+},
+{
+"addr": "0x4b9520",
+"string": "zc%C1"
+},
+{
+"addr": "0x4b9573",
+"string": "-64OS"
+}
+]

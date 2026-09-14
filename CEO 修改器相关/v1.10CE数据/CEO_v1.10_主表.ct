@@ -134,6 +134,13 @@ dealloc(f3r_type)
           <VariableType>4 Bytes</VariableType>
           <Address>f3r_type</Address>
         </CheatEntry>
+        <CheatEntry>
+          <ID>90</ID>
+          <Description>"★ 作弊控制台热键: F6=一键配满厂房人力  F7=选中物件完工  F8=全部完工  F9=本公司+1亿  F10=打开控制台(手动输入)"</Description>
+          <Options moHideChildren="1"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries/>
+        </CheatEntry>
       </CheatEntries>
     </CheatEntry>
   </CheatEntries>
@@ -202,5 +209,65 @@ gzTimer.OnTimer = function()
     pcall(function() writeInteger(getAddress('CEO.exe+4D6074'), cLockVal) end)
   end
 end
-gzTimer.setEnabled(true)</LuaScript>
+gzTimer.setEnabled(true)
+-- ===== 游戏内置作弊控制台快捷调用 (2026-09-14) =====
+-- 机制: 左Ctrl(keybd_event 设置真实键状态, 骗过游戏的 GetAsyncKeyState 判定)
+--       + SendMessage 发 F5 打开控制台 -> WM_CHAR 输入命令 -> SendMessage 回车执行
+-- 特点: 不调用任何游戏内部函数、不要求游戏窗口在前台 (实测 2026-09-14 全部通过)
+-- 命令: wkrfill 一键配满当前厂房人力 / buildok 当前选中物件一键完工 /
+--       buildokall 全部完工 / money1 本公司+1亿 / money 所有公司+1亿 / talk notalk 对话开关
+local CONSOLE_FLAG = 'CEO.exe+4CAF74'
+
+local function gameHwnd()
+  local ok, h = pcall(findWindow, nil, 'CEO STEAM')
+  if ok and h and h ~= 0 then return h end
+  return nil
+end
+
+local function consoleOpened()
+  local b = readBytes(CONSOLE_FLAG, 4, true)
+  return b and b[1] == 1
+end
+
+local function runCheatCommand(cmd)
+  local h = gameHwnd()
+  if not h then print('未找到游戏窗口 CEO STEAM'); return false end
+  local kbd = getAddress('keybd_event')
+  executeCodeEx(0, nil, kbd, 0xA2, 0x1D, 0, 0)          -- 左Ctrl 按下
+  SendMessage(h, 0x100, 0x74, 0x003F0001)               -- WM_KEYDOWN F5
+  SendMessage(h, 0x101, 0x74, 0xC03F0001)               -- WM_KEYUP   F5
+  executeCodeEx(0, nil, kbd, 0xA2, 0x1D, 2, 0)          -- 左Ctrl 抬起
+  sleep(250)
+  if not consoleOpened() then return false end          -- 未打开则不输入, 避免误输入
+  for i = 1, #cmd do
+    SendMessage(h, 0x102, string.byte(cmd, i), 1)       -- WM_CHAR 逐字输入
+    sleep(50)
+  end
+  sleep(120)
+  SendMessage(h, 0x100, 0x0D, 0x001C0001)               -- WM_KEYDOWN Enter 执行
+  SendMessage(h, 0x101, 0x0D, 0xC01C0001)               -- WM_KEYUP   Enter
+  sleep(250)
+  return true
+end
+
+local function bindCheat(vk, cmd)
+  return createHotkey(function() if runCheatCommand(cmd) then beep() end end, vk)
+end
+for _, v in ipairs({'hkF6','hkF7','hkF8','hkF9','hkF10'}) do
+  local f = _G[v]; if f and f.destroy then f.destroy() end
+end
+hkF6  = bindCheat(117, 'wkrfill')      -- F6  一键配满当前厂房人力
+hkF7  = bindCheat(118, 'buildok')      -- F7  当前选中物件一键完工
+hkF8  = bindCheat(119, 'buildokall')   -- F8  全部建造完工
+hkF9  = bindCheat(120, 'money1')       -- F9  本公司 +1 亿
+hkF10 = createHotkey(function()        -- F10 只打开控制台 (手动输入其他命令)
+  local h = gameHwnd(); if not h then return end
+  local kbd = getAddress('keybd_event')
+  executeCodeEx(0, nil, kbd, 0xA2, 0x1D, 0, 0)
+  SendMessage(h, 0x100, 0x74, 0x003F0001)
+  SendMessage(h, 0x101, 0x74, 0xC03F0001)
+  executeCodeEx(0, nil, kbd, 0xA2, 0x1D, 2, 0)
+  sleep(250); beep()
+end, 121)
+</LuaScript>
 </CheatTable>

@@ -1,0 +1,7 @@
+// 函数 0x42a820  sub_42A820  size=0x6  模块=Business_核心
+// 还原方式: Hex-Rays 反编译(伪 C 源码)
+
+int sub_42A820()
+{
+  return 16;
+}

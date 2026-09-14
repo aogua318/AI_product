@@ -1,0 +1,146 @@
+[
+ {
+  "addr": "0x4a2760",
+  "path": "AI_style.cpp"
+ },
+ {
+  "addr": "0x4a28d8",
+  "path": "building.cpp"
+ },
+ {
+  "addr": "0x4a2930",
+  "path": "building_type.cpp"
+ },
+ {
+  "addr": "0x4a2990",
+  "path": "ceo_tasks.cpp"
+ },
+ {
+  "addr": "0x4a2c3c",
+  "path": "game_data.cpp"
+ },
+ {
+  "addr": "0x4a2f88",
+  "path": "loadstage.cpp"
+ },
+ {
+  "addr": "0x4a2fc0",
+  "path": "machine_type.cpp"
+ },
+ {
+  "addr": "0x4a3480",
+  "path": "news.cpp"
+ },
+ {
+  "addr": "0x4a34dc",
+  "path": "people_type.cpp"
+ },
+ {
+  "addr": "0x4a3528",
+  "path": "product_type.cpp"
+ },
+ {
+  "addr": "0x4a3580",
+  "path": "shop.cpp"
+ },
+ {
+  "addr": "0x4a35a0",
+  "path": "sounds.cpp"
+ },
+ {
+  "addr": "0x4a35f8",
+  "path": "TALK.CPP"
+ },
+ {
+  "addr": "0x4a3618",
+  "path": "task.cpp"
+ },
+ {
+  "addr": "0x4a42a0",
+  "path": "face_Load.cpp"
+ },
+ {
+  "addr": "0x4a4310",
+  "path": "face_profit_info.cpp"
+ },
+ {
+  "addr": "0x4a4378",
+  "path": "face_Save.cpp"
+ },
+ {
+  "addr": "0x4a43a0",
+  "path": "face_score_info.cpp"
+ },
+ {
+  "addr": "0x4a43c8",
+  "path": "face_freeplay.cpp"
+ },
+ {
+  "addr": "0x4a4584",
+  "path": "face_taskmenu.cpp"
+ },
+ {
+  "addr": "0x4a45cc",
+  "path": "face_taskplay.cpp"
+ },
+ {
+  "addr": "0x4a49f4",
+  "path": "a_lib\\a_util.cpp"
+ },
+ {
+  "addr": "0x4a4a08",
+  "path": "a_lib\\a_block.cpp"
+ },
+ {
+  "addr": "0x4a4c34",
+  "path": "a_lib\\a_loadsave.cpp"
+ },
+ {
+  "addr": "0x4a4c4c",
+  "path": "a_lib\\a_pic2.cpp"
+ },
+ {
+  "addr": "0x4a4ccc",
+  "path": "a_lib\\a_graph.cpp"
+ },
+ {
+  "addr": "0x4a4d50",
+  "path": "a_lib\\a_file.cpp"
+ },
+ {
+  "addr": "0x4a4de0",
+  "path": "a_lib\\a_pic.cpp"
+ },
+ {
+  "addr": "0x4a4e74",
+  "path": "a_lib\\a_dsound.cpp"
+ },
+ {
+  "addr": "0x4a5000",
+  "path": "a_lib\\a_wingdi.cpp"
+ },
+ {
+  "addr": "0x4a5024",
+  "path": "a_lib\\a_pic16_uncompress.cpp"
+ },
+ {
+  "addr": "0x4a5054",
+  "path": "a_lib\\a_filepkg.cpp"
+ },
+ {
+  "addr": "0x4a5068",
+  "path": "a_lib\\wave.cpp"
+ },
+ {
+  "addr": "0x4a6260",
+  "path": "a_prog\\a_interface.cpp"
+ },
+ {
+  "addr": "0x4a627c",
+  "path": "a_map\\a_map.cpp"
+ },
+ {
+  "addr": "0x4a62e8",
+  "path": "a_map\\a_map_gnd.cpp"
+ }
+]

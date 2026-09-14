@@ -1,0 +1,12 @@
+// 函数 0x48e888  ?_inconsistency@@YAXXZ  size=0x38  模块=CRT与库
+// 还原方式: Hex-Rays 反编译(伪 C 源码)
+
+void __cdecl __noreturn _inconsistency()
+{
+  void (*v0)(void); // eax
+
+  v0 = (void (*)(void))DecodePointer(dword_8F2ECC);
+  if ( v0 )
+    v0();
+  terminate();
+}

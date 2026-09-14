@@ -1,0 +1,11 @@
+// 函数 0x42a1d0  sub_42A1D0  size=0x18  模块=Business_核心
+// 还原方式: Hex-Rays 反编译(伪 C 源码)
+
+int __cdecl sub_42A1D0(int *a1)
+{
+  int result; // eax
+
+  result = SteamInternal_CreateInterface("SteamClient020");
+  *a1 = result;
+  return result;
+}

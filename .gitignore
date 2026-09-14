@@ -1,0 +1,15 @@
+# ===== CEO 修改器项目 =====
+# 105MB 游戏美术/音频资源解包 —— 属可再生的派生数据（可由 FACE.APKG 等重新解包），
+# 且为游戏原始素材，公开分发有版权风险，其中单个文件最大 59MB（超 GitHub 警告阈值）
+# → 有意不入库，仅本地保留
+CEO 修改器相关/v1.10反汇编资源/05_资源解包/
+
+# Cheat Engine 自动保存 / 临时产物
+ExceptionAutoSave_*.ct
+*.ct.bak
+*.tmp
+
+# 系统与编辑器噪声
+Thumbs.db
+desktop.ini
+.DS_Store

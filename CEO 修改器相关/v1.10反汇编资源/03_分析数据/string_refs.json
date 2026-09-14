@@ -1,0 +1,473 @@
+{
+ "data\\AI_style.csv": [
+  "0x403ff0"
+ ],
+ "face\\task_arrow.fce": [
+  "0x40b300"
+ ],
+ "face\\face_task.fce": [
+  "0x40b300"
+ ],
+ "face\\main1.fce": [
+  "0x40b300"
+ ],
+ "pics\\num1": [
+  "0x40b300"
+ ],
+ "pics\\loading_door": [
+  "0x40b300"
+ ],
+ "data\\build_relation.csv": [
+  "0x40fde0"
+ ],
+ "data\\building.csv": [
+  "0x410d00"
+ ],
+ "data\\mur.csv": [
+  "0x413720"
+ ],
+ "data\\formula.csv": [
+  "0x41ca70"
+ ],
+ "pics\\buildings": [
+  "0x41ccf0"
+ ],
+ "pics\\items": [
+  "0x41ccf0",
+  "0x43a810"
+ ],
+ "pics\\machines": [
+  "0x41ccf0"
+ ],
+ "pics\\road64x32": [
+  "0x41ccf0"
+ ],
+ "pics\\gnd64x32": [
+  "0x41ccf0"
+ ],
+ "pics\\road32x16": [
+  "0x41e7e0"
+ ],
+ "pics\\gnd32x16": [
+  "0x41e7e0"
+ ],
+ "pics\\32x16": [
+  "0x41e7e0"
+ ],
+ "pics\\64x32": [
+  "0x41e7e0"
+ ],
+ "data\\txts.csv": [
+  "0x41e7e0"
+ ],
+ "data\\mapcity.csv": [
+  "0x41e7e0"
+ ],
+ "log\\prod_need.csv": [
+  "0x41ef50"
+ ],
+ "option.dat": [
+  "0x41f740",
+  "0x41f7e0"
+ ],
+ "save\\slot%d.lif": [
+  "0x423440",
+  "0x423550"
+ ],
+ "maps\\": [
+  "0x423750",
+  "0x423b90",
+  "0x425a00"
+ ],
+ "data\\maps.csv": [
+  "0x4250c0",
+  "0x425160",
+  "0x425920",
+  "0x425a00"
+ ],
+ "data\\stages.csv": [
+  "0x425d90"
+ ],
+ "data\\Machine_group.csv": [
+  "0x429610"
+ ],
+ "data\\Machine_type.csv": [
+  "0x429950"
+ ],
+ "fonts\\font16": [
+  "0x42aa90"
+ ],
+ "fonts\\12ns": [
+  "0x42aa90",
+  "0x440180",
+  "0x442450",
+  "0x442d80",
+  "0x4434a0",
+  "0x45d160",
+  "0x45d530"
+ ],
+ "pics\\32X16": [
+  "0x42aa90"
+ ],
+ "pics\\cur1": [
+  "0x42aa90"
+ ],
+ "Video\\open.wmv": [
+  "0x42aa90"
+ ],
+ "data\\road32x16": [
+  "0x42b240"
+ ],
+ "data\\gnd32x16": [
+  "0x42b240"
+ ],
+ "data\\news.csv": [
+  "0x42b6e0"
+ ],
+ "data\\people_type.csv": [
+  "0x42e3c0"
+ ],
+ "data\\product1.csv": [
+  "0x4325c0",
+  "0x4579a0"
+ ],
+ "data\\product2.csv": [
+  "0x432b20"
+ ],
+ "data\\smapclr.csv": [
+  "0x435060"
+ ],
+ "sound\\e%s.wav": [
+  "0x435570"
+ ],
+ "stage\\": [
+  "0x435890",
+  "0x4362f0"
+ ],
+ "data\\talk.csv": [
+  "0x436d70"
+ ],
+ "data\\talk_idx.csv": [
+  "0x436d70"
+ ],
+ "face\\face_talk.fce": [
+  "0x437000"
+ ],
+ "famehall2.dat": [
+  "0x43a2c0",
+  "0x45d050"
+ ],
+ "Video\\win.wmv": [
+  "0x43a2c0"
+ ],
+ "famehall1.dat": [
+  "0x43a2c0",
+  "0x45d420"
+ ],
+ "face\\factinf_board.fce": [
+  "0x43aee0"
+ ],
+ "face\\factinf_dorm.fce": [
+  "0x43b130"
+ ],
+ "face\\FirmMachineSell.fce": [
+  "0x43b220"
+ ],
+ "face\\FirmMachineStop.fce": [
+  "0x43b3f0"
+ ],
+ "face\\factinf_clrsel.fce": [
+  "0x43c340",
+  "0x43f3f0",
+  "0x442250"
+ ],
+ "face\\face_machine.fce": [
+  "0x43c340"
+ ],
+ "face\\factinf_mine.fce": [
+  "0x43c4d0"
+ ],
+ "face\\factinf_port.fce": [
+  "0x43c9c0"
+ ],
+ "face\\face_RetailMachine.fce": [
+  "0x43d660"
+ ],
+ "face\\face_buymachine.fce": [
+  "0x43e1d0"
+ ],
+ "face\\Board.fce": [
+  "0x43e360"
+ ],
+ "face\\dorm.fce": [
+  "0x43e3f0"
+ ],
+ "face\\buystuff_confirm.fce": [
+  "0x43e480"
+ ],
+ "face\\LoadArea.fce": [
+  "0x43e650"
+ ],
+ "face\\face_license.fce": [
+  "0x43e750"
+ ],
+ "face\\face_machine_introduce.fce": [
+  "0x43ee40"
+ ],
+ "face\\face_put_machine.fce": [
+  "0x43f3f0"
+ ],
+ "face\\face_btn1.fce": [
+  "0x43f6a0"
+ ],
+ "face\\factinf.fce": [
+  "0x43fb60"
+ ],
+ "face\\face_list.fce": [
+  "0x440650",
+  "0x453670",
+  "0x458d10",
+  "0x461d10"
+ ],
+ "face\\factinf_buy.fce": [
+  "0x440650"
+ ],
+ "face\\factinf_chart.fce": [
+  "0x4412e0"
+ ],
+ "face\\factinf_pro.fce": [
+  "0x442250"
+ ],
+ "face\\factinf_profit.fce": [
+  "0x442ad0"
+ ],
+ "face\\factinf_retail.fce": [
+  "0x4431f0"
+ ],
+ "face\\factinf_sale.fce": [
+  "0x443920"
+ ],
+ "face\\ExitButton.fce": [
+  "0x444300"
+ ],
+ "face\\face_btn2.fce": [
+  "0x444460"
+ ],
+ "face\\face_fix_machine.fce": [
+  "0x444870"
+ ],
+ "face\\infact_name.fce": [
+  "0x4449e0"
+ ],
+ "pics\\cur_wkr2": [
+  "0x445020"
+ ],
+ "pics\\cur_wkr1": [
+  "0x445020"
+ ],
+ "pics\\cur_wkr0": [
+  "0x445020"
+ ],
+ "pics\\cur_mgr2": [
+  "0x445020"
+ ],
+ "pics\\cur_mgr1": [
+  "0x445020"
+ ],
+ "pics\\cur_mgr0": [
+  "0x445020"
+ ],
+ "face\\face_salary_0.fce": [
+  "0x4453f0"
+ ],
+ "face\\ToBuildFirm-1.fce": [
+  "0x445630"
+ ],
+ "face\\ToBuildFirm-Mine.fce": [
+  "0x4458b0"
+ ],
+ "face\\ToBuildFirm.fce": [
+  "0x4458b0"
+ ],
+ "face\\forsale-mine.fce": [
+  "0x445c40"
+ ],
+ "face\\forsale.fce": [
+  "0x445c40"
+ ],
+ "face\\BuyLandConfirm.fce": [
+  "0x446070"
+ ],
+ "face\\BuildingFirm.fce": [
+  "0x4472c0"
+ ],
+ "face\\MyFirmInfo.fce": [
+  "0x447510"
+ ],
+ "face\\Home.fce": [
+  "0x447a40"
+ ],
+ "face\\face_buildfact_confirm.fce": [
+  "0x447ae0"
+ ],
+ "face\\face_cancel_build_confirm.fce": [
+  "0x447c40"
+ ],
+ "face\\MyFirmManage.fce": [
+  "0x447f30"
+ ],
+ "face\\MyFirmRemove.fce": [
+  "0x448060"
+ ],
+ "face\\MyFirmRename.fce": [
+  "0x4483b0"
+ ],
+ "face\\list2.fce": [
+  "0x448f20",
+  "0x455bd0",
+  "0x458d10"
+ ],
+ "face\\balance_info.fce": [
+  "0x448f20"
+ ],
+ "face\\Bank.fce": [
+  "0x4496f0"
+ ],
+ "face\\ProductBook_list.fce": [
+  "0x44a7e0"
+ ],
+ "face\\ProductBook_Board.fce": [
+  "0x44a7e0"
+ ],
+ "face\\ProductBook.fce": [
+  "0x44a7e0"
+ ],
+ "face\\Load.fce": [
+  "0x44ac30"
+ ],
+ "face\\LoadConfirm.fce": [
+  "0x44ae70"
+ ],
+ "face\\MenuConfirm.fce": [
+  "0x44b030"
+ ],
+ "face\\prod_info.fce": [
+  "0x453670"
+ ],
+ "face\\scroll_list1.fce": [
+  "0x455bd0"
+ ],
+ "face\\profit_info.fce": [
+  "0x455bd0"
+ ],
+ "face\\Save.fce": [
+  "0x4561d0"
+ ],
+ "face\\SaveConfirm.fce": [
+  "0x456430"
+ ],
+ "face\\score_info.fce": [
+  "0x4576d0"
+ ],
+ "data\\citys.csv": [
+  "0x457c20"
+ ],
+ "pics\\smap": [
+  "0x457f10",
+  "0x45bc60"
+ ],
+ "face\\ceo_info.fce": [
+  "0x458d10"
+ ],
+ "face\\colorlist.fce": [
+  "0x458d10",
+  "0x45b5c0"
+ ],
+ "face\\freeplay.fce": [
+  "0x458d10"
+ ],
+ "data\\AIinfo.csv": [
+  "0x458d10"
+ ],
+ "face\\freeplay_menu.fce": [
+  "0x459a50"
+ ],
+ "face\\lose_face.fce": [
+  "0x45a050"
+ ],
+ "Video\\lose.wmv": [
+  "0x45a1b0"
+ ],
+ "face\\win_face.fce": [
+  "0x45a370"
+ ],
+ "face\\face_cheat.fce": [
+  "0x45ac20"
+ ],
+ "face\\face_mapedit.fce": [
+  "0x45acf0"
+ ],
+ "face\\extface_putland.fce": [
+  "0x45b050"
+ ],
+ "face\\ceo_regist.fce": [
+  "0x45b5c0"
+ ],
+ "face\\taskmenu.fce": [
+  "0x45b9d0"
+ ],
+ "face\\taskplay.fce": [
+  "0x45c920"
+ ],
+ "face\\famhall2.fce": [
+  "0x45d050"
+ ],
+ "face\\famhall1.fce": [
+  "0x45d420"
+ ],
+ "face\\load_prograss.fce": [
+  "0x45d7c0"
+ ],
+ "face\\save_prograss.fce": [
+  "0x45d8f0"
+ ],
+ "face\\buyfact.fce": [
+  "0x45e2c0"
+ ],
+ "face\\CompanyInfo.fce": [
+  "0x45eef0"
+ ],
+ "face\\face_event.fce": [
+  "0x45efb0"
+ ],
+ "face\\face_hint.fce": [
+  "0x45f540"
+ ],
+ "face\\face_salesman.fce": [
+  "0x45ff20"
+ ],
+ "face\\inoutinfo.fce": [
+  "0x460b00"
+ ],
+ "face\\MapRotate.fce": [
+  "0x460d30"
+ ],
+ "face\\NoMoney.fce": [
+  "0x460de0"
+ ],
+ "data\\smapmenu.csv": [
+  "0x461d10"
+ ],
+ "face\\face_SmallMap.fce": [
+  "0x461d10"
+ ],
+ "face\\taskhint.fce": [
+  "0x461ef0"
+ ],
+ "face\\MainMenu.fce": [
+  "0x462b80"
+ ],
+ "face\\sreport.fce": [
+  "0x4636e0"
+ ]
+}

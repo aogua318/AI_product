@@ -1,0 +1,654 @@
+[
+ {
+  "addr": "0x4a2000",
+  "name": "__imp_DirectDrawCreate"
+ },
+ {
+  "addr": "0x4a2008",
+  "name": "__imp_DirectSoundCreate"
+ },
+ {
+  "addr": "0x4a2010",
+  "name": "CreateSolidBrush"
+ },
+ {
+  "addr": "0x4a2014",
+  "name": "Rectangle"
+ },
+ {
+  "addr": "0x4a2018",
+  "name": "SetBkMode"
+ },
+ {
+  "addr": "0x4a201c",
+  "name": "SetTextColor"
+ },
+ {
+  "addr": "0x4a2020",
+  "name": "CreateFontA"
+ },
+ {
+  "addr": "0x4a2024",
+  "name": "GetStockObject"
+ },
+ {
+  "addr": "0x4a2028",
+  "name": "SelectObject"
+ },
+ {
+  "addr": "0x4a202c",
+  "name": "CreateDIBSection"
+ },
+ {
+  "addr": "0x4a2030",
+  "name": "CreateCompatibleDC"
+ },
+ {
+  "addr": "0x4a2034",
+  "name": "DeleteObject"
+ },
+ {
+  "addr": "0x4a2038",
+  "name": "DeleteDC"
+ },
+ {
+  "addr": "0x4a203c",
+  "name": "GetCurrentObject"
+ },
+ {
+  "addr": "0x4a2040",
+  "name": "BitBlt"
+ },
+ {
+  "addr": "0x4a2044",
+  "name": "CreatePen"
+ },
+ {
+  "addr": "0x4a204c",
+  "name": "GetLastError"
+ },
+ {
+  "addr": "0x4a2050",
+  "name": "CreateMutexA"
+ },
+ {
+  "addr": "0x4a2054",
+  "name": "Sleep"
+ },
+ {
+  "addr": "0x4a2058",
+  "name": "GetUserDefaultLCID"
+ },
+ {
+  "addr": "0x4a205c",
+  "name": "ReleaseMutex"
+ },
+ {
+  "addr": "0x4a2060",
+  "name": "MultiByteToWideChar"
+ },
+ {
+  "addr": "0x4a2064",
+  "name": "WideCharToMultiByte"
+ },
+ {
+  "addr": "0x4a2068",
+  "name": "OutputDebugStringA"
+ },
+ {
+  "addr": "0x4a206c",
+  "name": "CreateFileA"
+ },
+ {
+  "addr": "0x4a2070",
+  "name": "CloseHandle"
+ },
+ {
+  "addr": "0x4a2074",
+  "name": "GetTickCount"
+ },
+ {
+  "addr": "0x4a2078",
+  "name": "SetEnvironmentVariableA"
+ },
+ {
+  "addr": "0x4a207c",
+  "name": "CompareStringW"
+ },
+ {
+  "addr": "0x4a2080",
+  "name": "CreateFileW"
+ },
+ {
+  "addr": "0x4a2084",
+  "name": "WriteConsoleW"
+ },
+ {
+  "addr": "0x4a2088",
+  "name": "GetStringTypeW"
+ },
+ {
+  "addr": "0x4a208c",
+  "name": "LCMapStringW"
+ },
+ {
+  "addr": "0x4a2090",
+  "name": "GetTimeZoneInformation"
+ },
+ {
+  "addr": "0x4a2094",
+  "name": "CreateDirectoryA"
+ },
+ {
+  "addr": "0x4a2098",
+  "name": "ReadFile"
+ },
+ {
+  "addr": "0x4a209c",
+  "name": "SetStdHandle"
+ },
+ {
+  "addr": "0x4a20a0",
+  "name": "SetFilePointer"
+ },
+ {
+  "addr": "0x4a20a4",
+  "name": "FlushFileBuffers"
+ },
+ {
+  "addr": "0x4a20a8",
+  "name": "GetConsoleMode"
+ },
+ {
+  "addr": "0x4a20ac",
+  "name": "GetConsoleCP"
+ },
+ {
+  "addr": "0x4a20b0",
+  "name": "GetCurrentProcessId"
+ },
+ {
+  "addr": "0x4a20b4",
+  "name": "QueryPerformanceCounter"
+ },
+ {
+  "addr": "0x4a20b8",
+  "name": "HeapCreate"
+ },
+ {
+  "addr": "0x4a20bc",
+  "name": "GetFileType"
+ },
+ {
+  "addr": "0x4a20c0",
+  "name": "SetHandleCount"
+ },
+ {
+  "addr": "0x4a20c4",
+  "name": "InterlockedIncrement"
+ },
+ {
+  "addr": "0x4a20c8",
+  "name": "InterlockedDecrement"
+ },
+ {
+  "addr": "0x4a20cc",
+  "name": "DeleteFileA"
+ },
+ {
+  "addr": "0x4a20d0",
+  "name": "GetFileAttributesA"
+ },
+ {
+  "addr": "0x4a20d4",
+  "name": "RemoveDirectoryA"
+ },
+ {
+  "addr": "0x4a20d8",
+  "name": "FindClose"
+ },
+ {
+  "addr": "0x4a20dc",
+  "name": "FindNextFileA"
+ },
+ {
+  "addr": "0x4a20e0",
+  "name": "FindFirstFileA"
+ },
+ {
+  "addr": "0x4a20e4",
+  "name": "SetCurrentDirectoryA"
+ },
+ {
+  "addr": "0x4a20e8",
+  "name": "GetCurrentDirectoryA"
+ },
+ {
+  "addr": "0x4a20ec",
+  "name": "__imp_RtlUnwind"
+ },
+ {
+  "addr": "0x4a20f0",
+  "name": "EncodePointer"
+ },
+ {
+  "addr": "0x4a20f4",
+  "name": "DecodePointer"
+ },
+ {
+  "addr": "0x4a20f8",
+  "name": "GetProcAddress"
+ },
+ {
+  "addr": "0x4a20fc",
+  "name": "GetModuleHandleW"
+ },
+ {
+  "addr": "0x4a2100",
+  "name": "ExitProcess"
+ },
+ {
+  "addr": "0x4a2104",
+  "name": "GetDriveTypeW"
+ },
+ {
+  "addr": "0x4a2108",
+  "name": "GetFullPathNameA"
+ },
+ {
+  "addr": "0x4a210c",
+  "name": "GetCommandLineA"
+ },
+ {
+  "addr": "0x4a2110",
+  "name": "HeapSetInformation"
+ },
+ {
+  "addr": "0x4a2114",
+  "name": "GetStartupInfoW"
+ },
+ {
+  "addr": "0x4a2118",
+  "name": "HeapFree"
+ },
+ {
+  "addr": "0x4a211c",
+  "name": "HeapReAlloc"
+ },
+ {
+  "addr": "0x4a2120",
+  "name": "HeapAlloc"
+ },
+ {
+  "addr": "0x4a2124",
+  "name": "SetEndOfFile"
+ },
+ {
+  "addr": "0x4a2128",
+  "name": "GetProcessHeap"
+ },
+ {
+  "addr": "0x4a212c",
+  "name": "GetSystemTimeAsFileTime"
+ },
+ {
+  "addr": "0x4a2130",
+  "name": "ExitThread"
+ },
+ {
+  "addr": "0x4a2134",
+  "name": "ResumeThread"
+ },
+ {
+  "addr": "0x4a2138",
+  "name": "CreateThread"
+ },
+ {
+  "addr": "0x4a213c",
+  "name": "EnterCriticalSection"
+ },
+ {
+  "addr": "0x4a2140",
+  "name": "LeaveCriticalSection"
+ },
+ {
+  "addr": "0x4a2144",
+  "name": "TerminateProcess"
+ },
+ {
+  "addr": "0x4a2148",
+  "name": "GetCurrentProcess"
+ },
+ {
+  "addr": "0x4a214c",
+  "name": "UnhandledExceptionFilter"
+ },
+ {
+  "addr": "0x4a2150",
+  "name": "SetUnhandledExceptionFilter"
+ },
+ {
+  "addr": "0x4a2154",
+  "name": "IsDebuggerPresent"
+ },
+ {
+  "addr": "0x4a2158",
+  "name": "IsProcessorFeaturePresent"
+ },
+ {
+  "addr": "0x4a215c",
+  "name": "TlsAlloc"
+ },
+ {
+  "addr": "0x4a2160",
+  "name": "TlsGetValue"
+ },
+ {
+  "addr": "0x4a2164",
+  "name": "TlsSetValue"
+ },
+ {
+  "addr": "0x4a2168",
+  "name": "TlsFree"
+ },
+ {
+  "addr": "0x4a216c",
+  "name": "SetLastError"
+ },
+ {
+  "addr": "0x4a2170",
+  "name": "GetCurrentThreadId"
+ },
+ {
+  "addr": "0x4a2174",
+  "name": "HeapSize"
+ },
+ {
+  "addr": "0x4a2178",
+  "name": "InitializeCriticalSectionAndSpinCount"
+ },
+ {
+  "addr": "0x4a217c",
+  "name": "DeleteCriticalSection"
+ },
+ {
+  "addr": "0x4a2180",
+  "name": "LoadLibraryW"
+ },
+ {
+  "addr": "0x4a2184",
+  "name": "WriteFile"
+ },
+ {
+  "addr": "0x4a2188",
+  "name": "GetStdHandle"
+ },
+ {
+  "addr": "0x4a218c",
+  "name": "GetModuleFileNameW"
+ },
+ {
+  "addr": "0x4a2190",
+  "name": "GetCPInfo"
+ },
+ {
+  "addr": "0x4a2194",
+  "name": "GetACP"
+ },
+ {
+  "addr": "0x4a2198",
+  "name": "GetOEMCP"
+ },
+ {
+  "addr": "0x4a219c",
+  "name": "IsValidCodePage"
+ },
+ {
+  "addr": "0x4a21a0",
+  "name": "RaiseException"
+ },
+ {
+  "addr": "0x4a21a4",
+  "name": "GetCurrentDirectoryW"
+ },
+ {
+  "addr": "0x4a21a8",
+  "name": "GetModuleFileNameA"
+ },
+ {
+  "addr": "0x4a21ac",
+  "name": "FreeEnvironmentStringsW"
+ },
+ {
+  "addr": "0x4a21b0",
+  "name": "GetEnvironmentStringsW"
+ },
+ {
+  "addr": "0x4a21b8",
+  "name": "GetWindowRect"
+ },
+ {
+  "addr": "0x4a21bc",
+  "name": "GetKeyState"
+ },
+ {
+  "addr": "0x4a21c0",
+  "name": "GetAsyncKeyState"
+ },
+ {
+  "addr": "0x4a21c4",
+  "name": "PostQuitMessage"
+ },
+ {
+  "addr": "0x4a21c8",
+  "name": "DefWindowProcA"
+ },
+ {
+  "addr": "0x4a21cc",
+  "name": "DestroyWindow"
+ },
+ {
+  "addr": "0x4a21d0",
+  "name": "EndPaint"
+ },
+ {
+  "addr": "0x4a21d4",
+  "name": "DrawTextA"
+ },
+ {
+  "addr": "0x4a21d8",
+  "name": "GetClientRect"
+ },
+ {
+  "addr": "0x4a21dc",
+  "name": "BeginPaint"
+ },
+ {
+  "addr": "0x4a21e0",
+  "name": "GetCursorPos"
+ },
+ {
+  "addr": "0x4a21e4",
+  "name": "ScreenToClient"
+ },
+ {
+  "addr": "0x4a21e8",
+  "name": "ShowCursor"
+ },
+ {
+  "addr": "0x4a21ec",
+  "name": "PeekMessageA"
+ },
+ {
+  "addr": "0x4a21f0",
+  "name": "TranslateMessage"
+ },
+ {
+  "addr": "0x4a21f4",
+  "name": "DispatchMessageA"
+ },
+ {
+  "addr": "0x4a21f8",
+  "name": "RegisterClassExA"
+ },
+ {
+  "addr": "0x4a21fc",
+  "name": "GetSystemMetrics"
+ },
+ {
+  "addr": "0x4a2200",
+  "name": "CreateWindowExA"
+ },
+ {
+  "addr": "0x4a2204",
+  "name": "CreateWindowExW"
+ },
+ {
+  "addr": "0x4a2208",
+  "name": "ShowWindow"
+ },
+ {
+  "addr": "0x4a220c",
+  "name": "UpdateWindow"
+ },
+ {
+  "addr": "0x4a2210",
+  "name": "GetMessageA"
+ },
+ {
+  "addr": "0x4a2214",
+  "name": "InvalidateRect"
+ },
+ {
+  "addr": "0x4a2218",
+  "name": "SetWindowLongA"
+ },
+ {
+  "addr": "0x4a221c",
+  "name": "LoadCursorA"
+ },
+ {
+  "addr": "0x4a2220",
+  "name": "LoadIconA"
+ },
+ {
+  "addr": "0x4a2224",
+  "name": "GetWindowLongA"
+ },
+ {
+  "addr": "0x4a2228",
+  "name": "MoveWindow"
+ },
+ {
+  "addr": "0x4a222c",
+  "name": "ClientToScreen"
+ },
+ {
+  "addr": "0x4a2230",
+  "name": "GetFocus"
+ },
+ {
+  "addr": "0x4a2234",
+  "name": "GetDesktopWindow"
+ },
+ {
+  "addr": "0x4a2238",
+  "name": "ChangeDisplaySettingsA"
+ },
+ {
+  "addr": "0x4a223c",
+  "name": "ReleaseDC"
+ },
+ {
+  "addr": "0x4a2240",
+  "name": "GetDC"
+ },
+ {
+  "addr": "0x4a2244",
+  "name": "MessageBoxA"
+ },
+ {
+  "addr": "0x4a224c",
+  "name": "mmioClose"
+ },
+ {
+  "addr": "0x4a2250",
+  "name": "mmioAscend"
+ },
+ {
+  "addr": "0x4a2254",
+  "name": "mmioRead"
+ },
+ {
+  "addr": "0x4a2258",
+  "name": "mmioDescend"
+ },
+ {
+  "addr": "0x4a225c",
+  "name": "mmioOpenA"
+ },
+ {
+  "addr": "0x4a2260",
+  "name": "mmioSeek"
+ },
+ {
+  "addr": "0x4a2264",
+  "name": "mmioSetInfo"
+ },
+ {
+  "addr": "0x4a2268",
+  "name": "mmioAdvance"
+ },
+ {
+  "addr": "0x4a226c",
+  "name": "mmioGetInfo"
+ },
+ {
+  "addr": "0x4a2274",
+  "name": "CoUninitialize"
+ },
+ {
+  "addr": "0x4a2278",
+  "name": "CoCreateInstance"
+ },
+ {
+  "addr": "0x4a227c",
+  "name": "CoInitialize"
+ },
+ {
+  "addr": "0x4a2284",
+  "name": "SteamAPI_Init"
+ },
+ {
+  "addr": "0x4a2288",
+  "name": "SteamInternal_CreateInterface"
+ },
+ {
+  "addr": "0x4a228c",
+  "name": "SteamInternal_ContextInit"
+ },
+ {
+  "addr": "0x4a2290",
+  "name": "SteamAPI_RestartAppIfNecessary"
+ },
+ {
+  "addr": "0x4a2294",
+  "name": "__imp_SteamAPI_RunCallbacks"
+ },
+ {
+  "addr": "0x4a2298",
+  "name": "SteamAPI_UnregisterCallback"
+ },
+ {
+  "addr": "0x4a229c",
+  "name": "SteamAPI_RegisterCallback"
+ },
+ {
+  "addr": "0x4a22a0",
+  "name": "SteamAPI_GetHSteamUser"
+ },
+ {
+  "addr": "0x4a22a4",
+  "name": "SteamInternal_FindOrCreateUserInterface"
+ }
+]
