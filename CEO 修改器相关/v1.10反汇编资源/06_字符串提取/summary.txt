@@ -1,0 +1,43 @@
+創業王 v1.10 字符串提取摘要
+============================================
+CEO.exe: ASCII 4351 条, Big5 92 条（其中候选档 4；原始形态段 3662）
+CEO.exe UTF-16LE: 34 条（全部来自 Steam 包装层）
+data/*.csv: 47758 个文本单元格
+stage/*.stg: 2273 条
+*.APKG 内嵌文件名: 814 个
+Face/*.h 枚举行: 3632 行
+Face/*.fce: 0 条（预期为 0，实测确认为噪声才保留）
+---
+总条目 58954，去重 10836，含中文 1943
+
+各来源去重贡献:
+     9592  data/Machine_type.csv
+     4477  CEO.exe
+      979  data/product2.csv
+      901  data/Mur.csv
+      881  data/product1.csv
+      878  data/building.csv
+      460  data/Talk.csv
+      393  data/Stages.csv
+      371  stage/stage11.stg
+      368  stage/stage06.stg
+      327  stage/stage08.stg
+      314  data/build_relation.csv
+      276  FACE.APKG
+      253  data/mapcity.csv
+      253  data/formula.csv
+      249  Face/fact_profit_info.h
+      237  stage/stage09.stg
+      231  data/maps.csv
+      214  Face/FirmLoadArea-1.h
+      213  FACEPICS.APKG
+      176  data/news.csv
+      174  data/Machine_group.csv
+      174  Face/freeplay.h
+      171  Face/MyFirmReport.h
+      166  data/AI_style.csv
+      160  Face/prod_info.h
+      156  data/Talk_idx.csv
+      156  Face/score_info.h
+      154  data/smapclr.csv
+      144  stage/stage10.stg

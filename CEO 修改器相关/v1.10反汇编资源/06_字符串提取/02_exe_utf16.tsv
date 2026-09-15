@@ -1,0 +1,35 @@
+RVA	VA	节	字符串
+CEO.exe+A32A4	0x4A32A4	.rdata	800 x 600
+CEO.exe+A32B8	0x4A32B8	.rdata	1280 x 720
+CEO.exe+A32D0	0x4A32D0	.rdata	1600 x 900
+CEO.exe+A32E8	0x4A32E8	.rdata	BUTTON
+CEO.exe+A32F8	0x4A32F8	.rdata	Windows原設定
+CEO.exe+A6328	0x4A6328	.rdata	mscoree.dll
+CEO.exe+A6394	0x4A6394	.rdata	KERNEL32.DLL
+CEO.exe+A9DF4	0x4A9DF4	.rdata	(null)
+CEO.exe+A9E6C	0x4A9E6C	.rdata	runtime error 
+CEO.exe+AA7FC	0x4AA7FC	.rdata	<program name unknown>
+CEO.exe+AA84C	0x4AA84C	.rdata	Program: 
+CEO.exe+AA860	0x4AA860	.rdata	HH:mm:ss
+CEO.exe+AA874	0x4AA874	.rdata	dddd, MMMM dd, yyyy
+CEO.exe+AA89C	0x4AA89C	.rdata	MM/dd/yy
+CEO.exe+AA8C0	0x4AA8C0	.rdata	December
+CEO.exe+AA8D4	0x4AA8D4	.rdata	November
+CEO.exe+AA8E8	0x4AA8E8	.rdata	October
+CEO.exe+AA8F8	0x4AA8F8	.rdata	September
+CEO.exe+AA90C	0x4AA90C	.rdata	August
+CEO.exe+AA91C	0x4AA91C	.rdata	July
+CEO.exe+AA928	0x4AA928	.rdata	June
+CEO.exe+AA934	0x4AA934	.rdata	April
+CEO.exe+AA940	0x4AA940	.rdata	March
+CEO.exe+AA94C	0x4AA94C	.rdata	February
+CEO.exe+AA960	0x4AA960	.rdata	January
+CEO.exe+AA9D0	0x4AA9D0	.rdata	Saturday
+CEO.exe+AA9E4	0x4AA9E4	.rdata	Friday
+CEO.exe+AA9F4	0x4AA9F4	.rdata	Thursday
+CEO.exe+AAA08	0x4AAA08	.rdata	Wednesday
+CEO.exe+AAA1C	0x4AAA1C	.rdata	Tuesday
+CEO.exe+AAA2C	0x4AAA2C	.rdata	Monday
+CEO.exe+AAA3C	0x4AAA3C	.rdata	Sunday
+CEO.exe+AE6CC	0x4AE6CC	.rdata	CONOUT$
+CEO.exe+B7A32	0x4B7A32	.data	 &.4@FL$
