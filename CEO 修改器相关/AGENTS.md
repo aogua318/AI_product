@@ -89,8 +89,13 @@
 
 **已知操作坑**：
 - 2698 个文件的 `git add` 可能**超过 2 分钟**，务必等它结束；若被中断会留下 `.git/index.lock`，**确认无 git 进程后再删锁**，不要贸然删除；
-- 推送 16MB 报 `HTTP 408 / Connection reset` 多为**代理**导致（本机曾开 Clash Verge）：先让用户关闭代理，必要时设 `http.postBuffer=524288000`、`http.version=HTTP/1.1`；
-- **先把两棵工作树的对应文件在本地核对一致再推**，避免把旧树的旧内容覆盖上去。
+- 推送报 `Connection reset / HTTP 408` 是**代理**导致（本机装了 Clash Verge）。**2026-09-15 实测更正了旧建议**（旧建议写的 `http.postBuffer=524288000` 是错的，见下）：
+  1. **不要直连**：Clash 的 TUN 模式会掐断 git 的 HTTPS（`fetch`/`ls-remote` 报 `Failed to connect to github.com:443`，但 `ping` 与裸 TCP 443 测试都通，容易误判为"网络没问题"）；
+  2. **显式走本地代理端口**：`git -c http.proxy=http://127.0.0.1:7897 <命令>`（端口号取自 Clash Verge 的"混合端口"，可在其设置里核对；`netstat -ano | grep 7897` 可确认在监听）。小请求（`ls-remote`/`fetch`）这样立刻可用；
+  3. **`http.postBuffer` 必须调小、不是调大**：设成 512MB 会让 git 放弃分块传输、改用单个大请求，反而被代理判超时（HTTP 408）。实测 `http.postBuffer=1048576`（1MB，强制分块）+ 走代理，5MB 的推送**一次成功**；
+  4. 完整可用命令：`git -c http.proxy=http://127.0.0.1:7897 -c http.postBuffer=1048576 push origin main`；
+  5. SSH 通道（`github.com:22` / `ssh.github.com:443`）实测**可达且不受代理干扰**，但本机 `~/.ssh` 为空、无密钥，若 HTTPS 长期不通可考虑配 SSH key（需用户在 GitHub 网页端添加公钥）。
+- **先把两棵工作树的对应文件在本地核对一致再推**，避免把旧树的旧内容覆盖上去。核对时注意：本机 `core.autocrlf=true`，工作区与克隆的**换行符差异不算实质修改**——比对前先按 LF 归一，否则会把一批纯 CRLF 差异文件误当改动混进提交（实测每次约 23 个）。
 
 ---
 
